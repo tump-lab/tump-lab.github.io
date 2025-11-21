@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Haithanh Nguyen | TUMP Research Group</title>
-    <link>http://localhost:1399/author/haithanh-nguyen/</link>
-      <atom:link href="http://localhost:1399/author/haithanh-nguyen/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:1399/author/haithanh-nguyen/</link>
+      <atom:link href="//localhost:1399/author/haithanh-nguyen/index.xml" rel="self" type="application/rss+xml" />
     <description>Haithanh Nguyen</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <url>//localhost:1399/media/logo_hu_56e6e152940932db.png</url>
       <title>Haithanh Nguyen</title>
-      <link>http://localhost:1399/author/haithanh-nguyen/</link>
+      <link>//localhost:1399/author/haithanh-nguyen/</link>
     </image>
     
     <item>
       <title>TBPR: Trinity Preference based Bayesian Personalized Ranking for Multivariate Implicit Feedback</title>
-      <link>http://localhost:1399/publication/qiu-2016-umap/</link>
+      <link>//localhost:1399/publication/qiu-2016-umap/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/qiu-2016-umap/</guid>
+      <guid>//localhost:1399/publication/qiu-2016-umap/</guid>
       <description></description>
     </item>
     

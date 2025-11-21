@@ -2,77 +2,77 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hui Fang | TUMP Research Group</title>
-    <link>http://localhost:1399/author/hui-fang/</link>
-      <atom:link href="http://localhost:1399/author/hui-fang/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:1399/author/hui-fang/</link>
+      <atom:link href="//localhost:1399/author/hui-fang/index.xml" rel="self" type="application/rss+xml" />
     <description>Hui Fang</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <url>//localhost:1399/media/logo_hu_56e6e152940932db.png</url>
       <title>Hui Fang</title>
-      <link>http://localhost:1399/author/hui-fang/</link>
+      <link>//localhost:1399/author/hui-fang/</link>
     </image>
     
     <item>
       <title>Adaptive In-Context Learning with Large Language Models for Bundle Generation</title>
-      <link>http://localhost:1399/publication/sun-2024-sigir-bundle/</link>
+      <link>//localhost:1399/publication/sun-2024-sigir-bundle/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/sun-2024-sigir-bundle/</guid>
+      <guid>//localhost:1399/publication/sun-2024-sigir-bundle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Revisiting Bundle Recommendation for Intent-aware Product Bundling</title>
-      <link>http://localhost:1399/publication/sun-2024-tors/</link>
+      <link>//localhost:1399/publication/sun-2024-tors/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/sun-2024-tors/</guid>
+      <guid>//localhost:1399/publication/sun-2024-tors/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Generic Reinforced Explainable Framework with Knowledge Graph for Session-based Recommendation</title>
-      <link>http://localhost:1399/publication/wu-2023-icde/</link>
+      <link>//localhost:1399/publication/wu-2023-icde/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/wu-2023-icde/</guid>
+      <guid>//localhost:1399/publication/wu-2023-icde/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Understanding Diversity in Session-based Recommendation</title>
-      <link>http://localhost:1399/publication/ying-2023-tois/</link>
+      <link>//localhost:1399/publication/ying-2023-tois/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/ying-2023-tois/</guid>
+      <guid>//localhost:1399/publication/ying-2023-tois/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DaisyRec 2.0: Benchmarking Recommendation for Rigorous Evaluation</title>
-      <link>http://localhost:1399/publication/sun-2022-tpami/</link>
+      <link>//localhost:1399/publication/sun-2022-tpami/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/sun-2022-tpami/</guid>
+      <guid>//localhost:1399/publication/sun-2022-tpami/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Revisiting Bundle Recommendation: Datasets, Tasks, Challenges and Opportunities for Intent-aware Product Bundling</title>
-      <link>http://localhost:1399/publication/sun-2022-sigir/</link>
+      <link>//localhost:1399/publication/sun-2022-sigir/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/sun-2022-sigir/</guid>
+      <guid>//localhost:1399/publication/sun-2022-sigir/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Are We Evaluating Rigorously? Benchmarking Recommendation for Reproducible Evaluation and Fair Comparison</title>
-      <link>http://localhost:1399/publication/sun-2020-recsys/</link>
+      <link>//localhost:1399/publication/sun-2020-recsys/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/sun-2020-recsys/</guid>
+      <guid>//localhost:1399/publication/sun-2020-recsys/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Research Commentary on Recommendations with Side Information: A Survey and Research Directions</title>
-      <link>http://localhost:1399/publication/sun-2019-ecra/</link>
+      <link>//localhost:1399/publication/sun-2019-ecra/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/sun-2019-ecra/</guid>
+      <guid>//localhost:1399/publication/sun-2019-ecra/</guid>
       <description></description>
     </item>
     

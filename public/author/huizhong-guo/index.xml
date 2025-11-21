@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Huizhong Guo | TUMP Research Group</title>
-    <link>http://localhost:1399/author/huizhong-guo/</link>
-      <atom:link href="http://localhost:1399/author/huizhong-guo/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:1399/author/huizhong-guo/</link>
+      <atom:link href="//localhost:1399/author/huizhong-guo/index.xml" rel="self" type="application/rss+xml" />
     <description>Huizhong Guo</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/author/huizhong-guo/avatar_hu_beba6c86d663f940.jpg</url>
+      <url>//localhost:1399/author/huizhong-guo/avatar_hu_beba6c86d663f940.jpg</url>
       <title>Huizhong Guo</title>
-      <link>http://localhost:1399/author/huizhong-guo/</link>
+      <link>//localhost:1399/author/huizhong-guo/</link>
     </image>
     
     <item>
       <title>Enhancing New-item Fairness in Dynamic Recommender Systems</title>
-      <link>http://localhost:1399/publication/guo-2025-sigir/</link>
+      <link>//localhost:1399/publication/guo-2025-sigir/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/guo-2025-sigir/</guid>
+      <guid>//localhost:1399/publication/guo-2025-sigir/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LightKG: Efficient Knowledge-Aware Recommendations with Simplified GNN Architecture</title>
-      <link>http://localhost:1399/publication/li-2025-kdd/</link>
+      <link>//localhost:1399/publication/li-2025-kdd/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/li-2025-kdd/</guid>
+      <guid>//localhost:1399/publication/li-2025-kdd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Configurable Fairness for New Item Recommendation Considering Entry Time of Items</title>
-      <link>http://localhost:1399/publication/guo-2024-sigir/</link>
+      <link>//localhost:1399/publication/guo-2024-sigir/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/guo-2024-sigir/</guid>
+      <guid>//localhost:1399/publication/guo-2024-sigir/</guid>
       <description></description>
     </item>
     

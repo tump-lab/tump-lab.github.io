@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shanshan Feng | TUMP Research Group</title>
-    <link>http://localhost:1399/author/shanshan-feng/</link>
-      <atom:link href="http://localhost:1399/author/shanshan-feng/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:1399/author/shanshan-feng/</link>
+      <atom:link href="//localhost:1399/author/shanshan-feng/index.xml" rel="self" type="application/rss+xml" />
     <description>Shanshan Feng</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <url>//localhost:1399/media/logo_hu_56e6e152940932db.png</url>
       <title>Shanshan Feng</title>
-      <link>http://localhost:1399/author/shanshan-feng/</link>
+      <link>//localhost:1399/author/shanshan-feng/</link>
     </image>
     
     <item>
       <title>COSTA: Contrastive Spatial and Temporal Debiasing Framework for Next POI Recommendation</title>
-      <link>http://localhost:1399/publication/lei-2025-neuralnetworks/</link>
+      <link>//localhost:1399/publication/lei-2025-neuralnetworks/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/lei-2025-neuralnetworks/</guid>
+      <guid>//localhost:1399/publication/lei-2025-neuralnetworks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PCDe: A Personalized Conversational Debiasing Framework for Next POI Recommendation with Uncertain Check-Ins</title>
-      <link>http://localhost:1399/publication/li-2025-neuralnetworks/</link>
+      <link>//localhost:1399/publication/li-2025-neuralnetworks/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/li-2025-neuralnetworks/</guid>
+      <guid>//localhost:1399/publication/li-2025-neuralnetworks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A New Era in Human Factors Engineering: A Survey of the Applications and Prospects of Large Multimodal Models</title>
-      <link>http://localhost:1399/publication/li-2024-ijhci/</link>
+      <link>//localhost:1399/publication/li-2024-ijhci/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/li-2024-ijhci/</guid>
+      <guid>//localhost:1399/publication/li-2024-ijhci/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Breaking the Silence: Whisper-Driven Emotion Recognition in AI Mental Support Models</title>
-      <link>http://localhost:1399/publication/qu-2024-cai/</link>
+      <link>//localhost:1399/publication/qu-2024-cai/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/qu-2024-cai/</guid>
+      <guid>//localhost:1399/publication/qu-2024-cai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Where to Move Next: Zero-shot Generalization of LLMs for Next POI Recommendation</title>
-      <link>http://localhost:1399/publication/feng-2024-cai/</link>
+      <link>//localhost:1399/publication/feng-2024-cai/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/feng-2024-cai/</guid>
+      <guid>//localhost:1399/publication/feng-2024-cai/</guid>
       <description></description>
     </item>
     

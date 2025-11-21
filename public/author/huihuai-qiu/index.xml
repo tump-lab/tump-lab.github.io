@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Huihuai Qiu | TUMP Research Group</title>
-    <link>http://localhost:1399/author/huihuai-qiu/</link>
-      <atom:link href="http://localhost:1399/author/huihuai-qiu/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:1399/author/huihuai-qiu/</link>
+      <atom:link href="//localhost:1399/author/huihuai-qiu/index.xml" rel="self" type="application/rss+xml" />
     <description>Huihuai Qiu</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <url>//localhost:1399/media/logo_hu_56e6e152940932db.png</url>
       <title>Huihuai Qiu</title>
-      <link>http://localhost:1399/author/huihuai-qiu/</link>
+      <link>//localhost:1399/author/huihuai-qiu/</link>
     </image>
     
     <item>
       <title>BPRH: Bayesian Personalized Ranking for Heterogeneous Implicit Feedback</title>
-      <link>http://localhost:1399/publication/liu-2018-ins/</link>
+      <link>//localhost:1399/publication/liu-2018-ins/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/liu-2018-ins/</guid>
+      <guid>//localhost:1399/publication/liu-2018-ins/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TBPR: Trinity Preference based Bayesian Personalized Ranking for Multivariate Implicit Feedback</title>
-      <link>http://localhost:1399/publication/qiu-2016-umap/</link>
+      <link>//localhost:1399/publication/qiu-2016-umap/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/qiu-2016-umap/</guid>
+      <guid>//localhost:1399/publication/qiu-2016-umap/</guid>
       <description></description>
     </item>
     

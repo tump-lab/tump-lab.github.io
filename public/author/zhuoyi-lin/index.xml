@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zhuoyi Lin | TUMP Research Group</title>
-    <link>http://localhost:1399/author/zhuoyi-lin/</link>
-      <atom:link href="http://localhost:1399/author/zhuoyi-lin/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:1399/author/zhuoyi-lin/</link>
+      <atom:link href="//localhost:1399/author/zhuoyi-lin/index.xml" rel="self" type="application/rss+xml" />
     <description>Zhuoyi Lin</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <url>//localhost:1399/media/logo_hu_56e6e152940932db.png</url>
       <title>Zhuoyi Lin</title>
-      <link>http://localhost:1399/author/zhuoyi-lin/</link>
+      <link>//localhost:1399/author/zhuoyi-lin/</link>
     </image>
     
     <item>
       <title>Attention over Self-attention: Dynamic Re-ranking with User Intentions for Recommendation</title>
-      <link>http://localhost:1399/publication/lin-2022-tkde/</link>
+      <link>//localhost:1399/publication/lin-2022-tkde/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/lin-2022-tkde/</guid>
+      <guid>//localhost:1399/publication/lin-2022-tkde/</guid>
       <description></description>
     </item>
     
