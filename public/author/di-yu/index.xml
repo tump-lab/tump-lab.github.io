@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Di Yu | TUMP Research Group</title>
-    <link>http://localhost:1399/author/di-yu/</link>
-      <atom:link href="http://localhost:1399/author/di-yu/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/tumplab.github.io/author/di-yu/</link>
+      <atom:link href="http://localhost:1399/tumplab.github.io/author/di-yu/index.xml" rel="self" type="application/rss+xml" />
     <description>Di Yu</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
       <title>Di Yu</title>
-      <link>http://localhost:1399/author/di-yu/</link>
+      <link>http://localhost:1399/tumplab.github.io/author/di-yu/</link>
     </image>
     
     <item>
       <title>DaisyRec 2.0: Benchmarking Recommendation for Rigorous Evaluation</title>
-      <link>http://localhost:1399/publication/sun-2022-tpami/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2022-tpami/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/sun-2022-tpami/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2022-tpami/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Are We Evaluating Rigorously? Benchmarking Recommendation for Reproducible Evaluation and Fair Comparison</title>
-      <link>http://localhost:1399/publication/sun-2020-recsys/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2020-recsys/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/sun-2020-recsys/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2020-recsys/</guid>
       <description></description>
     </item>
     

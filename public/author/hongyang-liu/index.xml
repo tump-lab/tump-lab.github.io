@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hongyang Liu | TUMP Research Group</title>
-    <link>http://localhost:1399/author/hongyang-liu/</link>
-      <atom:link href="http://localhost:1399/author/hongyang-liu/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/tumplab.github.io/author/hongyang-liu/</link>
+      <atom:link href="http://localhost:1399/tumplab.github.io/author/hongyang-liu/index.xml" rel="self" type="application/rss+xml" />
     <description>Hongyang Liu</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/author/hongyang-liu/avatar_hu_9722e1e67a6c6ae2.png</url>
+      <url>http://localhost:1399/tumplab.github.io/author/hongyang-liu/avatar_hu_9722e1e67a6c6ae2.png</url>
       <title>Hongyang Liu</title>
-      <link>http://localhost:1399/author/hongyang-liu/</link>
+      <link>http://localhost:1399/tumplab.github.io/author/hongyang-liu/</link>
     </image>
     
     <item>
       <title>Large Language Models for Intent-Driven Session Recommendations</title>
-      <link>http://localhost:1399/publication/sun-2024-sigir-llm/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2024-sigir-llm/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/sun-2024-sigir-llm/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2024-sigir-llm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Towards Building Voice-based Conversational Recommender Systems: Datasets, Potential Solutions, and Prospects</title>
-      <link>http://localhost:1399/publication/qu-2023-sigir/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/qu-2023-sigir/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/qu-2023-sigir/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/qu-2023-sigir/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DaisyRec 2.0: Benchmarking Recommendation for Rigorous Evaluation</title>
-      <link>http://localhost:1399/publication/sun-2022-tpami/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2022-tpami/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/sun-2022-tpami/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2022-tpami/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Top-aware Recommender Distillation with Deep Reinforcement Learning</title>
-      <link>http://localhost:1399/publication/liu-2021-ins/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/liu-2021-ins/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/liu-2021-ins/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/liu-2021-ins/</guid>
       <description></description>
     </item>
     

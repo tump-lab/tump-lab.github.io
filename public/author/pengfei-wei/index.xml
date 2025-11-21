@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pengfei Wei | TUMP Research Group</title>
-    <link>http://localhost:1399/author/pengfei-wei/</link>
-      <atom:link href="http://localhost:1399/author/pengfei-wei/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/tumplab.github.io/author/pengfei-wei/</link>
+      <atom:link href="http://localhost:1399/tumplab.github.io/author/pengfei-wei/index.xml" rel="self" type="application/rss+xml" />
     <description>Pengfei Wei</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
       <title>Pengfei Wei</title>
-      <link>http://localhost:1399/author/pengfei-wei/</link>
+      <link>http://localhost:1399/tumplab.github.io/author/pengfei-wei/</link>
     </image>
     
     <item>
       <title>Importance Prioritized Policy Distillation</title>
-      <link>http://localhost:1399/publication/qu-2022-kdd-policy/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/qu-2022-kdd-policy/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/qu-2022-kdd-policy/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/qu-2022-kdd-policy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Synthesizing Audio Adversarial Examples for Automatic Speech Recognition</title>
-      <link>http://localhost:1399/publication/qu-2022-kdd-audio/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/qu-2022-kdd-audio/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/qu-2022-kdd-audio/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/qu-2022-kdd-audio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Minimalistic Attacks: How Little it Takes to Fool a Deep Reinforcement Learning Policy</title>
-      <link>http://localhost:1399/publication/qu-2020-tcds/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/qu-2020-tcds/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/qu-2020-tcds/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/qu-2020-tcds/</guid>
       <description></description>
     </item>
     

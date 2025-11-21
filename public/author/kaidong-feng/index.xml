@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kaidong Feng | TUMP Research Group</title>
-    <link>http://localhost:1399/author/kaidong-feng/</link>
-      <atom:link href="http://localhost:1399/author/kaidong-feng/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/tumplab.github.io/author/kaidong-feng/</link>
+      <atom:link href="http://localhost:1399/tumplab.github.io/author/kaidong-feng/index.xml" rel="self" type="application/rss+xml" />
     <description>Kaidong Feng</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/author/kaidong-feng/avatar_hu_f83530fa0af101c9.jpg</url>
+      <url>http://localhost:1399/tumplab.github.io/author/kaidong-feng/avatar_hu_f83530fa0af101c9.jpg</url>
       <title>Kaidong Feng</title>
-      <link>http://localhost:1399/author/kaidong-feng/</link>
+      <link>http://localhost:1399/tumplab.github.io/author/kaidong-feng/</link>
     </image>
     
     <item>
       <title>Re2LLM: Reflective Reinforcement Large Language Model for Session-based Recommendation</title>
-      <link>http://localhost:1399/publication/wang-2025-aaai/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/wang-2025-aaai/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/wang-2025-aaai/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/wang-2025-aaai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Adaptive In-Context Learning with Large Language Models for Bundle Generation</title>
-      <link>http://localhost:1399/publication/sun-2024-sigir-bundle/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2024-sigir-bundle/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/sun-2024-sigir-bundle/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2024-sigir-bundle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Large Language Models for Intent-Driven Session Recommendations</title>
-      <link>http://localhost:1399/publication/sun-2024-sigir-llm/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2024-sigir-llm/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/sun-2024-sigir-llm/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2024-sigir-llm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Revisiting Bundle Recommendation for Intent-aware Product Bundling</title>
-      <link>http://localhost:1399/publication/sun-2024-tors/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2024-tors/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/sun-2024-tors/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2024-tors/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Revisiting Bundle Recommendation: Datasets, Tasks, Challenges and Opportunities for Intent-aware Product Bundling</title>
-      <link>http://localhost:1399/publication/sun-2022-sigir/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2022-sigir/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/sun-2022-sigir/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2022-sigir/</guid>
       <description></description>
     </item>
     

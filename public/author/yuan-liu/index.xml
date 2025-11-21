@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yuan Liu | TUMP Research Group</title>
-    <link>http://localhost:1399/author/yuan-liu/</link>
-      <atom:link href="http://localhost:1399/author/yuan-liu/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/tumplab.github.io/author/yuan-liu/</link>
+      <atom:link href="http://localhost:1399/tumplab.github.io/author/yuan-liu/index.xml" rel="self" type="application/rss+xml" />
     <description>Yuan Liu</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
       <title>Yuan Liu</title>
-      <link>http://localhost:1399/author/yuan-liu/</link>
+      <link>http://localhost:1399/tumplab.github.io/author/yuan-liu/</link>
     </image>
     
     <item>
       <title>Modelling Temporal Dynamics and Repeated Behaviors for Recommendation</title>
-      <link>http://localhost:1399/publication/zhou-2020-pakdd/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/zhou-2020-pakdd/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/zhou-2020-pakdd/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/zhou-2020-pakdd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multi-facet User Preference Learning for Fine-grained Item Recommendation</title>
-      <link>http://localhost:1399/publication/guo-2020-neucom/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/guo-2020-neucom/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/guo-2020-neucom/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/guo-2020-neucom/</guid>
       <description></description>
     </item>
     

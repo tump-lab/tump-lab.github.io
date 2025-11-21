@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wenhai Wang | TUMP Research Group</title>
-    <link>http://localhost:1399/author/wenhai-wang/</link>
-      <atom:link href="http://localhost:1399/author/wenhai-wang/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/tumplab.github.io/author/wenhai-wang/</link>
+      <atom:link href="http://localhost:1399/tumplab.github.io/author/wenhai-wang/index.xml" rel="self" type="application/rss+xml" />
     <description>Wenhai Wang</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
       <title>Wenhai Wang</title>
-      <link>http://localhost:1399/author/wenhai-wang/</link>
+      <link>http://localhost:1399/tumplab.github.io/author/wenhai-wang/</link>
     </image>
     
     <item>
       <title>KG4RecEval: Does Knowledge Graph Really Matter for Recommender Systems?</title>
-      <link>http://localhost:1399/publication/zhang-2025-tois/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/zhang-2025-tois/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/zhang-2025-tois/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/zhang-2025-tois/</guid>
       <description></description>
     </item>
     

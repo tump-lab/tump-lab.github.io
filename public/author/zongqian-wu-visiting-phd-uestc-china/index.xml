@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zongqian Wu (Visiting PhD, UESTC, China) | TUMP Research Group</title>
-    <link>http://localhost:1399/author/zongqian-wu-visiting-phd-uestc-china/</link>
-      <atom:link href="http://localhost:1399/author/zongqian-wu-visiting-phd-uestc-china/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/tumplab.github.io/author/zongqian-wu-visiting-phd-uestc-china/</link>
+      <atom:link href="http://localhost:1399/tumplab.github.io/author/zongqian-wu-visiting-phd-uestc-china/index.xml" rel="self" type="application/rss+xml" />
     <description>Zongqian Wu (Visiting PhD, UESTC, China)</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
-      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
       <title>Zongqian Wu (Visiting PhD, UESTC, China)</title>
-      <link>http://localhost:1399/author/zongqian-wu-visiting-phd-uestc-china/</link>
+      <link>http://localhost:1399/tumplab.github.io/author/zongqian-wu-visiting-phd-uestc-china/</link>
     </image>
     
   </channel>

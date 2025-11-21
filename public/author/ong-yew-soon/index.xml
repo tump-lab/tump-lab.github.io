@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ong Yew Soon | TUMP Research Group</title>
-    <link>http://localhost:1399/author/ong-yew-soon/</link>
-      <atom:link href="http://localhost:1399/author/ong-yew-soon/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/tumplab.github.io/author/ong-yew-soon/</link>
+      <atom:link href="http://localhost:1399/tumplab.github.io/author/ong-yew-soon/index.xml" rel="self" type="application/rss+xml" />
     <description>Ong Yew Soon</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
       <title>Ong Yew Soon</title>
-      <link>http://localhost:1399/author/ong-yew-soon/</link>
+      <link>http://localhost:1399/tumplab.github.io/author/ong-yew-soon/</link>
     </image>
     
     <item>
       <title>Importance Prioritized Policy Distillation</title>
-      <link>http://localhost:1399/publication/qu-2022-kdd-policy/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/qu-2022-kdd-policy/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/qu-2022-kdd-policy/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/qu-2022-kdd-policy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Next Point-of-Interest Recommendation with Inferring Multi-step Future Preference</title>
-      <link>http://localhost:1399/publication/zhang-2022-ijcai/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/zhang-2022-ijcai/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/zhang-2022-ijcai/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/zhang-2022-ijcai/</guid>
       <description></description>
     </item>
     

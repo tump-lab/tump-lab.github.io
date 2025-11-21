@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alessandro Bozzon | TUMP Research Group</title>
-    <link>http://localhost:1399/author/alessandro-bozzon/</link>
-      <atom:link href="http://localhost:1399/author/alessandro-bozzon/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/tumplab.github.io/author/alessandro-bozzon/</link>
+      <atom:link href="http://localhost:1399/tumplab.github.io/author/alessandro-bozzon/index.xml" rel="self" type="application/rss+xml" />
     <description>Alessandro Bozzon</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
       <title>Alessandro Bozzon</title>
-      <link>http://localhost:1399/author/alessandro-bozzon/</link>
+      <link>http://localhost:1399/tumplab.github.io/author/alessandro-bozzon/</link>
     </image>
     
     <item>
       <title>Recurrent Knowledge Graph Embedding for Effective Recommendation</title>
-      <link>http://localhost:1399/publication/sun-2018-recsys/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2018-recsys/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/sun-2018-recsys/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2018-recsys/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exploiting both Vertical and Horizontal Dimensions of Feature hierarchy for Effective Recommendation</title>
-      <link>http://localhost:1399/publication/sun-2017-aaai/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2017-aaai/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/sun-2017-aaai/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2017-aaai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Interactive Attention-Gated Recurrent Networks for Recommendation</title>
-      <link>http://localhost:1399/publication/pei-2017-cikm/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/pei-2017-cikm/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/pei-2017-cikm/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/pei-2017-cikm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MRLR: Multi-level Representation Learning for Personalized Ranking in Recommendation</title>
-      <link>http://localhost:1399/publication/sun-2017-ijcai/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2017-ijcai/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/sun-2017-ijcai/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2017-ijcai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning Hierarchical Feature Influence for Recommendation by Recursive Regularization</title>
-      <link>http://localhost:1399/publication/yang-2016-recsys/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/yang-2016-recsys/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/yang-2016-recsys/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/yang-2016-recsys/</guid>
       <description></description>
     </item>
     
