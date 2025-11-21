@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ching-Hung Lee | TUMP Research Group</title>
-    <link>//localhost:1399/author/ching-hung-lee/</link>
-      <atom:link href="//localhost:1399/author/ching-hung-lee/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/tumplab.github.io/author/ching-hung-lee/</link>
+      <atom:link href="http://localhost:1399/tumplab.github.io/author/ching-hung-lee/index.xml" rel="self" type="application/rss+xml" />
     <description>Ching-Hung Lee</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
       <title>Ching-Hung Lee</title>
-      <link>//localhost:1399/author/ching-hung-lee/</link>
+      <link>http://localhost:1399/tumplab.github.io/author/ching-hung-lee/</link>
     </image>
     
     <item>
       <title>A New Era in Human Factors Engineering: A Survey of the Applications and Prospects of Large Multimodal Models</title>
-      <link>//localhost:1399/publication/li-2024-ijhci/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/li-2024-ijhci/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/li-2024-ijhci/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/li-2024-ijhci/</guid>
       <description></description>
     </item>
     

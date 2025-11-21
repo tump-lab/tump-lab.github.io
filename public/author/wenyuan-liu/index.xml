@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wenyuan Liu | TUMP Research Group</title>
-    <link>//localhost:1399/author/wenyuan-liu/</link>
-      <atom:link href="//localhost:1399/author/wenyuan-liu/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/tumplab.github.io/author/wenyuan-liu/</link>
+      <atom:link href="http://localhost:1399/tumplab.github.io/author/wenyuan-liu/index.xml" rel="self" type="application/rss+xml" />
     <description>Wenyuan Liu</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
       <title>Wenyuan Liu</title>
-      <link>//localhost:1399/author/wenyuan-liu/</link>
+      <link>http://localhost:1399/tumplab.github.io/author/wenyuan-liu/</link>
     </image>
     
     <item>
       <title>Adaptive In-Context Learning with Large Language Models for Bundle Generation</title>
-      <link>//localhost:1399/publication/sun-2024-sigir-bundle/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2024-sigir-bundle/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/sun-2024-sigir-bundle/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2024-sigir-bundle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Revisiting Bundle Recommendation for Intent-aware Product Bundling</title>
-      <link>//localhost:1399/publication/sun-2024-tors/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2024-tors/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/sun-2024-tors/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2024-tors/</guid>
       <description></description>
     </item>
     

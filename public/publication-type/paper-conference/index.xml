@@ -2,381 +2,381 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paper-Conference | TUMP Research Group</title>
-    <link>//localhost:1399/publication-type/paper-conference/</link>
-      <atom:link href="//localhost:1399/publication-type/paper-conference/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/tumplab.github.io/publication-type/paper-conference/</link>
+      <atom:link href="http://localhost:1399/tumplab.github.io/publication-type/paper-conference/index.xml" rel="self" type="application/rss+xml" />
     <description>Paper-Conference</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
       <title>Paper-Conference</title>
-      <link>//localhost:1399/publication-type/paper-conference/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication-type/paper-conference/</link>
     </image>
     
     <item>
       <title>Active Large Language Model-based Knowledge Distillation for Session-based Recommendation</title>
-      <link>//localhost:1399/publication/du-2025-aaai/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/du-2025-aaai/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/du-2025-aaai/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/du-2025-aaai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Enhancing New-item Fairness in Dynamic Recommender Systems</title>
-      <link>//localhost:1399/publication/guo-2025-sigir/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/guo-2025-sigir/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/guo-2025-sigir/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/guo-2025-sigir/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LightKG: Efficient Knowledge-Aware Recommendations with Simplified GNN Architecture</title>
-      <link>//localhost:1399/publication/li-2025-kdd/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/li-2025-kdd/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/li-2025-kdd/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/li-2025-kdd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LLM4RSR: Large Language Models as Data Correctors for Robust Sequential Recommendation</title>
-      <link>//localhost:1399/publication/yatong-2025-aaai/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/yatong-2025-aaai/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/yatong-2025-aaai/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/yatong-2025-aaai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Model-Agnostic Social Network Refinement with Diffusion Models for Robust Social Recommendation</title>
-      <link>//localhost:1399/publication/sun-2025-webconf/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2025-webconf/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/sun-2025-webconf/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2025-webconf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Re2LLM: Reflective Reinforcement Large Language Model for Session-based Recommendation</title>
-      <link>//localhost:1399/publication/wang-2025-aaai/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/wang-2025-aaai/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/wang-2025-aaai/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/wang-2025-aaai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Adaptive In-Context Learning with Large Language Models for Bundle Generation</title>
-      <link>//localhost:1399/publication/sun-2024-sigir-bundle/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2024-sigir-bundle/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/sun-2024-sigir-bundle/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2024-sigir-bundle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An Empirical Analysis on Multi-turn Conversational Recommender Systems</title>
-      <link>//localhost:1399/publication/zhang-2024-sigir/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/zhang-2024-sigir/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/zhang-2024-sigir/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/zhang-2024-sigir/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Breaking the Silence: Whisper-Driven Emotion Recognition in AI Mental Support Models</title>
-      <link>//localhost:1399/publication/qu-2024-cai/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/qu-2024-cai/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/qu-2024-cai/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/qu-2024-cai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Configurable Fairness for New Item Recommendation Considering Entry Time of Items</title>
-      <link>//localhost:1399/publication/guo-2024-sigir/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/guo-2024-sigir/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/guo-2024-sigir/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/guo-2024-sigir/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Disentangled Multi-interest Representation Learning for Sequential Recommendation</title>
-      <link>//localhost:1399/publication/du-2024-kdd/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/du-2024-kdd/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/du-2024-kdd/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/du-2024-kdd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Large Language Models for Intent-Driven Session Recommendations</title>
-      <link>//localhost:1399/publication/sun-2024-sigir-llm/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2024-sigir-llm/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/sun-2024-sigir-llm/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2024-sigir-llm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Self-Supervised Denoising through Independent Cascade Graph Augmentation for Robust Social Recommendation</title>
-      <link>//localhost:1399/publication/youchen-2024-kdd/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/youchen-2024-kdd/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/youchen-2024-kdd/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/youchen-2024-kdd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unified Denoising Training for Recommendation</title>
-      <link>//localhost:1399/publication/chua-2024-recsys/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/chua-2024-recsys/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/chua-2024-recsys/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/chua-2024-recsys/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Where to Move Next: Zero-shot Generalization of LLMs for Next POI Recommendation</title>
-      <link>//localhost:1399/publication/feng-2024-cai/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/feng-2024-cai/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/feng-2024-cai/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/feng-2024-cai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Generic Reinforced Explainable Framework with Knowledge Graph for Session-based Recommendation</title>
-      <link>//localhost:1399/publication/wu-2023-icde/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/wu-2023-icde/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/wu-2023-icde/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/wu-2023-icde/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Disentangling Motives behind Item Consumption and Social Connection for Mutually-enhanced Joint Prediction</title>
-      <link>//localhost:1399/publication/youchen-2023-recsys/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/youchen-2023-recsys/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/youchen-2023-recsys/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/youchen-2023-recsys/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Domain Disentanglement with Interpolative Data Augmentation for Dual-Target Cross-Domain Recommendation</title>
-      <link>//localhost:1399/publication/jiajie-2023-recsys/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/jiajie-2023-recsys/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/jiajie-2023-recsys/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/jiajie-2023-recsys/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Meta-Learning Enhance Next POI Recommendation with Auxiliary Cities</title>
-      <link>//localhost:1399/publication/wang-2023-pakdd/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/wang-2023-pakdd/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/wang-2023-pakdd/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/wang-2023-pakdd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Theoretically Guaranteed Bidirectional Data Rectification for Robust Sequential Recommendation</title>
-      <link>//localhost:1399/publication/yatong-2023-neurips/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/yatong-2023-neurips/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/yatong-2023-neurips/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/yatong-2023-neurips/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Towards Building Voice-based Conversational Recommender Systems: Datasets, Potential Solutions, and Prospects</title>
-      <link>//localhost:1399/publication/qu-2023-sigir/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/qu-2023-sigir/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/qu-2023-sigir/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/qu-2023-sigir/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Importance Prioritized Policy Distillation</title>
-      <link>//localhost:1399/publication/qu-2022-kdd-policy/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/qu-2022-kdd-policy/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/qu-2022-kdd-policy/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/qu-2022-kdd-policy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Next Point-of-Interest Recommendation with Inferring Multi-step Future Preference</title>
-      <link>//localhost:1399/publication/zhang-2022-ijcai/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/zhang-2022-ijcai/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/zhang-2022-ijcai/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/zhang-2022-ijcai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Revisiting Bundle Recommendation: Datasets, Tasks, Challenges and Opportunities for Intent-aware Product Bundling</title>
-      <link>//localhost:1399/publication/sun-2022-sigir/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2022-sigir/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/sun-2022-sigir/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2022-sigir/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Synthesizing Audio Adversarial Examples for Automatic Speech Recognition</title>
-      <link>//localhost:1399/publication/qu-2022-kdd-audio/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/qu-2022-kdd-audio/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/qu-2022-kdd-audio/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/qu-2022-kdd-audio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Does Every Data Instance Matter? Enhancing Sequential Recommendation by Eliminating Unreliable Data</title>
-      <link>//localhost:1399/publication/yatong-2021-ijcai/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/yatong-2021-ijcai/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/yatong-2021-ijcai/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/yatong-2021-ijcai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An Attentional Recurrent Neural Network for Personalized Next Location Recommendation</title>
-      <link>//localhost:1399/publication/guo-2020-aaai/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/guo-2020-aaai/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/guo-2020-aaai/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/guo-2020-aaai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An Interactive Multi-Task Learning Framework for Next POI Recommendation with Uncertain Check-ins</title>
-      <link>//localhost:1399/publication/zhang-2020-ijcai/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/zhang-2020-ijcai/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/zhang-2020-ijcai/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/zhang-2020-ijcai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Are We Evaluating Rigorously? Benchmarking Recommendation for Reproducible Evaluation and Fair Comparison</title>
-      <link>//localhost:1399/publication/sun-2020-recsys/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2020-recsys/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/sun-2020-recsys/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2020-recsys/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modelling Temporal Dynamics and Repeated Behaviors for Recommendation</title>
-      <link>//localhost:1399/publication/zhou-2020-pakdd/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/zhou-2020-pakdd/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/zhou-2020-pakdd/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/zhou-2020-pakdd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exploiting Side Information for Recommendation</title>
-      <link>//localhost:1399/publication/guo-2019-icwe-tutorial/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/guo-2019-icwe-tutorial/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/guo-2019-icwe-tutorial/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/guo-2019-icwe-tutorial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modeling Heterogeneous Influences for Point-of-Interest Recommendation in Location-Based Social Networks</title>
-      <link>//localhost:1399/publication/guo-2019-icwe-short/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/guo-2019-icwe-short/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/guo-2019-icwe-short/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/guo-2019-icwe-short/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recurrent Knowledge Graph Embedding for Effective Recommendation</title>
-      <link>//localhost:1399/publication/sun-2018-recsys/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2018-recsys/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/sun-2018-recsys/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2018-recsys/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Unified Latent Factor Model for Effective Category-Aware Recommendation</title>
-      <link>//localhost:1399/publication/sun-2017-umap/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2017-umap/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/sun-2017-umap/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2017-umap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Aspect-Aware Point-of-Interest Recommendation with Geo-Social Influence</title>
-      <link>//localhost:1399/publication/guo-2017-umap/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/guo-2017-umap/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/guo-2017-umap/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/guo-2017-umap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exploiting both Vertical and Horizontal Dimensions of Feature hierarchy for Effective Recommendation</title>
-      <link>//localhost:1399/publication/sun-2017-aaai/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2017-aaai/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/sun-2017-aaai/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2017-aaai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Interactive Attention-Gated Recurrent Networks for Recommendation</title>
-      <link>//localhost:1399/publication/pei-2017-cikm/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/pei-2017-cikm/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/pei-2017-cikm/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/pei-2017-cikm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning Hierarchical Category Influence on both Users and Items for Effective Recommendation</title>
-      <link>//localhost:1399/publication/sun-2017-sac/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2017-sac/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/sun-2017-sac/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2017-sac/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MRLR: Multi-level Representation Learning for Personalized Ranking in Recommendation</title>
-      <link>//localhost:1399/publication/sun-2017-ijcai/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2017-ijcai/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/sun-2017-ijcai/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2017-ijcai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Online Reputation Fraud Campaign Detection in User Ratings</title>
-      <link>//localhost:1399/publication/xu-2017-ijcai/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/xu-2017-ijcai/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/xu-2017-ijcai/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/xu-2017-ijcai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Effective Recommendation with Category Hierarchy</title>
-      <link>//localhost:1399/publication/sun-2016-umap/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2016-umap/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/sun-2016-umap/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2016-umap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning Hierarchical Feature Influence for Recommendation by Recursive Regularization</title>
-      <link>//localhost:1399/publication/yang-2016-recsys/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/yang-2016-recsys/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/yang-2016-recsys/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/yang-2016-recsys/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TBPR: Trinity Preference based Bayesian Personalized Ranking for Multivariate Implicit Feedback</title>
-      <link>//localhost:1399/publication/qiu-2016-umap/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/qiu-2016-umap/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/qiu-2016-umap/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/qiu-2016-umap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exploiting Implicit Item Relationships for Recommender Systems</title>
-      <link>//localhost:1399/publication/sun-2015-umap/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2015-umap/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/sun-2015-umap/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2015-umap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exploiting Item and User Relationships for Recommender Systems</title>
-      <link>//localhost:1399/publication/sun-2015-umap-dc/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2015-umap-dc/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/sun-2015-umap-dc/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2015-umap-dc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LibRec: A Java Library for Recommender Systems</title>
-      <link>//localhost:1399/publication/guo-2015-umap/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/guo-2015-umap/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/guo-2015-umap/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/guo-2015-umap/</guid>
       <description></description>
     </item>
     

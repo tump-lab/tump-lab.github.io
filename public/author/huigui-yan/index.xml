@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Huigui Yan | TUMP Research Group</title>
-    <link>//localhost:1399/author/huigui-yan/</link>
-      <atom:link href="//localhost:1399/author/huigui-yan/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/tumplab.github.io/author/huigui-yan/</link>
+      <atom:link href="http://localhost:1399/tumplab.github.io/author/huigui-yan/index.xml" rel="self" type="application/rss+xml" />
     <description>Huigui Yan</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
-      <url>//localhost:1399/author/huigui-yan/avatar_hu_35b0fb516645e449.png</url>
+      <url>http://localhost:1399/tumplab.github.io/author/huigui-yan/avatar_hu_35b0fb516645e449.png</url>
       <title>Huigui Yan</title>
-      <link>//localhost:1399/author/huigui-yan/</link>
+      <link>http://localhost:1399/tumplab.github.io/author/huigui-yan/</link>
     </image>
     
   </channel>

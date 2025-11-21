@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yu Lei | TUMP Research Group</title>
-    <link>//localhost:1399/author/yu-lei/</link>
-      <atom:link href="//localhost:1399/author/yu-lei/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/tumplab.github.io/author/yu-lei/</link>
+      <atom:link href="http://localhost:1399/tumplab.github.io/author/yu-lei/index.xml" rel="self" type="application/rss+xml" />
     <description>Yu Lei</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//localhost:1399/author/yu-lei/avatar_hu_b4f6483accc5ff52.jpg</url>
+      <url>http://localhost:1399/tumplab.github.io/author/yu-lei/avatar_hu_b4f6483accc5ff52.jpg</url>
       <title>Yu Lei</title>
-      <link>//localhost:1399/author/yu-lei/</link>
+      <link>http://localhost:1399/tumplab.github.io/author/yu-lei/</link>
     </image>
     
     <item>
       <title>COSTA: Contrastive Spatial and Temporal Debiasing Framework for Next POI Recommendation</title>
-      <link>//localhost:1399/publication/lei-2025-neuralnetworks/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/lei-2025-neuralnetworks/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/lei-2025-neuralnetworks/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/lei-2025-neuralnetworks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An Empirical Analysis on Multi-turn Conversational Recommender Systems</title>
-      <link>//localhost:1399/publication/zhang-2024-sigir/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/zhang-2024-sigir/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/zhang-2024-sigir/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/zhang-2024-sigir/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Multi-Channel Next POI Recommendation Framework with Multi-Granularity Check-in Signals</title>
-      <link>//localhost:1399/publication/sun-2023-tois-poi/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2023-tois-poi/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/sun-2023-tois-poi/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2023-tois-poi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Point-of-Interest Recommendation for Users-Businesses with Uncertain Check-ins</title>
-      <link>//localhost:1399/publication/sun-2021-tkde/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2021-tkde/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/sun-2021-tkde/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2021-tkde/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An Interactive Multi-Task Learning Framework for Next POI Recommendation with Uncertain Check-ins</title>
-      <link>//localhost:1399/publication/zhang-2020-ijcai/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/zhang-2020-ijcai/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/zhang-2020-ijcai/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/zhang-2020-ijcai/</guid>
       <description></description>
     </item>
     

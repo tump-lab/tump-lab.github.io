@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xiao Sha | TUMP Research Group</title>
-    <link>//localhost:1399/author/xiao-sha/</link>
-      <atom:link href="//localhost:1399/author/xiao-sha/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/tumplab.github.io/author/xiao-sha/</link>
+      <atom:link href="http://localhost:1399/tumplab.github.io/author/xiao-sha/index.xml" rel="self" type="application/rss+xml" />
     <description>Xiao Sha</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
       <title>Xiao Sha</title>
-      <link>//localhost:1399/author/xiao-sha/</link>
+      <link>http://localhost:1399/tumplab.github.io/author/xiao-sha/</link>
     </image>
     
     <item>
       <title>Disentangling Motives behind Item Consumption and Social Connection for Mutually-enhanced Joint Prediction</title>
-      <link>//localhost:1399/publication/youchen-2023-recsys/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/youchen-2023-recsys/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/youchen-2023-recsys/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/youchen-2023-recsys/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Who Wants to Shop with You: Joint Product-Participant Recommendation for Group-Buying Service</title>
-      <link>//localhost:1399/publication/sha-2022-tnnls/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sha-2022-tnnls/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/sha-2022-tnnls/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sha-2022-tnnls/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Disentangling Multi-facet Social Relations for Recommendation</title>
-      <link>//localhost:1399/publication/sha-2021-tcss/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sha-2021-tcss/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/sha-2021-tcss/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sha-2021-tcss/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hierarchical Attentive Knowledge Graph Embedding for Personalized Recommendation</title>
-      <link>//localhost:1399/publication/sha-2021-ecra/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/sha-2021-ecra/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/sha-2021-ecra/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sha-2021-ecra/</guid>
       <description></description>
     </item>
     

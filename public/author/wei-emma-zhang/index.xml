@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wei Emma Zhang | TUMP Research Group</title>
-    <link>//localhost:1399/author/wei-emma-zhang/</link>
-      <atom:link href="//localhost:1399/author/wei-emma-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/tumplab.github.io/author/wei-emma-zhang/</link>
+      <atom:link href="http://localhost:1399/tumplab.github.io/author/wei-emma-zhang/index.xml" rel="self" type="application/rss+xml" />
     <description>Wei Emma Zhang</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
       <title>Wei Emma Zhang</title>
-      <link>//localhost:1399/author/wei-emma-zhang/</link>
+      <link>http://localhost:1399/tumplab.github.io/author/wei-emma-zhang/</link>
     </image>
     
     <item>
       <title>A Survey on Truth Discovery: Concepts, Methods, Applications and Opportunities</title>
-      <link>//localhost:1399/publication/wang-2024-tbd/</link>
+      <link>http://localhost:1399/tumplab.github.io/publication/wang-2024-tbd/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1399/publication/wang-2024-tbd/</guid>
+      <guid>http://localhost:1399/tumplab.github.io/publication/wang-2024-tbd/</guid>
       <description></description>
     </item>
     
