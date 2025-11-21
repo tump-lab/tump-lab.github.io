@@ -4,7 +4,8 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: TUMP Research Group # Website name
-baseURL: 'https://tump-lab.github.io/' # Website URL
+baseURL: 'https://tump-lab.github.io/' # Website URL (overridden by GitHub Actions)
+# relativeURLs: true # Use relative URLs to work with any deployment path
 
 ############################
 ## LANGUAGE

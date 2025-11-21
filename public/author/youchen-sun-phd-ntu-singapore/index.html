@@ -284,8 +284,8 @@
 
 
 
-<link rel="icon" type="image/png" href="/media/icon_hu_4b486423a374798e.png" />
-<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_ffb88f7d28695f7f.png" />
+<link rel="icon" type="image/png" href="/media/icon_hu_2311fe1a408f47c1.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_4eb7679362359773.png" />
 
 <meta name="theme-color" content="#1565c0" />
 
@@ -826,6 +826,37 @@
 
 
   
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2025 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
 
 
 
@@ -996,115 +1027,63 @@
 </a>
 
 <style>
- 
-footer .powered-by,
-footer .site-footer-credits,
-footer a[href*="hugo-blox-builder"],
-footer a[href*="HugoBlox"],
-footer .cc-license,
-footer .cc-icons {
-  display: none !important;
-}
-
- 
-.floating-join-btn {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white !important;
-  padding: 15px 28px;
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 16px;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
-  transition: all 0.3s ease;
-  z-index: 9999;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  cursor: pointer;
-}
-.floating-join-btn:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
-  color: white !important;
-  text-decoration: none;
-}
-.floating-join-btn i {
-  font-size: 18px;
-}
-
- 
-@media (max-width: 768px) {
+   
   .floating-join-btn {
-    bottom: 20px;
-    right: 20px;
-    padding: 12px 20px;
-    font-size: 14px;
-  }
-  .floating-join-btn i {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white !important;
+    padding: 15px 28px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
     font-size: 16px;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    transition: all 0.3s ease;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
   }
-}
+
+  .floating-join-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+    color: white !important;
+    text-decoration: none;
+  }
+
+  .floating-join-btn i {
+    font-size: 18px;
+  }
+
+   
+  @media (max-width: 768px) {
+    .floating-join-btn {
+      bottom: 20px;
+      right: 20px;
+      padding: 12px 20px;
+      font-size: 14px;
+    }
+
+    .floating-join-btn i {
+      font-size: 16px;
+    }
+  }
 </style>
 
 <script>
-
-document.addEventListener('DOMContentLoaded', function() {
-  const joinBtn = document.getElementById('floatingJoinBtn');
-  if (joinBtn) {
-    
-    joinBtn.style.display = 'flex';
-  }
   
-  
-  function hideFooterCredits() {
-    const footer = document.querySelector('footer');
-    if (!footer) return;
-    
-    
-    const allElements = footer.querySelectorAll('*');
-    allElements.forEach(function(el) {
-      const text = el.textContent || '';
-      if (text.includes('Hugo Blox Builder') || 
-          text.includes('Published with') ||
-          text.includes('CC BY') ||
-          text.includes('Creative Commons')) {
-        el.style.display = 'none';
-        el.remove();
-      }
-    });
-    
-    
-    const links = footer.querySelectorAll('a');
-    links.forEach(function(link) {
-      const href = link.getAttribute('href') || '';
-      if (href.includes('hugo-blox') || href.includes('HugoBlox')) {
-        const parent = link.closest('p') || link.closest('div');
-        if (parent) {
-          parent.style.display = 'none';
-          parent.remove();
-        }
-      }
-    });
-  }
-  
-  hideFooterCredits();
-  setTimeout(hideFooterCredits, 100);
-  setTimeout(hideFooterCredits, 500);
-  
-  
-  const observer = new MutationObserver(hideFooterCredits);
-  const footer = document.querySelector('footer');
-  if (footer) {
-    observer.observe(footer, { childList: true, subtree: true });
-  }
-});
+  document.addEventListener('DOMContentLoaded', function () {
+    const joinBtn = document.getElementById('floatingJoinBtn');
+    if (joinBtn) {
+      
+      joinBtn.style.display = 'flex';
+    }
+  });
 </script>
-
-
 
 
 

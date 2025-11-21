@@ -1,114 +1,63 @@
 <!-- 固定在右下角的 Join Us 浮动按钮 -->
-<a href="/contact/" class="floating-join-btn" id="floatingJoinBtn">
+<a href="{{ "contact/" | relURL }}" class="floating-join-btn" id="floatingJoinBtn">
   <i class="fas fa-graduation-cap"></i> Join Us
 </a>
 
 <style>
-/* 隐藏footer中的版权信息和Hugo Blox Builder credit */
-footer .powered-by,
-footer .site-footer-credits,
-footer a[href*="hugo-blox-builder"],
-footer a[href*="HugoBlox"],
-footer .cc-license,
-footer .cc-icons {
-  display: none !important;
-}
-
-/* 固定在右下角的浮动按钮 */
-.floating-join-btn {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white !important;
-  padding: 15px 28px;
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 16px;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
-  transition: all 0.3s ease;
-  z-index: 9999;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  cursor: pointer;
-}
-.floating-join-btn:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
-  color: white !important;
-  text-decoration: none;
-}
-.floating-join-btn i {
-  font-size: 18px;
-}
-
-/* 响应式设计 - 在小屏幕上调整按钮大小和位置 */
-@media (max-width: 768px) {
+  /* 固定在右下角的浮动按钮 */
   .floating-join-btn {
-    bottom: 20px;
-    right: 20px;
-    padding: 12px 20px;
-    font-size: 14px;
-  }
-  .floating-join-btn i {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white !important;
+    padding: 15px 28px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
     font-size: 16px;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    transition: all 0.3s ease;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
   }
-}
+
+  .floating-join-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+    color: white !important;
+    text-decoration: none;
+  }
+
+  .floating-join-btn i {
+    font-size: 18px;
+  }
+
+  /* 响应式设计 - 在小屏幕上调整按钮大小和位置 */
+  @media (max-width: 768px) {
+    .floating-join-btn {
+      bottom: 20px;
+      right: 20px;
+      padding: 12px 20px;
+      font-size: 14px;
+    }
+
+    .floating-join-btn i {
+      font-size: 16px;
+    }
+  }
 </style>
 
 <script>
-// 确保按钮始终可见
-document.addEventListener('DOMContentLoaded', function() {
-  const joinBtn = document.getElementById('floatingJoinBtn');
-  if (joinBtn) {
-    // 确保按钮在最上层
-    joinBtn.style.display = 'flex';
-  }
-  
-  // 隐藏footer中的版权信息和Hugo Blox Builder credit
-  function hideFooterCredits() {
-    const footer = document.querySelector('footer');
-    if (!footer) return;
-    
-    // 隐藏所有包含特定文本的元素
-    const allElements = footer.querySelectorAll('*');
-    allElements.forEach(function(el) {
-      const text = el.textContent || '';
-      if (text.includes('Hugo Blox Builder') || 
-          text.includes('Published with') ||
-          text.includes('CC BY') ||
-          text.includes('Creative Commons')) {
-        el.style.display = 'none';
-        el.remove();
-      }
-    });
-    
-    // 隐藏包含特定链接的元素
-    const links = footer.querySelectorAll('a');
-    links.forEach(function(link) {
-      const href = link.getAttribute('href') || '';
-      if (href.includes('hugo-blox') || href.includes('HugoBlox')) {
-        const parent = link.closest('p') || link.closest('div');
-        if (parent) {
-          parent.style.display = 'none';
-          parent.remove();
-        }
-      }
-    });
-  }
-  
-  hideFooterCredits();
-  setTimeout(hideFooterCredits, 100);
-  setTimeout(hideFooterCredits, 500);
-  
-  // 监听footer的变化
-  const observer = new MutationObserver(hideFooterCredits);
-  const footer = document.querySelector('footer');
-  if (footer) {
-    observer.observe(footer, { childList: true, subtree: true });
-  }
-});
+  // 确保按钮始终可见
+  document.addEventListener('DOMContentLoaded', function () {
+    const joinBtn = document.getElementById('floatingJoinBtn');
+    if (joinBtn) {
+      // 确保按钮在最上层
+      joinBtn.style.display = 'flex';
+    }
+  });
 </script>
-

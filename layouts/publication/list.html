@@ -1,16 +1,6 @@
 {{- define "main" -}}
 {{- .Content -}}
 
-<div class="universal-wrapper">
-  <div class="row">
-    <div class="col-12">
-      {{ range .Pages }}
-        {{ .Render "citation" }}
-      {{ end }}
-    </div>
-  </div>
-</div>
-
 {{- /* Hugo template file - linter warnings can be ignored */ -}}
 <style>
 /* 强制隐藏所有cite modal弹窗 */
