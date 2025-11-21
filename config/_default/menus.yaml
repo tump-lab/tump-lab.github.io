@@ -5,20 +5,20 @@
 
 main:
   - name: Home
-    url: tour
+    url: /tour/
     weight: 10
   - name: News
-    url: post
+    url: /post/
     weight: 20
   - name: People
-    url: people
+    url: /people/
     weight: 30
   # - name: Events
   #   url: event
   #   weight: 40
   - name: Publications
-    url: publication
+    url: /publication/
     weight: 50
   - name: Contact
-    url: contact
+    url: /contact/
     weight: 60
