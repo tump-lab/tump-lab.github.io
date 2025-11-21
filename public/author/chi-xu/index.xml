@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chi Xu | TUMP Research Group</title>
-    <link>http://localhost:1399/tumplab.github.io/author/chi-xu/</link>
-      <atom:link href="http://localhost:1399/tumplab.github.io/author/chi-xu/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/author/chi-xu/</link>
+      <atom:link href="http://localhost:1399/author/chi-xu/index.xml" rel="self" type="application/rss+xml" />
     <description>Chi Xu</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
       <title>Chi Xu</title>
-      <link>http://localhost:1399/tumplab.github.io/author/chi-xu/</link>
+      <link>http://localhost:1399/author/chi-xu/</link>
     </image>
     
     <item>
       <title>Attention over Self-attention: Dynamic Re-ranking with User Intentions for Recommendation</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/lin-2022-tkde/</link>
+      <link>http://localhost:1399/publication/lin-2022-tkde/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/lin-2022-tkde/</guid>
+      <guid>http://localhost:1399/publication/lin-2022-tkde/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recurrent Knowledge Graph Embedding for Effective Recommendation</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/sun-2018-recsys/</link>
+      <link>http://localhost:1399/publication/sun-2018-recsys/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2018-recsys/</guid>
+      <guid>http://localhost:1399/publication/sun-2018-recsys/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Unified Latent Factor Model for Effective Category-Aware Recommendation</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/sun-2017-umap/</link>
+      <link>http://localhost:1399/publication/sun-2017-umap/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2017-umap/</guid>
+      <guid>http://localhost:1399/publication/sun-2017-umap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MRLR: Multi-level Representation Learning for Personalized Ranking in Recommendation</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/sun-2017-ijcai/</link>
+      <link>http://localhost:1399/publication/sun-2017-ijcai/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2017-ijcai/</guid>
+      <guid>http://localhost:1399/publication/sun-2017-ijcai/</guid>
       <description></description>
     </item>
     

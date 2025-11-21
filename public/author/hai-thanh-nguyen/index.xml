@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hai Thanh Nguyen | TUMP Research Group</title>
-    <link>http://localhost:1399/tumplab.github.io/author/hai-thanh-nguyen/</link>
-      <atom:link href="http://localhost:1399/tumplab.github.io/author/hai-thanh-nguyen/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/author/hai-thanh-nguyen/</link>
+      <atom:link href="http://localhost:1399/author/hai-thanh-nguyen/index.xml" rel="self" type="application/rss+xml" />
     <description>Hai Thanh Nguyen</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
       <title>Hai Thanh Nguyen</title>
-      <link>http://localhost:1399/tumplab.github.io/author/hai-thanh-nguyen/</link>
+      <link>http://localhost:1399/author/hai-thanh-nguyen/</link>
     </image>
     
     <item>
       <title>BPRH: Bayesian Personalized Ranking for Heterogeneous Implicit Feedback</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/liu-2018-ins/</link>
+      <link>http://localhost:1399/publication/liu-2018-ins/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/liu-2018-ins/</guid>
+      <guid>http://localhost:1399/publication/liu-2018-ins/</guid>
       <description></description>
     </item>
     

@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Guibing Guo | TUMP Research Group</title>
-    <link>http://localhost:1399/tumplab.github.io/author/guibing-guo/</link>
-      <atom:link href="http://localhost:1399/tumplab.github.io/author/guibing-guo/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/author/guibing-guo/</link>
+      <atom:link href="http://localhost:1399/author/guibing-guo/index.xml" rel="self" type="application/rss+xml" />
     <description>Guibing Guo</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
       <title>Guibing Guo</title>
-      <link>http://localhost:1399/tumplab.github.io/author/guibing-guo/</link>
+      <link>http://localhost:1399/author/guibing-guo/</link>
     </image>
     
     <item>
       <title>Modelling Temporal Dynamics and Repeated Behaviors for Recommendation</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/zhou-2020-pakdd/</link>
+      <link>http://localhost:1399/publication/zhou-2020-pakdd/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/zhou-2020-pakdd/</guid>
+      <guid>http://localhost:1399/publication/zhou-2020-pakdd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multi-facet User Preference Learning for Fine-grained Item Recommendation</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/guo-2020-neucom/</link>
+      <link>http://localhost:1399/publication/guo-2020-neucom/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/guo-2020-neucom/</guid>
+      <guid>http://localhost:1399/publication/guo-2020-neucom/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Research Commentary on Recommendations with Side Information: A Survey and Research Directions</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/sun-2019-ecra/</link>
+      <link>http://localhost:1399/publication/sun-2019-ecra/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2019-ecra/</guid>
+      <guid>http://localhost:1399/publication/sun-2019-ecra/</guid>
       <description></description>
     </item>
     
     <item>
       <title>BPRH: Bayesian Personalized Ranking for Heterogeneous Implicit Feedback</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/liu-2018-ins/</link>
+      <link>http://localhost:1399/publication/liu-2018-ins/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/liu-2018-ins/</guid>
+      <guid>http://localhost:1399/publication/liu-2018-ins/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Unified Latent Factor Model for Effective Category-Aware Recommendation</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/sun-2017-umap/</link>
+      <link>http://localhost:1399/publication/sun-2017-umap/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2017-umap/</guid>
+      <guid>http://localhost:1399/publication/sun-2017-umap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning Hierarchical Category Influence on both Users and Items for Effective Recommendation</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/sun-2017-sac/</link>
+      <link>http://localhost:1399/publication/sun-2017-sac/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2017-sac/</guid>
+      <guid>http://localhost:1399/publication/sun-2017-sac/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Effective Recommendation with Category Hierarchy</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/sun-2016-umap/</link>
+      <link>http://localhost:1399/publication/sun-2016-umap/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2016-umap/</guid>
+      <guid>http://localhost:1399/publication/sun-2016-umap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TBPR: Trinity Preference based Bayesian Personalized Ranking for Multivariate Implicit Feedback</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/qiu-2016-umap/</link>
+      <link>http://localhost:1399/publication/qiu-2016-umap/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/qiu-2016-umap/</guid>
+      <guid>http://localhost:1399/publication/qiu-2016-umap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exploiting Implicit Item Relationships for Recommender Systems</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/sun-2015-umap/</link>
+      <link>http://localhost:1399/publication/sun-2015-umap/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2015-umap/</guid>
+      <guid>http://localhost:1399/publication/sun-2015-umap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LibRec: A Java Library for Recommender Systems</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/guo-2015-umap/</link>
+      <link>http://localhost:1399/publication/guo-2015-umap/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/guo-2015-umap/</guid>
+      <guid>http://localhost:1399/publication/guo-2015-umap/</guid>
       <description></description>
     </item>
     

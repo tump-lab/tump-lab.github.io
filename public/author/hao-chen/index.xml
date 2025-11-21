@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hao Chen | TUMP Research Group</title>
-    <link>http://localhost:1399/tumplab.github.io/author/hao-chen/</link>
-      <atom:link href="http://localhost:1399/tumplab.github.io/author/hao-chen/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/author/hao-chen/</link>
+      <atom:link href="http://localhost:1399/author/hao-chen/index.xml" rel="self" type="application/rss+xml" />
     <description>Hao Chen</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
       <title>Hao Chen</title>
-      <link>http://localhost:1399/tumplab.github.io/author/hao-chen/</link>
+      <link>http://localhost:1399/author/hao-chen/</link>
     </image>
     
     <item>
       <title>Adaptive Intention Learning for Session-based Recommendation</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/zhang-2024-tist/</link>
+      <link>http://localhost:1399/publication/zhang-2024-tist/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/zhang-2024-tist/</guid>
+      <guid>http://localhost:1399/publication/zhang-2024-tist/</guid>
       <description></description>
     </item>
     
