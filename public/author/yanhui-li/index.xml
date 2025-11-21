@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yanhui Li | TUMP Research Group</title>
+    <link>http://localhost:1399/tumplab.github.io/author/yanhui-li/</link>
+      <atom:link href="http://localhost:1399/tumplab.github.io/author/yanhui-li/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yanhui Li</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
+      <title>Yanhui Li</title>
+      <link>http://localhost:1399/tumplab.github.io/author/yanhui-li/</link>
+    </image>
+    
+    <item>
+      <title>KG4RecEval: Does Knowledge Graph Really Matter for Recommender Systems?</title>
+      <link>http://localhost:1399/tumplab.github.io/publication/zhang-2025-tois/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1399/tumplab.github.io/publication/zhang-2025-tois/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LightKG: Efficient Knowledge-Aware Recommendations with Simplified GNN Architecture</title>
+      <link>http://localhost:1399/tumplab.github.io/publication/li-2025-kdd/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1399/tumplab.github.io/publication/li-2025-kdd/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

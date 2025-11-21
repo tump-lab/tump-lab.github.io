@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fuyong Yuan | TUMP Research Group</title>
+    <link>http://localhost:1399/tumplab.github.io/author/fuyong-yuan/</link>
+      <atom:link href="http://localhost:1399/tumplab.github.io/author/fuyong-yuan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Fuyong Yuan</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
+      <title>Fuyong Yuan</title>
+      <link>http://localhost:1399/tumplab.github.io/author/fuyong-yuan/</link>
+    </image>
+    
+    <item>
+      <title>Top-aware Recommender Distillation with Deep Reinforcement Learning</title>
+      <link>http://localhost:1399/tumplab.github.io/publication/liu-2021-ins/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1399/tumplab.github.io/publication/liu-2021-ins/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

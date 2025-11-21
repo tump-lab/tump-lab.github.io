@@ -1,0 +1,123 @@
+<style>
+/* 在 role 下方添加 organization 信息的样式 */
+.org-info {
+  font-size: 0.75rem;
+  color: #6c757d;
+  margin-top: 0.25rem;
+  font-weight: normal;
+}
+</style>
+
+<script>
+// 添加organization信息（由Hugo自动生成）
+(function() {
+  const authorOrganizations = {
+    {{- range where site.RegularPages "Type" "authors" -}}
+      {{- $slug := .File.Dir | replace "authors/" "" | replace "/" "" -}}
+      {{- if .Params.organizations -}}
+        {{- $org := index .Params.organizations 0 -}}
+        {{- if $org.name -}}
+    "{{ $slug }}": "{{ $org.name }}",
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  };
+  
+  console.log('Author Organizations:', authorOrganizations);
+  
+  // 简化机构名称：提取括号中的简称或最后一个重要部分
+  function simplifyOrgName(orgName) {
+    // 如果有括号，提取括号内容作为简称
+    const bracketMatch = orgName.match(/\(([^)]+)\)/);
+    if (bracketMatch) {
+      return bracketMatch[1];
+    }
+    
+    // 如果没有括号，返回完整名称
+    return orgName;
+  }
+  
+  function addOrganizations() {
+    console.log('Running addOrganizations...');
+    
+    // 尝试不同的选择器
+    const possibleSelectors = [
+      '.people-person',
+      '.card',
+      '[class*="people"]',
+      '.portrait',
+      '.member'
+    ];
+    
+    let peopleCards = [];
+    for (let selector of possibleSelectors) {
+      peopleCards = document.querySelectorAll(selector);
+      if (peopleCards.length > 0) {
+        console.log('Found elements with selector:', selector, peopleCards.length);
+        break;
+      }
+    }
+    
+    if (peopleCards.length === 0) {
+      console.log('No people cards found, will retry...');
+      return;
+    }
+    
+    peopleCards.forEach(function(card) {
+      const link = card.querySelector('a[href*="/author/"]');
+      if (!link) return;
+      
+      const match = link.getAttribute('href').match(/\/author\/([^\/]+)/);
+      if (!match) return;
+      
+      const authorSlug = match[1];
+      const org = authorOrganizations[authorSlug];
+      
+      console.log('Processing:', authorSlug, 'Org:', org);
+      
+      if (org) {
+        // 尝试找到role元素
+        const roleElement = card.querySelector('.role') || card.querySelector('[class*="role"]');
+        
+        if (roleElement) {
+          // 检查是否已经添加过
+          if (roleElement.nextElementSibling && roleElement.nextElementSibling.classList.contains('org-info')) {
+            return;
+          }
+          
+          const simplifiedOrg = simplifyOrgName(org);
+          const orgDiv = document.createElement('div');
+          orgDiv.className = 'org-info';
+          orgDiv.textContent = simplifiedOrg;
+          
+          // 在role元素后面插入organization信息
+          roleElement.parentNode.insertBefore(orgDiv, roleElement.nextSibling);
+          console.log('Added org for:', authorSlug);
+        } else {
+          console.log('No role element found for:', authorSlug);
+        }
+      }
+    });
+  }
+  
+  // 多次尝试执行
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() {
+      setTimeout(addOrganizations, 100);
+      setTimeout(addOrganizations, 500);
+      setTimeout(addOrganizations, 1000);
+    });
+  } else {
+    addOrganizations();
+    setTimeout(addOrganizations, 100);
+    setTimeout(addOrganizations, 500);
+    setTimeout(addOrganizations, 1000);
+  }
+  
+  const observer = new MutationObserver(function() {
+    setTimeout(addOrganizations, 100);
+  });
+  observer.observe(document.body, { childList: true, subtree: true });
+})();
+</script>
+

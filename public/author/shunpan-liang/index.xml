@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shunpan Liang | TUMP Research Group</title>
+    <link>http://localhost:1399/tumplab.github.io/author/shunpan-liang/</link>
+      <atom:link href="http://localhost:1399/tumplab.github.io/author/shunpan-liang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shunpan Liang</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
+      <title>Shunpan Liang</title>
+      <link>http://localhost:1399/tumplab.github.io/author/shunpan-liang/</link>
+    </image>
+    
+    <item>
+      <title>Point-of-Interest Recommendation for Users-Businesses with Uncertain Check-ins</title>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2021-tkde/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2021-tkde/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

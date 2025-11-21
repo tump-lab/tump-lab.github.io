@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yingpeng Du | TUMP Research Group</title>
+    <link>http://localhost:1399/tumplab.github.io/author/yingpeng-du/</link>
+      <atom:link href="http://localhost:1399/tumplab.github.io/author/yingpeng-du/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yingpeng Du</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
+      <title>Yingpeng Du</title>
+      <link>http://localhost:1399/tumplab.github.io/author/yingpeng-du/</link>
+    </image>
+    
+    <item>
+      <title>Active Large Language Model-based Knowledge Distillation for Session-based Recommendation</title>
+      <link>http://localhost:1399/tumplab.github.io/publication/du-2025-aaai/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1399/tumplab.github.io/publication/du-2025-aaai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Model-Agnostic Social Network Refinement with Diffusion Models for Robust Social Recommendation</title>
+      <link>http://localhost:1399/tumplab.github.io/publication/sun-2025-webconf/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2025-webconf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Re2LLM: Reflective Reinforcement Large Language Model for Session-based Recommendation</title>
+      <link>http://localhost:1399/tumplab.github.io/publication/wang-2025-aaai/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1399/tumplab.github.io/publication/wang-2025-aaai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Disentangled Multi-interest Representation Learning for Sequential Recommendation</title>
+      <link>http://localhost:1399/tumplab.github.io/publication/du-2024-kdd/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1399/tumplab.github.io/publication/du-2024-kdd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-Supervised Denoising through Independent Cascade Graph Augmentation for Robust Social Recommendation</title>
+      <link>http://localhost:1399/tumplab.github.io/publication/youchen-2024-kdd/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1399/tumplab.github.io/publication/youchen-2024-kdd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unified Denoising Training for Recommendation</title>
+      <link>http://localhost:1399/tumplab.github.io/publication/chua-2024-recsys/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1399/tumplab.github.io/publication/chua-2024-recsys/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

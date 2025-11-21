@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bing Wang | TUMP Research Group</title>
+    <link>http://localhost:1399/tumplab.github.io/author/bing-wang/</link>
+      <atom:link href="http://localhost:1399/tumplab.github.io/author/bing-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bing Wang</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
+      <title>Bing Wang</title>
+      <link>http://localhost:1399/tumplab.github.io/author/bing-wang/</link>
+    </image>
+    
+    <item>
+      <title>Adaptive Intention Learning for Session-based Recommendation</title>
+      <link>http://localhost:1399/tumplab.github.io/publication/zhang-2024-tist/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1399/tumplab.github.io/publication/zhang-2024-tist/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+{{- define "main" -}}
+{{- if .Params.external_link -}}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="0; url={{ .Params.external_link | safeURL }}">
+  <link rel="canonical" href="{{ .Params.external_link | safeURL }}">
+  <script>
+    window.location.replace({{ .Params.external_link | jsonify }});
+  </script>
+</head>
+<body>
+  <p>正在跳转到 <a href="{{ .Params.external_link | safeURL }}">{{ .Params.external_link }}</a>...</p>
+</body>
+</html>
+{{- else -}}
+{{- /* 正常的作者页面内容 - 让主题使用默认模板 */ -}}
+{{- end -}}
+{{- end -}}
+

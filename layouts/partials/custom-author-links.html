@@ -1,0 +1,67 @@
+{{- /* 自定义作者链接脚本 - 修改 People 页面上的作者链接 */ -}}
+{{- /* Hugo template file - linter warnings can be ignored */ -}}
+<script>
+(function() {
+  // 作者外部链接映射表
+  // 这个映射表会在页面加载时由 Hugo 生成
+  const authorExternalLinks = {
+    {{- range where site.RegularPages "Type" "authors" -}}
+    {{- if .Params.external_link -}}
+    {{- $slug := .File.Dir | replace "authors/" "" | replace "/" "" -}}
+    {{- $link := .Params.external_link | safeJS -}}
+    "{{ $slug }}": "{{ $link }}",
+    {{- end -}}
+    {{- end -}}
+  };
+
+  // 修改所有作者链接
+  function updateAuthorLinks() {
+    // 查找所有指向作者页面的链接
+    const authorLinks = document.querySelectorAll('a[href*="/author/"], a[href*="/authors/"]');
+    
+    authorLinks.forEach(function(link) {
+      // 从链接中提取作者标识
+      const href = link.getAttribute('href');
+      if (!href) return;
+      
+      // 匹配 /author/xxx 或 /authors/xxx 格式
+      const match = href.match(/\/(?:author|authors)\/([^\/]+)/);
+      if (!match) return;
+      
+      const authorSlug = match[1];
+      
+      // 检查是否有外部链接
+      if (authorExternalLinks[authorSlug]) {
+        // 有外部链接：更新链接指向外部URL
+        link.href = authorExternalLinks[authorSlug];
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+      } else {
+        // 没有外部链接：禁用链接但保留元素
+        link.removeAttribute('href');
+        link.style.cursor = 'default';
+        link.style.textDecoration = 'none';
+        link.onclick = function(e) { e.preventDefault(); return false; };
+      }
+    });
+  }
+
+  // 页面加载完成后执行
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', updateAuthorLinks);
+  } else {
+    updateAuthorLinks();
+  }
+
+  // 使用 MutationObserver 监听动态加载的内容
+  const observer = new MutationObserver(function(mutations) {
+    updateAuthorLinks();
+  });
+
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true
+  });
+})();
+</script>
+

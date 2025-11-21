@@ -1,0 +1,82 @@
+---
+title: News
+draft: false
+---
+
+[Nov 2025] Welcome Prof. Li Zhou to our team as a Visiting Professor!
+
+[Nov 2025] Welcome Yu Lei to our team as a Visiting PhD student!
+
+[Nov 2025] One paper has been accepted by AAAI  2026 Main Technical Track, and one paper has been accepted by the Student Abstract and Poster Program. Congratulations to all co-authors!
+
+[Oct 2025] I was invited to give a talk on trustworthy generative recommender systems for social connections at Ola Chat
+
+[Oct 2025] Welcome Mao Li to our team as a Visiting PhD student!
+
+[Oct 2025] Welcome Huizhong Guo to our team as a Visiting PhD student!
+
+[Oct 2025] I was invited to give a talk on generative models for recommendation at Lorong AI, Singapore!
+
+[Sep 2025] I was invited to give a talk on generative models for recommendation at the Infocomm Media Development Authority (IMDA), Singapore!
+
+[Sep 2025] Welcome Zihang Luo to our team as a PhD student!
+
+[Sep 2025] One paper was accepted by IEEE TEVC 2025. Congratulations to all co-authors!
+
+[Sep 2025] Welcome Zhuoxuan Huang to our team as a Visiting PhD student!
+
+[Aug 2025] I was invited to give a talk on generative recommendation at Huawei Hong Kong Research Center (HKRC)!
+
+[Aug 2025] I was invited to give a talk on generative recommendation at the Department of Computer Science, Hong Kong Baptist University (HKBU)!
+
+[Aug 2025] Welcome Lingfeng Huang to our team as a Research Assistant! 
+
+[Aug 2025] I have been appointed as the Undergraduate Consortium Co-Chair of AAAI 2026!
+
+[May 2025] One paper was accepted by KDD 2025
+
+[May 2025] One paper was accepted by ACM TOIS 2025
+
+[Apr 2025] I was awarded the 2025 TL@SUTD Seed Research Project Grant as the PI!
+
+[Apr 2025] I was invited as a mentor for the PhD Symposium at TheWebConf 2025 
+
+[Apr 2025] I was invited to give a talk titled "Leveraging LLMs for Recommendation" at the Women in the Web session of TheWebConf 2025
+
+[Apr 2025] I received the Rising Stars of Women in Web Award at TheWebConf, 2025!
+
+[Apr 2025] One paper was accepted by ACM TOIS 2025
+
+[Apr 2025] One paper was accepted by SIGIR 2025
+
+[Mar 2025] One paper was accepted by Neural Networks 2025
+
+[Feb 2025] Our paper "Revisiting Bundle Recommendation for Intent-aware Product Bundling" has been selected as ACM TORS 2024 Featured Article!
+
+[Feb 2025] I was invited to join the Editorial Board of Memetic Computing for 2025
+
+[Jan 2025] One paper was accepted by Neural Networks 2025
+
+[Jan 2025] One paper was accepted by TheWebConf 2025 as an oral presentation!
+
+[Jan 2025] One paper was accepted by ACM TOIS, 2025
+
+[Dec 2024] My PhD Student Sun Yatong at MQ was awarded the Vice-Chancellor's Commendation for his PhD Thesis - Congratulations 🎉🎉🎉!
+
+[Dec 2024] I was awarded the 2024 SUTD Kickstarter Initiative (SKI) Grant as the PI!
+
+[Dec 2024] Three research papers were accepted by AAAI, 2025
+
+[Dec 2024] One paper was accepted by IJHCI, 2024
+
+[Nov 2024] One paper was accepted by ACM TIST, 2024
+
+[Oct 2024] I received the Outstanding Reviewer Award at ACM RecSys, 2024
+
+[Jul 2024] One paper was accepted by ACM RecSys, 2024
+
+[Jul 2024] We received a Best Paper Nomination at SIGIR, 2024 
+
+[May 2024] Two research papers were accepted by KDD, 2024
+
+[Mar 2024] Four research papers were accepted by SIGIR, 2024

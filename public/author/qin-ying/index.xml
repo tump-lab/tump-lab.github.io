@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qin Ying | TUMP Research Group</title>
+    <link>http://localhost:1399/tumplab.github.io/author/qin-ying/</link>
+      <atom:link href="http://localhost:1399/tumplab.github.io/author/qin-ying/index.xml" rel="self" type="application/rss+xml" />
+    <description>Qin Ying</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
+      <title>Qin Ying</title>
+      <link>http://localhost:1399/tumplab.github.io/author/qin-ying/</link>
+    </image>
+    
+    <item>
+      <title>Understanding Diversity in Session-based Recommendation</title>
+      <link>http://localhost:1399/tumplab.github.io/publication/ying-2023-tois/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1399/tumplab.github.io/publication/ying-2023-tois/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

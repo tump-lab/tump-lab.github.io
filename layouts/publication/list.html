@@ -1,0 +1,240 @@
+{{- define "main" -}}
+{{- .Content -}}
+
+{{- /* Hugo template file - linter warnings can be ignored */ -}}
+<style>
+/* 强制隐藏所有cite modal弹窗 */
+.modal.show[id*="cite"], 
+.modal[id*="citation"],
+#cite-modal,
+.cite-modal,
+div.modal[role="dialog"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+.modal-backdrop {
+  display: none !important;
+}
+</style>
+
+<script>
+(function() {
+  const publicationUrls = {
+    "chua2024recsys": "https://dl.acm.org/doi/10.1145/3640457.3688109",
+    "du2024kdd": "https://dl.acm.org/doi/10.1145/3637528.3671800",
+    "du2025aaai": "https://ojs.aaai.org/index.php/AAAI/article/view/33263",
+    "feng2024cai": "https://www.computer.org/csdl/proceedings-article/cai/2024/540900b530/1Z06oRbZTVK",
+    "guo2015umap": "https://ceur-ws.org/Vol-1388/demo_paper1.pdf",
+    "guo2017umap": "https://dl.acm.org/doi/10.1145/3099023.3099066",
+    "guo2019icwe_short": "https://link.springer.com/chapter/10.1007/978-3-030-19274-7_6",
+    "guo2019icwe_tutorial": "https://link.springer.com/chapter/10.1007/978-3-030-19274-7_46",
+    "guo2020aaai": "https://ojs.aaai.org/index.php/AAAI/article/view/5337",
+    "guo2020neucom": "https://www.sciencedirect.com/science/article/pii/S0925231219318041",
+    "guo2024sigir": "https://dl.acm.org/doi/10.1145/3626772.3657694",
+    "guo2025sigir": "https://dl.acm.org/doi/10.1145/3726302.3729969",
+    "jiajie2023recsys": "https://dl.acm.org/doi/10.1145/3604915.3608802",
+    "lei2025neuralnetworks": "https://www.sciencedirect.com/science/article/pii/S0893608025000917",
+    "li2024ijhci": "https://www.tandfonline.com/doi/full/10.1080/10447318.2024.2446511",
+    "li2025kdd": "https://dl.acm.org/doi/10.1145/3711896.3737026",
+    "li2025neuralnetworks": "https://www.sciencedirect.com/science/article/pii/S0893608025003223",
+    "lin2022tkde": "https://www.computer.org/csdl/journal/tk/2023/08/09906456/1H5EKIMPrK8",
+    "liu2018ins": "https://www.sciencedirect.com/science/article/pii/S0020025516315742",
+    "liu2021ins": "https://www.sciencedirect.com/science/article/pii/S0020025521007544",
+    "pei2017cikm": "https://dl.acm.org/doi/10.1145/3132847.3133005",
+    "qiu2016umap": "https://dl.acm.org/doi/10.1145/2930238.2930272",
+    "qu2022kdd_audio": "https://dl.acm.org/doi/10.1145/3534678.3539268",
+    "qu2022kdd_policy": "https://dl.acm.org/doi/10.1145/3534678.3539266",
+    "qu2023sigir": "https://dl.acm.org/doi/10.1145/3539618.3591876",
+    "qu2024cai": "https://www.computer.org/csdl/proceedings-article/cai/2024/540900a290/1Z06nKQVxkI",
+    "sha2021ecra": "https://www.sciencedirect.com/science/article/pii/S1567422321000430",
+    "sha2021tcss": "https://doi.org/10.1109/TCSS.2021.3108794",
+    "sha2022tnnls": "https://doi.org/10.1109/TNNLS.2024.3352435",
+    "sun2020recsys": "https://dl.acm.org/doi/10.1145/3383313.3412489",
+    "sun2022tpami": "https://doi.org/10.1109/TPAMI.2022.3231891",
+    "sun2023tois_poi": "https://dl.acm.org/doi/10.1145/3592789",
+    "sun2025webconf": "https://dl.acm.org/doi/10.1145/3696410.3714683",
+    "wang2025aaai": "https://ojs.aaai.org/index.php/AAAI/article/view/33399",
+    "wu2025tois": "https://dl.acm.org/doi/10.1145/3766066",
+    "yatong2025aaai": "https://ojs.aaai.org/index.php/AAAI/article/view/33374",
+    "zhang2025tois": "https://dl.acm.org/doi/10.1145/3713071",
+  };
+
+
+  // 将所有 Cite 按钮改为 PDF 按钮并添加外部链接
+  function updateCiteButtons() {
+    console.log('=== Updating cite buttons to PDF buttons ===');
+    
+    // 方法1: 查找所有包含"Cite"文本的链接
+    const allLinks = document.querySelectorAll('a');
+    let count = 0;
+    
+    allLinks.forEach(function(link) {
+      const text = link.textContent.trim();
+      const href = link.getAttribute('href') || '';
+      const dataFilename = link.getAttribute('data-filename') || '';
+      const classes = link.className || '';
+      
+      // 检查是否是Cite按钮
+      const isCiteButton = text === 'Cite' || 
+                          text === 'cite' || 
+                          classes.includes('js-cite-modal') ||
+                          href.includes('cite.bib') ||
+                          dataFilename.includes('cite.bib');
+      
+      if (!isCiteButton) return;
+      
+      count++;
+      console.log('Processing cite button #' + count + ':', text, href);
+      
+      // 从 data-filename 属性或 href 中提取文件夹名称
+      const filename = dataFilename || href;
+      
+      // 提取文件夹名称，如 "/publication/wang-2025-aaai/cite.bib" -> "wang-2025-aaai"
+      const match = filename.match(/\/publication\/([^\/]+)\//);
+      
+      let targetUrl = null;
+      if (match) {
+        const folderName = match[1];
+        const bibKey = folderName.replace(/-/g, '');
+        
+        targetUrl = publicationUrls[bibKey];
+        
+        if (!targetUrl) {
+          for (const [key, url] of Object.entries(publicationUrls)) {
+            if (key.toLowerCase().includes(bibKey.toLowerCase())) {
+              targetUrl = url;
+              break;
+            }
+          }
+        }
+      }
+      
+      // 修改按钮
+      link.textContent = 'PDF';
+      link.innerHTML = 'PDF';
+      
+      if (targetUrl) {
+        link.href = targetUrl;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.title = 'View PDF online';
+        link.onclick = function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          window.open(targetUrl, '_blank');
+          return false;
+        };
+        console.log('✓ Updated to PDF with URL:', targetUrl);
+      } else {
+        link.href = '#';
+        link.style.opacity = '0.5';
+        link.style.cursor = 'not-allowed';
+        link.onclick = function(e) { e.preventDefault(); return false; };
+        console.log('✗ No URL found, disabled button');
+      }
+      
+      // 移除所有cite相关属性
+      link.removeAttribute('data-target');
+      link.removeAttribute('data-filename');
+      link.removeAttribute('data-toggle');
+      link.removeAttribute('data-bs-toggle');
+      link.removeAttribute('data-bs-target');
+      link.classList.remove('js-cite-modal');
+      link.classList.add('btn-pdf-replaced');
+    });
+    
+    console.log('=== Total cite buttons processed:', count, '===');
+  }
+
+  // 页面加载完成后执行（多次重试）
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() {
+      updateCiteButtons();
+      setTimeout(updateCiteButtons, 50);
+      setTimeout(updateCiteButtons, 100);
+      setTimeout(updateCiteButtons, 200);
+      setTimeout(updateCiteButtons, 500);
+      setTimeout(updateCiteButtons, 1000);
+      setTimeout(updateCiteButtons, 2000);
+      setTimeout(updateCiteButtons, 3000);
+    });
+  } else {
+    updateCiteButtons();
+    setTimeout(updateCiteButtons, 50);
+    setTimeout(updateCiteButtons, 100);
+    setTimeout(updateCiteButtons, 200);
+    setTimeout(updateCiteButtons, 500);
+    setTimeout(updateCiteButtons, 1000);
+    setTimeout(updateCiteButtons, 2000);
+    setTimeout(updateCiteButtons, 3000);
+  }
+
+  // 使用 MutationObserver 监听动态加载的内容
+  const observer = new MutationObserver(function(mutations) {
+    updateCiteButtons();
+  });
+
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true
+  });
+  
+  // 也监听点击事件，在用户点击前阻止
+  document.addEventListener('click', function(e) {
+    const target = e.target;
+    if (target.tagName === 'A' && 
+        (target.textContent.trim() === 'Cite' || target.classList.contains('js-cite-modal'))) {
+      e.preventDefault();
+      e.stopPropagation();
+      e.stopImmediatePropagation();
+      console.log('Blocked cite modal click');
+      updateCiteButtons();
+      return false;
+    }
+  }, true);
+  
+  // 主动移除所有modal元素
+  function removeModals() {
+    const modals = document.querySelectorAll('.modal[role="dialog"], .modal-backdrop, div[id*="cite"]');
+    modals.forEach(function(modal) {
+      if (modal.id && modal.id.toLowerCase().includes('cite')) {
+        modal.remove();
+        console.log('Removed modal:', modal.id);
+      }
+    });
+  }
+  
+  // 监听modal显示事件并阻止
+  document.addEventListener('show.bs.modal', function(e) {
+    console.log('Preventing modal show event');
+    e.preventDefault();
+    e.stopPropagation();
+    return false;
+  }, true);
+  
+  // 定期清理modal
+  setInterval(removeModals, 1000);
+  
+  // MutationObserver监听新增的modal并立即移除
+  const modalObserver = new MutationObserver(function(mutations) {
+    mutations.forEach(function(mutation) {
+      mutation.addedNodes.forEach(function(node) {
+        if (node.nodeType === 1 && node.classList && 
+            (node.classList.contains('modal') || node.classList.contains('modal-backdrop'))) {
+          node.style.display = 'none';
+          node.remove();
+          console.log('Removed dynamically added modal');
+        }
+      });
+    });
+  });
+  
+  modalObserver.observe(document.body, {
+    childList: true,
+    subtree: true
+  });
+})();
+</script>
+{{- end -}}

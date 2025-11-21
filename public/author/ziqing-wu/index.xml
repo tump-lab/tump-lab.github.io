@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ziqing Wu | TUMP Research Group</title>
+    <link>http://localhost:1399/tumplab.github.io/author/ziqing-wu/</link>
+      <atom:link href="http://localhost:1399/tumplab.github.io/author/ziqing-wu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ziqing Wu</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
+      <title>Ziqing Wu</title>
+      <link>http://localhost:1399/tumplab.github.io/author/ziqing-wu/</link>
+    </image>
+    
+    <item>
+      <title>Decentralized Next Point-of-Interest Recommendation Guided by Willingness to Share</title>
+      <link>http://localhost:1399/tumplab.github.io/publication/wu-2025-tois/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1399/tumplab.github.io/publication/wu-2025-tois/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Next Point-of-Interest Recommendation with Inferring Multi-step Future Preference</title>
+      <link>http://localhost:1399/tumplab.github.io/publication/zhang-2022-ijcai/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1399/tumplab.github.io/publication/zhang-2022-ijcai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Interactive Multi-Task Learning Framework for Next POI Recommendation with Uncertain Check-ins</title>
+      <link>http://localhost:1399/tumplab.github.io/publication/zhang-2020-ijcai/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1399/tumplab.github.io/publication/zhang-2020-ijcai/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

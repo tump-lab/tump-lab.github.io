@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zihang Luo | TUMP Research Group</title>
+    <link>http://localhost:1399/tumplab.github.io/author/zihang-luo/</link>
+      <atom:link href="http://localhost:1399/tumplab.github.io/author/zihang-luo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zihang Luo</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <image>
+      <url>http://localhost:1399/tumplab.github.io/author/zihang-luo/avatar_hu_18558d55f600e36a.jpg</url>
+      <title>Zihang Luo</title>
+      <link>http://localhost:1399/tumplab.github.io/author/zihang-luo/</link>
+    </image>
+    
+  </channel>
+</rss>

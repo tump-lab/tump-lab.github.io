@@ -1,0 +1,26 @@
+---
+title: 'MRLR: Multi-level Representation Learning for Personalized Ranking in Recommendation'
+authors:
+- Zhu Sun
+- Jie Yang
+- Jie Zhang
+- Alessandro Bozzon
+- Yu Chen
+- Chi Xu
+date: '2017-01-01'
+publishDate: '2025-08-14T14:34:46.841205Z'
+publication_types:
+- paper-conference
+publication: '*The 26th International Joint Conference on Artificial Intelligence
+  (IJCAI)*'
+abstract: "Representation learning (RL) has recently proven to be effective in capturing
+  local item relationships by modeling item co-occurrence in individual user's interaction
+  record. However, the value of RL for recommendation has not reached the full potential
+  due to two major drawbacks: 1) recommendation is modeled as a rating prediction
+  problem but should essentially be a personalized ranking one; 2) multi-level organizations
+  of items are neglected for fine-grained item relationships. We design a unified
+  Bayesian framework MRLR to learn user and item embeddings from a multi-level item
+  organization, thus benefiting from RL as well as achieving the goal of personalized
+  ranking. Extensive validation on real-world datasets shows that MRLR consistently
+  outperforms state-of-the-art algorithms."
+---
