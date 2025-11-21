@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sun Zhu (孙竹) | TUMP Research Group</title>
-    <link>http://localhost:1399/tumplab.github.io/author/sun-zhu-%E5%AD%99%E7%AB%B9/</link>
-      <atom:link href="http://localhost:1399/tumplab.github.io/author/sun-zhu-%E5%AD%99%E7%AB%B9/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/author/sun-zhu-%E5%AD%99%E7%AB%B9/</link>
+      <atom:link href="http://localhost:1399/author/sun-zhu-%E5%AD%99%E7%AB%B9/index.xml" rel="self" type="application/rss+xml" />
     <description>Sun Zhu (孙竹)</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
-      <url>http://localhost:1399/tumplab.github.io/author/sun-zhu-%E5%AD%99%E7%AB%B9/avatar_hu_e8e663264f1b1896.png</url>
+      <url>http://localhost:1399/author/sun-zhu-%E5%AD%99%E7%AB%B9/avatar_hu_e8e663264f1b1896.png</url>
       <title>Sun Zhu (孙竹)</title>
-      <link>http://localhost:1399/tumplab.github.io/author/sun-zhu-%E5%AD%99%E7%AB%B9/</link>
+      <link>http://localhost:1399/author/sun-zhu-%E5%AD%99%E7%AB%B9/</link>
     </image>
     
   </channel>

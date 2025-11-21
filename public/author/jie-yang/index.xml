@@ -2,101 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jie Yang | TUMP Research Group</title>
-    <link>http://localhost:1399/tumplab.github.io/author/jie-yang/</link>
-      <atom:link href="http://localhost:1399/tumplab.github.io/author/jie-yang/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/author/jie-yang/</link>
+      <atom:link href="http://localhost:1399/author/jie-yang/index.xml" rel="self" type="application/rss+xml" />
     <description>Jie Yang</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
       <title>Jie Yang</title>
-      <link>http://localhost:1399/tumplab.github.io/author/jie-yang/</link>
+      <link>http://localhost:1399/author/jie-yang/</link>
     </image>
     
     <item>
       <title>Adaptive In-Context Learning with Large Language Models for Bundle Generation</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/sun-2024-sigir-bundle/</link>
+      <link>http://localhost:1399/publication/sun-2024-sigir-bundle/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2024-sigir-bundle/</guid>
+      <guid>http://localhost:1399/publication/sun-2024-sigir-bundle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Revisiting Bundle Recommendation for Intent-aware Product Bundling</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/sun-2024-tors/</link>
+      <link>http://localhost:1399/publication/sun-2024-tors/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2024-tors/</guid>
+      <guid>http://localhost:1399/publication/sun-2024-tors/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DaisyRec 2.0: Benchmarking Recommendation for Rigorous Evaluation</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/sun-2022-tpami/</link>
+      <link>http://localhost:1399/publication/sun-2022-tpami/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2022-tpami/</guid>
+      <guid>http://localhost:1399/publication/sun-2022-tpami/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Revisiting Bundle Recommendation: Datasets, Tasks, Challenges and Opportunities for Intent-aware Product Bundling</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/sun-2022-sigir/</link>
+      <link>http://localhost:1399/publication/sun-2022-sigir/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2022-sigir/</guid>
+      <guid>http://localhost:1399/publication/sun-2022-sigir/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Are We Evaluating Rigorously? Benchmarking Recommendation for Reproducible Evaluation and Fair Comparison</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/sun-2020-recsys/</link>
+      <link>http://localhost:1399/publication/sun-2020-recsys/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2020-recsys/</guid>
+      <guid>http://localhost:1399/publication/sun-2020-recsys/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Research Commentary on Recommendations with Side Information: A Survey and Research Directions</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/sun-2019-ecra/</link>
+      <link>http://localhost:1399/publication/sun-2019-ecra/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2019-ecra/</guid>
+      <guid>http://localhost:1399/publication/sun-2019-ecra/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recurrent Knowledge Graph Embedding for Effective Recommendation</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/sun-2018-recsys/</link>
+      <link>http://localhost:1399/publication/sun-2018-recsys/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2018-recsys/</guid>
+      <guid>http://localhost:1399/publication/sun-2018-recsys/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exploiting both Vertical and Horizontal Dimensions of Feature hierarchy for Effective Recommendation</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/sun-2017-aaai/</link>
+      <link>http://localhost:1399/publication/sun-2017-aaai/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2017-aaai/</guid>
+      <guid>http://localhost:1399/publication/sun-2017-aaai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Interactive Attention-Gated Recurrent Networks for Recommendation</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/pei-2017-cikm/</link>
+      <link>http://localhost:1399/publication/pei-2017-cikm/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/pei-2017-cikm/</guid>
+      <guid>http://localhost:1399/publication/pei-2017-cikm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MRLR: Multi-level Representation Learning for Personalized Ranking in Recommendation</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/sun-2017-ijcai/</link>
+      <link>http://localhost:1399/publication/sun-2017-ijcai/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2017-ijcai/</guid>
+      <guid>http://localhost:1399/publication/sun-2017-ijcai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning Hierarchical Feature Influence for Recommendation by Recursive Regularization</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/yang-2016-recsys/</link>
+      <link>http://localhost:1399/publication/yang-2016-recsys/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/yang-2016-recsys/</guid>
+      <guid>http://localhost:1399/publication/yang-2016-recsys/</guid>
       <description></description>
     </item>
     
