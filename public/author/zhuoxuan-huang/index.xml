@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zhuoxuan Huang | TUMP Research Group</title>
-    <link>//localhost:1399/author/zhuoxuan-huang/</link>
-      <atom:link href="//localhost:1399/author/zhuoxuan-huang/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/author/zhuoxuan-huang/</link>
+      <atom:link href="http://localhost:1399/author/zhuoxuan-huang/index.xml" rel="self" type="application/rss+xml" />
     <description>Zhuoxuan Huang</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
-      <url>//localhost:1399/author/zhuoxuan-huang/avatar_hu_f26a93c110894d4e.jpg</url>
+      <url>http://localhost:1399/author/zhuoxuan-huang/avatar_hu_f26a93c110894d4e.jpg</url>
       <title>Zhuoxuan Huang</title>
-      <link>//localhost:1399/author/zhuoxuan-huang/</link>
+      <link>http://localhost:1399/author/zhuoxuan-huang/</link>
     </image>
     
   </channel>

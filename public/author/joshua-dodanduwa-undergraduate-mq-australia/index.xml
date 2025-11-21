@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Joshua Dodanduwa (Undergraduate, MQ, Australia) | TUMP Research Group</title>
-    <link>//localhost:1399/author/joshua-dodanduwa-undergraduate-mq-australia/</link>
-      <atom:link href="//localhost:1399/author/joshua-dodanduwa-undergraduate-mq-australia/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/author/joshua-dodanduwa-undergraduate-mq-australia/</link>
+      <atom:link href="http://localhost:1399/author/joshua-dodanduwa-undergraduate-mq-australia/index.xml" rel="self" type="application/rss+xml" />
     <description>Joshua Dodanduwa (Undergraduate, MQ, Australia)</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
-      <url>//localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
       <title>Joshua Dodanduwa (Undergraduate, MQ, Australia)</title>
-      <link>//localhost:1399/author/joshua-dodanduwa-undergraduate-mq-australia/</link>
+      <link>http://localhost:1399/author/joshua-dodanduwa-undergraduate-mq-australia/</link>
     </image>
     
   </channel>
