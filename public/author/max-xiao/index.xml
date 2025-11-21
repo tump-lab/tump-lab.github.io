@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Max Xiao | TUMP Research Group</title>
-    <link>http://localhost:1399/tumplab.github.io/author/max-xiao/</link>
-      <atom:link href="http://localhost:1399/tumplab.github.io/author/max-xiao/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:1399/author/max-xiao/</link>
+      <atom:link href="//localhost:1399/author/max-xiao/index.xml" rel="self" type="application/rss+xml" />
     <description>Max Xiao</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
-      <url>http://localhost:1399/tumplab.github.io/author/max-xiao/avatar_hu_c31414669039d20c.png</url>
+      <url>//localhost:1399/author/max-xiao/avatar_hu_c31414669039d20c.png</url>
       <title>Max Xiao</title>
-      <link>http://localhost:1399/tumplab.github.io/author/max-xiao/</link>
+      <link>//localhost:1399/author/max-xiao/</link>
     </image>
     
   </channel>

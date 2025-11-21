@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lingfeng Huang | TUMP Research Group</title>
-    <link>http://localhost:1399/tumplab.github.io/author/lingfeng-huang/</link>
-      <atom:link href="http://localhost:1399/tumplab.github.io/author/lingfeng-huang/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:1399/author/lingfeng-huang/</link>
+      <atom:link href="//localhost:1399/author/lingfeng-huang/index.xml" rel="self" type="application/rss+xml" />
     <description>Lingfeng Huang</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
-      <url>http://localhost:1399/tumplab.github.io/author/lingfeng-huang/avatar_hu_6805dc683562e071.jpg</url>
+      <url>//localhost:1399/author/lingfeng-huang/avatar_hu_6805dc683562e071.jpg</url>
       <title>Lingfeng Huang</title>
-      <link>http://localhost:1399/tumplab.github.io/author/lingfeng-huang/</link>
+      <link>//localhost:1399/author/lingfeng-huang/</link>
     </image>
     
   </channel>

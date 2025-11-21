@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jinfeng Li | TUMP Research Group</title>
-    <link>http://localhost:1399/tumplab.github.io/author/jinfeng-li/</link>
-      <atom:link href="http://localhost:1399/tumplab.github.io/author/jinfeng-li/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:1399/author/jinfeng-li/</link>
+      <atom:link href="//localhost:1399/author/jinfeng-li/index.xml" rel="self" type="application/rss+xml" />
     <description>Jinfeng Li</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
+      <url>//localhost:1399/media/logo_hu_56e6e152940932db.png</url>
       <title>Jinfeng Li</title>
-      <link>http://localhost:1399/tumplab.github.io/author/jinfeng-li/</link>
+      <link>//localhost:1399/author/jinfeng-li/</link>
     </image>
     
     <item>
       <title>Enhancing New-item Fairness in Dynamic Recommender Systems</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/guo-2025-sigir/</link>
+      <link>//localhost:1399/publication/guo-2025-sigir/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/guo-2025-sigir/</guid>
+      <guid>//localhost:1399/publication/guo-2025-sigir/</guid>
       <description></description>
     </item>
     

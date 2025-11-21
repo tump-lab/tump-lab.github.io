@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Feng Zhu | TUMP Research Group</title>
-    <link>http://localhost:1399/tumplab.github.io/author/feng-zhu/</link>
-      <atom:link href="http://localhost:1399/tumplab.github.io/author/feng-zhu/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:1399/author/feng-zhu/</link>
+      <atom:link href="//localhost:1399/author/feng-zhu/index.xml" rel="self" type="application/rss+xml" />
     <description>Feng Zhu</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
+      <url>//localhost:1399/media/logo_hu_56e6e152940932db.png</url>
       <title>Feng Zhu</title>
-      <link>http://localhost:1399/tumplab.github.io/author/feng-zhu/</link>
+      <link>//localhost:1399/author/feng-zhu/</link>
     </image>
     
     <item>
       <title>Causal Deconfounding via Confounder Disentanglement for Dual-Target Cross-Domain Recommendation</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/zhu-2025-tois/</link>
+      <link>//localhost:1399/publication/zhu-2025-tois/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/zhu-2025-tois/</guid>
+      <guid>//localhost:1399/publication/zhu-2025-tois/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Domain Disentanglement with Interpolative Data Augmentation for Dual-Target Cross-Domain Recommendation</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/jiajie-2023-recsys/</link>
+      <link>//localhost:1399/publication/jiajie-2023-recsys/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/jiajie-2023-recsys/</guid>
+      <guid>//localhost:1399/publication/jiajie-2023-recsys/</guid>
       <description></description>
     </item>
     
