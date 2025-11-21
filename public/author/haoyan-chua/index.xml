@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Haoyan Chua | TUMP Research Group</title>
-    <link>http://localhost:1399/tumplab.github.io/author/haoyan-chua/</link>
-      <atom:link href="http://localhost:1399/tumplab.github.io/author/haoyan-chua/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/author/haoyan-chua/</link>
+      <atom:link href="http://localhost:1399/author/haoyan-chua/index.xml" rel="self" type="application/rss+xml" />
     <description>Haoyan Chua</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
       <title>Haoyan Chua</title>
-      <link>http://localhost:1399/tumplab.github.io/author/haoyan-chua/</link>
+      <link>http://localhost:1399/author/haoyan-chua/</link>
     </image>
     
     <item>
       <title>Active Large Language Model-based Knowledge Distillation for Session-based Recommendation</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/du-2025-aaai/</link>
+      <link>http://localhost:1399/publication/du-2025-aaai/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/du-2025-aaai/</guid>
+      <guid>http://localhost:1399/publication/du-2025-aaai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Re2LLM: Reflective Reinforcement Large Language Model for Session-based Recommendation</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/wang-2025-aaai/</link>
+      <link>http://localhost:1399/publication/wang-2025-aaai/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/wang-2025-aaai/</guid>
+      <guid>http://localhost:1399/publication/wang-2025-aaai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unified Denoising Training for Recommendation</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/chua-2024-recsys/</link>
+      <link>http://localhost:1399/publication/chua-2024-recsys/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/chua-2024-recsys/</guid>
+      <guid>http://localhost:1399/publication/chua-2024-recsys/</guid>
       <description></description>
     </item>
     

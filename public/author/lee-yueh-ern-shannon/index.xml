@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lee Yueh Ern Shannon | TUMP Research Group</title>
-    <link>http://localhost:1399/tumplab.github.io/author/lee-yueh-ern-shannon/</link>
-      <atom:link href="http://localhost:1399/tumplab.github.io/author/lee-yueh-ern-shannon/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/author/lee-yueh-ern-shannon/</link>
+      <atom:link href="http://localhost:1399/author/lee-yueh-ern-shannon/index.xml" rel="self" type="application/rss+xml" />
     <description>Lee Yueh Ern Shannon</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
-      <url>http://localhost:1399/tumplab.github.io/author/lee-yueh-ern-shannon/avatar_hu_e531338b126aa3c7.jpg</url>
+      <url>http://localhost:1399/author/lee-yueh-ern-shannon/avatar_hu_e531338b126aa3c7.jpg</url>
       <title>Lee Yueh Ern Shannon</title>
-      <link>http://localhost:1399/tumplab.github.io/author/lee-yueh-ern-shannon/</link>
+      <link>http://localhost:1399/author/lee-yueh-ern-shannon/</link>
     </image>
     
   </channel>

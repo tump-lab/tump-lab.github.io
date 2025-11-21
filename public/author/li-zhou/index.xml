@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Li Zhou | TUMP Research Group</title>
-    <link>http://localhost:1399/tumplab.github.io/author/li-zhou/</link>
-      <atom:link href="http://localhost:1399/tumplab.github.io/author/li-zhou/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/author/li-zhou/</link>
+      <atom:link href="http://localhost:1399/author/li-zhou/index.xml" rel="self" type="application/rss+xml" />
     <description>Li Zhou</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
-      <url>http://localhost:1399/tumplab.github.io/author/li-zhou/avatar_hu_b2cc48a1ecf858cf.png</url>
+      <url>http://localhost:1399/author/li-zhou/avatar_hu_b2cc48a1ecf858cf.png</url>
       <title>Li Zhou</title>
-      <link>http://localhost:1399/tumplab.github.io/author/li-zhou/</link>
+      <link>http://localhost:1399/author/li-zhou/</link>
     </image>
     
   </channel>

@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Youchen Sun (PhD, NTU, Singapore) | TUMP Research Group</title>
-    <link>http://localhost:1399/tumplab.github.io/author/youchen-sun-phd-ntu-singapore/</link>
-      <atom:link href="http://localhost:1399/tumplab.github.io/author/youchen-sun-phd-ntu-singapore/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/author/youchen-sun-phd-ntu-singapore/</link>
+      <atom:link href="http://localhost:1399/author/youchen-sun-phd-ntu-singapore/index.xml" rel="self" type="application/rss+xml" />
     <description>Youchen Sun (PhD, NTU, Singapore)</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
       <title>Youchen Sun (PhD, NTU, Singapore)</title>
-      <link>http://localhost:1399/tumplab.github.io/author/youchen-sun-phd-ntu-singapore/</link>
+      <link>http://localhost:1399/author/youchen-sun-phd-ntu-singapore/</link>
     </image>
     
     <item>
       <title>Model-Agnostic Social Network Refinement with Diffusion Models for Robust Social Recommendation</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/sun-2025-webconf/</link>
+      <link>http://localhost:1399/publication/sun-2025-webconf/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/sun-2025-webconf/</guid>
+      <guid>http://localhost:1399/publication/sun-2025-webconf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Self-Supervised Denoising through Independent Cascade Graph Augmentation for Robust Social Recommendation</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/youchen-2024-kdd/</link>
+      <link>http://localhost:1399/publication/youchen-2024-kdd/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/youchen-2024-kdd/</guid>
+      <guid>http://localhost:1399/publication/youchen-2024-kdd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Disentangling Motives behind Item Consumption and Social Connection for Mutually-enhanced Joint Prediction</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/youchen-2023-recsys/</link>
+      <link>http://localhost:1399/publication/youchen-2023-recsys/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/youchen-2023-recsys/</guid>
+      <guid>http://localhost:1399/publication/youchen-2023-recsys/</guid>
       <description></description>
     </item>
     

@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xiaochun Yang | TUMP Research Group</title>
-    <link>http://localhost:1399/tumplab.github.io/author/xiaochun-yang/</link>
-      <atom:link href="http://localhost:1399/tumplab.github.io/author/xiaochun-yang/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1399/author/xiaochun-yang/</link>
+      <atom:link href="http://localhost:1399/author/xiaochun-yang/index.xml" rel="self" type="application/rss+xml" />
     <description>Xiaochun Yang</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/tumplab.github.io/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
       <title>Xiaochun Yang</title>
-      <link>http://localhost:1399/tumplab.github.io/author/xiaochun-yang/</link>
+      <link>http://localhost:1399/author/xiaochun-yang/</link>
     </image>
     
     <item>
       <title>LLM4RSR: Large Language Models as Data Correctors for Robust Sequential Recommendation</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/yatong-2025-aaai/</link>
+      <link>http://localhost:1399/publication/yatong-2025-aaai/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/yatong-2025-aaai/</guid>
+      <guid>http://localhost:1399/publication/yatong-2025-aaai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Adaptive Intention Learning for Session-based Recommendation</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/zhang-2024-tist/</link>
+      <link>http://localhost:1399/publication/zhang-2024-tist/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/zhang-2024-tist/</guid>
+      <guid>http://localhost:1399/publication/zhang-2024-tist/</guid>
       <description></description>
     </item>
     
     <item>
       <title>BERD&#43;: A Novel Sequential Recommendation Framework For Combating Unreliable Data</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/yatong-2023-tois/</link>
+      <link>http://localhost:1399/publication/yatong-2023-tois/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/yatong-2023-tois/</guid>
+      <guid>http://localhost:1399/publication/yatong-2023-tois/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Theoretically Guaranteed Bidirectional Data Rectification for Robust Sequential Recommendation</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/yatong-2023-neurips/</link>
+      <link>http://localhost:1399/publication/yatong-2023-neurips/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/yatong-2023-neurips/</guid>
+      <guid>http://localhost:1399/publication/yatong-2023-neurips/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Does Every Data Instance Matter? Enhancing Sequential Recommendation by Eliminating Unreliable Data</title>
-      <link>http://localhost:1399/tumplab.github.io/publication/yatong-2021-ijcai/</link>
+      <link>http://localhost:1399/publication/yatong-2021-ijcai/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/tumplab.github.io/publication/yatong-2021-ijcai/</guid>
+      <guid>http://localhost:1399/publication/yatong-2021-ijcai/</guid>
       <description></description>
     </item>
     
