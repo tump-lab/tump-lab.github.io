@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jinze Wang(Master) | TUMP Research Group</title>
+    <link>http://localhost:1313/author/jinze-wangmaster/</link>
+      <atom:link href="http://localhost:1313/author/jinze-wangmaster/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jinze Wang(Master)</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/logo_hu_1fabfdcd7af5921f.png</url>
+      <title>Jinze Wang(Master)</title>
+      <link>http://localhost:1313/author/jinze-wangmaster/</link>
+    </image>
+    
+    <item>
+      <title>Meta-Learning Enhance Next POI Recommendation with Auxiliary Cities</title>
+      <link>http://localhost:1313/publication/wang-2023-pakdd/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/wang-2023-pakdd/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

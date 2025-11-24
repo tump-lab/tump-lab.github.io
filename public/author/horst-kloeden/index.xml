@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Horst Kloeden | TUMP Research Group</title>
+    <link>http://localhost:1399/author/horst-kloeden/</link>
+      <atom:link href="http://localhost:1399/author/horst-kloeden/index.xml" rel="self" type="application/rss+xml" />
+    <description>Horst Kloeden</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <title>Horst Kloeden</title>
+      <link>http://localhost:1399/author/horst-kloeden/</link>
+    </image>
+    
+    <item>
+      <title>Modeling Hierarchical Category Transition for Next POI Recommendation with Uncertain Check-ins</title>
+      <link>http://localhost:1399/publication/zhang-2020-ins/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1399/publication/zhang-2020-ins/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

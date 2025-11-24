@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Haoming Lyu | TUMP Research Group</title>
+    <link>http://localhost:1399/author/haoming-lyu/</link>
+      <atom:link href="http://localhost:1399/author/haoming-lyu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Haoming Lyu</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <title>Haoming Lyu</title>
+      <link>http://localhost:1399/author/haoming-lyu/</link>
+    </image>
+    
+    <item>
+      <title>Where to Move Next: Zero-shot Generalization of LLMs for Next POI Recommendation</title>
+      <link>http://localhost:1399/publication/feng-2024-cai/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1399/publication/feng-2024-cai/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abhishek Gupta | TUMP Research Group</title>
+    <link>http://localhost:1399/author/abhishek-gupta/</link>
+      <atom:link href="http://localhost:1399/author/abhishek-gupta/index.xml" rel="self" type="application/rss+xml" />
+    <description>Abhishek Gupta</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <title>Abhishek Gupta</title>
+      <link>http://localhost:1399/author/abhishek-gupta/</link>
+    </image>
+    
+    <item>
+      <title>Importance Prioritized Policy Distillation</title>
+      <link>http://localhost:1399/publication/qu-2022-kdd-policy/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1399/publication/qu-2022-kdd-policy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adversary Agnostic Robust Deep Reinforcement Learning</title>
+      <link>http://localhost:1399/publication/qu-2021-tnnls/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1399/publication/qu-2021-tnnls/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Minimalistic Attacks: How Little it Takes to Fool a Deep Reinforcement Learning Policy</title>
+      <link>http://localhost:1399/publication/qu-2020-tcds/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1399/publication/qu-2020-tcds/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
