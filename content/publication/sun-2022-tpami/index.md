@@ -1,0 +1,33 @@
+---
+title: 'DaisyRec 2.0: Benchmarking Recommendation for Rigorous Evaluation'
+authors:
+- Zhu Sun
+- Hui Fang
+- Jie Yang
+- Xinghua Qu
+- Hongyang Liu
+- Di Yu
+- Yew-Soon Ong
+- Jie Zhang
+date: '2022-01-01'
+publishDate: '2025-08-14T14:34:46.867871Z'
+publication_types:
+- article-journal
+publication: '*IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)*'
+abstract: |
+  Recently, one critical issue looms large in the field of recommender systems
+  -- there are no effective benchmarks for rigorous evaluation -- which consequently
+  leads to unreproducible evaluation and unfair comparison. We, therefore, conduct
+  studies from the perspectives of practical theory and experiments, aiming at benchmarking
+  recommendation for rigorous evaluation. Regarding the theoretical study, a series
+  of hyper-factors affecting recommendation performance throughout the whole evaluation
+  chain are systematically summarized and analyzed via an exhaustive review on 141
+  papers published at eight top-tier venues. From the experimental study, we establish
+  a unified, highly modularized, and extensively compared benchmark for rigorous evaluation,
+  which consists of 19 recommendation algorithms, 27 datasets, and 12 evaluation metrics.
+  The benchmark takes account of the significant impact of different hyper-factors
+  on recommendation performance, which can facilitate rigorous evaluation and fair
+  comparison. Extensive experiments on the benchmark show that our theoretical analysis
+  are well supported and that several insights are drawn from the experiments. The
+  benchmark will be made publicly available at https://github.com/recsys-benchmark/DaisyRec-v2.0.
+---

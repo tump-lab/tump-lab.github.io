@@ -1,0 +1,87 @@
+{{/* Wowchemy Blocks: people */}}
+{{/* Documentation: https://wowchemy.com/blocks/ */}}
+{{/* License: https://github.com/wowchemy/wowchemy-hugo-themes/blob/main/LICENSE.md */}}
+
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+
+{{ $show_social := $block.design.show_social | default false }}
+{{ $show_interests := $block.design.show_interests | default true }}
+{{ $show_organizations := $block.design.show_organizations | default true }}
+{{ $show_role := $block.design.show_role | default true }}
+
+<div class="row justify-content-center people-widget">
+  {{ with $block.content.title }}
+  <div class="col-md-12 section-heading">
+    <h1>{{ . | markdownify | emojify }}</h1>
+    {{ if $block.content.subtitle }}<p>{{ $block.content.subtitle | markdownify | emojify }}</p>{{ end }}
+  </div>
+  {{ end }}
+
+  {{ with $block.content.text }}
+  <div class="col-md-12">
+    {{ . | emojify | $page.RenderString }}
+  </div>
+  {{ end }}
+
+  {{ range $block.content.user_groups }}
+  {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
+
+  {{if $query}}
+  {{ $sort_ascending := $block.content.sort_ascending | default true }}
+  {{ if $block.content.sort_by }}
+    {{ if eq $block.content.sort_by "weight" }}
+      {{ if $sort_ascending }}
+        {{ $query = sort $query ".Params.weight" }}
+      {{ else }}
+        {{ $query = sort $query ".Params.weight" "desc" }}
+      {{ end }}
+    {{ else }}
+      {{ $query = sort $query $block.content.sort_by }}
+    {{ end }}
+  {{ else }}
+    {{ $query = sort $query ".Params.last_name" }}
+  {{ end }}
+
+  <div class="col-md-12">
+    <h2 class="mb-4">{{ . | markdownify }}</h2>
+  </div>
+
+  {{ range $query }}
+  {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
+  {{/* Get link to user's profile page. */}}
+  {{ $link := "" }}
+  {{ with site.GetPage (printf "/authors/%s" (path.Base .File.Dir)) }}
+    {{ $link = .RelPermalink }}
+  {{ end }}
+  <div class="col-12 col-sm-auto people-person">
+    {{ $src := "" }}
+    {{ if site.Params.features.avatar.gravatar }}
+      {{ $src = printf "https://s.gravatar.com/avatar/%s?s=270" (md5 .Params.email) }}
+    {{ else if $avatar }}
+      {{ $avatar_image := $avatar.Fill "270x270 Center" }}
+      {{ $src = $avatar_image.RelPermalink }}
+    {{ end }}
+    {{ if $src }}
+      {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
+      <a href="{{$link}}"><img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" width="270" height="270" src="{{ $src }}" alt="{{.Title}}"></a>
+    {{ end }}
+
+    <div class="portrait-title">
+      <h2><a href="{{$link}}">{{ .Title }}</a></h2>
+      {{ if and $show_role .Params.role }}<h3 class="portrait-subtitle">{{ .Params.role }}</h3>{{ end }}
+      {{ if and $show_organizations .Params.organizations }}
+        {{ range first 1 .Params.organizations }}
+        <h3 class="portrait-organization">{{ .name }}</h3>
+        {{ end }}
+      {{ end }}
+      {{ if $show_social }}{{ partial "social_links" . }}{{ end }}
+      {{ if and $show_interests .Params.interests }}<p class="people-interests">{{ delimit .Params.interests ", " | markdownify | emojify }}</p>{{ end }}
+    </div>
+  </div>
+  {{ end }}
+  {{ end }}
+  {{ end }}
+</div>
+

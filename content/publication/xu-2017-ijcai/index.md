@@ -1,0 +1,14 @@
+---
+title: "Online Reputation Fraud Campaign Detection in User Ratings"
+authors:
+- Chang Xu
+- Jie Zhang
+- Zhu Sun
+date: '2017-01-01'
+publishDate: '2025-11-24T20:17:03.181298Z'
+publication_types:
+- paper-conference
+publication: '*The 26th International Joint Conference on Artificial Intelligence (IJCAI)*'
+abstract: |
+  Reputation fraud campaigns (RFCs) distort the reputations of rated items, by generating fake ratings through multiple spammers. One effective way of detecting RFCs is to characterize their collective behaviors based on rating histories.However, these campaigns are constantly evolving and changing tactics to evade detection.For example, they can launch early attacks on the items to quickly dominate the reputations.They can also whitewash themselves through creating new accounts for subsequent attacks.It is thus challenging for existing approaches working on historical data to promptly react to such emerging fraud activities.In this paper, we conduct RFC detection in online fashion, so as to spot campaign activities as early as possible.This leads to a unified and scalable optimization framework, FraudScan, that can adapt to emerging fraud patterns over time.Empirical analysis on two real-world datasets validates the effectiveness and efficiency of the proposed framework.
+---

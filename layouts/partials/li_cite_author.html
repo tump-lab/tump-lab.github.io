@@ -1,0 +1,12 @@
+{{- /* 自定义作者显示 - 只显示纯文本,不生成链接 */ -}}
+{{- /* 从 index.md 的 authors 字段获取作者列表 */ -}}
+{{- $page := . -}}
+
+<span class="article-metadata li-cite-author">
+    {{- with $page.Params.authors -}}
+    {{- range $index, $author := . -}}
+    {{- if $index }}, {{ end -}}
+    <span>{{ $author }}</span>
+    {{- end -}}
+    {{- end -}}
+</span>

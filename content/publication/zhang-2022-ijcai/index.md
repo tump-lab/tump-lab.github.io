@@ -1,0 +1,30 @@
+---
+title: Next Point-of-Interest Recommendation with Inferring Multi-step Future Preference
+authors:
+- Lu Zhang
+- Zhu Sun
+- Ziqing Wu
+- Jie Zhang
+- Ong Yew Soon
+- Xinghua Qu
+date: '2022-01-01'
+publishDate: '2025-08-14T14:34:46.949449Z'
+publication_types:
+- paper-conference
+publication: '*The 31st International Joint Conference on Artificial Intelligence
+  (IJCAI)*'
+abstract: |
+  Existing studies on next point-of-interest (POI) recommendation mainly attempt
+  to learn user preference from the past and current sequential behaviors. They, however,
+  completely ignore the impact of future behaviors on the decision-making, thus hindering
+  the quality of user preference learning. Intuitively, users' next POI visits may
+  also be affected by their multi-step future behaviors, as users may often have activity
+  planning in mind. To fill this gap, we propose a novel Context-aware Future Preference
+  inference Recommender (CFPRec) to help infer user future preference in a self-ensembling
+  manner. In particular, it delicately derives multi-step future preferences from
+  the learned past preference thanks to the periodic property of users' daily check-ins,
+  so as to implicitly mimic user’s activity planning before her next visit. The inferred
+  future preferences are then seamlessly integrated with the current preference for
+  more expressive user preference learning. Extensive experiments on three datasets
+  demonstrate the superiority of CFPRec against state-of-the-arts.
+---

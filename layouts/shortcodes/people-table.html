@@ -1,0 +1,76 @@
+{{- $group := .Get "group" | default "" -}}
+{{- $people := where site.Pages "Section" "authors" -}}
+{{- if $group -}}
+  {{- $people = where $people ".Params.user_groups" "intersect" (slice $group) -}}
+{{- end -}}
+{{- $people = sort $people "Params.weight" "asc" -}}
+
+<div class="people-table-container">
+<div class="table-responsive">
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Graduation Year</th>
+      <th>Topic</th>
+      <th>To</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{- range $people -}}
+    <tr>
+      <td>{{ .Title }}</td>
+      <td>{{ .Params.graduation_year | default "" }}</td>
+      <td>{{ .Params.topic | default "" }}</td>
+      <td>{{ .Params.to | default "" }}</td>
+    </tr>
+    {{- end -}}
+  </tbody>
+</table>
+</div>
+</div>
+
+<style scoped>
+.people-table-container {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.people-table-container .table-responsive {
+  overflow-x: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+.people-table-container .table {
+  width: 100%;
+  min-width: 800px;
+  margin-bottom: 1rem;
+  color: #212529;
+  border-collapse: collapse;
+  table-layout: auto;
+  box-sizing: border-box;
+}
+.people-table-container .table thead th:nth-child(2) {
+  white-space: nowrap;
+  min-width: 150px;
+}
+.people-table-container .table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+  padding: 0.75rem;
+  font-weight: 600;
+  text-align: left;
+  box-sizing: border-box;
+}
+.people-table-container .table tbody td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+  text-align: left;
+  box-sizing: border-box;
+}
+.people-table-container .table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+</style>
+

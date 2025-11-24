@@ -1,0 +1,448 @@
+{{- define "main" -}}
+{{- .Content -}}
+
+{{- /* Hugo template file - linter warnings can be ignored */ -}}
+<style>
+  /* 强制隐藏所有cite modal弹窗 */
+  .modal.show[id*="cite"],
+  .modal[id*="citation"],
+  #cite-modal,
+  .cite-modal,
+  div.modal[role="dialog"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+
+  .modal-backdrop {
+    display: none !important;
+  }
+
+  /* 完全禁用作者链接 */
+  .li-cite-author a[href*="/author/"],
+  .li-cite-author a[href*="/authors/"],
+  .article-metadata a[href*="/author/"],
+  .article-metadata a[href*="/authors/"],
+  .article-metadata.li-cite-author a[href*="/author/"],
+  .article-metadata.li-cite-author a[href*="/authors/"],
+  li a[href*="/author/"],
+  li a[href*="/authors/"],
+  span a[href*="/author/"],
+  span a[href*="/authors/"],
+  a[href^="/author/"],
+  a[href^="/authors/"] {
+    color: inherit !important;
+    text-decoration: none !important;
+    cursor: text !important;
+    pointer-events: none !important;
+    border: none !important;
+    outline: none !important;
+    display: inline !important;
+  }
+
+  .li-cite-author a[href*="/author/"]:hover,
+  .li-cite-author a[href*="/authors/"]:hover,
+  .article-metadata a[href*="/author/"]:hover,
+  .article-metadata a[href*="/authors/"]:hover,
+  .article-metadata.li-cite-author a[href*="/author/"]:hover,
+  .article-metadata.li-cite-author a[href*="/authors/"]:hover,
+  li a[href*="/author/"]:hover,
+  li a[href*="/authors/"]:hover,
+  span a[href*="/author/"]:hover,
+  span a[href*="/authors/"]:hover,
+  a[href^="/author/"]:hover,
+  a[href^="/authors/"]:hover {
+    color: inherit !important;
+    text-decoration: none !important;
+    border: none !important;
+    outline: none !important;
+    cursor: text !important;
+  }
+
+  .li-cite-author a[href*="/author/"]:visited,
+  .li-cite-author a[href*="/authors/"]:visited,
+  .article-metadata a[href*="/author/"]:visited,
+  .article-metadata a[href*="/authors/"]:visited,
+  a[href^="/author/"]:visited,
+  a[href^="/authors/"]:visited {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+
+  /* 阻止所有点击事件 */
+  .li-cite-author a[href*="/author/"],
+  .li-cite-author a[href*="/authors/"],
+  .article-metadata a[href*="/author/"],
+  .article-metadata a[href*="/authors/"] {
+    pointer-events: none !important;
+    user-select: text !important;
+  }
+</style>
+
+<script>
+  (function () {
+    const publicationUrls = {
+      "chua2024recsys": "https://dl.acm.org/doi/10.1145/3640457.3688109",
+      "du2024kdd": "https://dl.acm.org/doi/10.1145/3637528.3671800",
+      "du2025aaai": "https://ojs.aaai.org/index.php/AAAI/article/view/33263",
+      "feng2024cai": "https://www.computer.org/csdl/proceedings-article/cai/2024/540900b530/1Z06oRbZTVK",
+      "guo2015umap": "https://ceur-ws.org/Vol-1388/demo_paper1.pdf",
+      "guo2017umap": "https://dl.acm.org/doi/10.1145/3099023.3099066",
+      "guo2019icwe_short": "https://link.springer.com/chapter/10.1007/978-3-030-19274-7_6",
+      "guo2019icwe_tutorial": "https://link.springer.com/chapter/10.1007/978-3-030-19274-7_46",
+      "guo2020aaai": "https://ojs.aaai.org/index.php/AAAI/article/view/5337",
+      "guo2020neucom": "https://www.sciencedirect.com/science/article/pii/S0925231219318041",
+      "guo2024sigir": "https://dl.acm.org/doi/10.1145/3626772.3657694",
+      "guo2025sigir": "https://dl.acm.org/doi/10.1145/3726302.3729969",
+      "jiajie2023recsys": "https://dl.acm.org/doi/10.1145/3604915.3608802",
+      "lei2025neuralnetworks": "https://www.sciencedirect.com/science/article/pii/S0893608025000917",
+      "li2024ijhci": "https://www.tandfonline.com/doi/full/10.1080/10447318.2024.2446511",
+      "li2025kdd": "https://dl.acm.org/doi/10.1145/3711896.3737026",
+      "li2025neuralnetworks": "https://www.sciencedirect.com/science/article/pii/S0893608025003223",
+      "lin2022tkde": "https://www.computer.org/csdl/journal/tk/2023/08/09906456/1H5EKIMPrK8",
+      "liu2018ins": "https://www.sciencedirect.com/science/article/pii/S0020025516315742",
+      "liu2021ins": "https://www.sciencedirect.com/science/article/pii/S0020025521007544",
+      "pei2017cikm": "https://dl.acm.org/doi/10.1145/3132847.3133005",
+      "qiu2016umap": "https://dl.acm.org/doi/10.1145/2930238.2930272",
+      "qu2022kdd_audio": "https://dl.acm.org/doi/10.1145/3534678.3539268",
+      "qu2022kdd_policy": "https://dl.acm.org/doi/10.1145/3534678.3539266",
+      "qu2023sigir": "https://dl.acm.org/doi/10.1145/3539618.3591876",
+      "qu2024cai": "https://www.computer.org/csdl/proceedings-article/cai/2024/540900a290/1Z06nKQVxkI",
+      "sha2021ecra": "https://www.sciencedirect.com/science/article/pii/S1567422321000430",
+      "sha2021tcss": "https://doi.org/10.1109/TCSS.2021.3108794",
+      "sha2022tnnls": "https://ieeexplore.ieee.org/abstract/document/9833470",
+      "sun2020recsys": "https://dl.acm.org/doi/10.1145/3383313.3412489",
+      "sun2022tpami": "https://doi.org/10.1109/TPAMI.2022.3231891",
+      "sun2023tois_poi": "https://dl.acm.org/doi/10.1145/3592789",
+      "sun2025webconf": "https://dl.acm.org/doi/10.1145/3696410.3714683",
+      "wang2025aaai": "https://ojs.aaai.org/index.php/AAAI/article/view/33399",
+      "wu2023icde": "https://ieeexplore.ieee.org/abstract/document/10184809",
+      "wu2025tois": "https://dl.acm.org/doi/10.1145/3766066",
+      "yang2016recsys": "https://dl.acm.org/doi/abs/10.1145/2959100.2959159",
+      "yatong2025aaai": "https://ojs.aaai.org/index.php/AAAI/article/view/33374",
+      "zhang2025tois": "https://dl.acm.org/doi/10.1145/3713071",
+      "liu2026aaai": "https://arxiv.org/abs/2508.12645",
+      "li2026aaai": "https://arxiv.org/abs/2511.06388",
+      "liu2025tevc": "https://ieeexplore.ieee.org/abstract/document/11159478",
+      "ying2023ecra": "https://www.sciencedirect.com/science/article/abs/pii/S1567422322001181",
+      "qu2020tcds": "https://ieeexplore.ieee.org/abstract/document/9003391",
+      "qu2021tnnls": "https://ieeexplore.ieee.org/abstract/document/9660371",
+      "sun2015umap": "https://link.springer.com/chapter/10.1007/978-3-319-20267-9_21",
+      "sun2015umap_dc": "https://link.springer.com/chapter/10.1007/978-3-319-20267-9_37",
+      "sun2016umap": "https://dl.acm.org/doi/abs/10.1145/2930238.2930269",
+      "sun2017aaai": "https://ojs.aaai.org/index.php/AAAI/article/view/10491",
+      "sun2017ijcai": "https://pure.tudelft.nl/ws/portalfiles/portal/33975932/0391.pdf",
+      "sun2017sac": "https://dl.acm.org/doi/abs/10.1145/3019612.3019763",
+      "sun2017umap": "https://dl.acm.org/doi/abs/10.1145/3079628.3079649",
+      "sun2018recsys": "https://dl.acm.org/doi/abs/10.1145/3240323.3240361",
+      "sun2019ecra": "https://www.sciencedirect.com/science/article/abs/pii/S1567422319300560",
+      "sun2021tkde": "https://ieeexplore.ieee.org/abstract/document/9360501",
+      "sun2022sigir": "https://dl.acm.org/doi/abs/10.1145/3477495.3531904",
+      "sun2024sigir_bundle": "https://dl.acm.org/doi/abs/10.1145/3626772.3657808",
+      "sun2024sigir_llm": "https://dl.acm.org/doi/abs/10.1145/3626772.3657688",
+      "sun2024tors": "https://dl.acm.org/doi/full/10.1145/3652865",
+      "wang2023pakdd": "https://link.springer.com/chapter/10.1007/978-3-031-33380-4_25",
+      "wang2024tbd": "https://ieeexplore.ieee.org/abstract/document/10587116",
+      "xu2017ijcai": "https://www.ijcai.org/Proceedings/2017/0541.pdf",
+      "yatong2021ijcai": "https://www.ijcai.org/proceedings/2021/0218.pdf",
+      "yatong2023neurips": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/08309150af77fc7c79ade0bf8bb6a562-Abstract-Conference.html",
+      "yatong2023tois": "https://dl.acm.org/doi/abs/10.1145/3611008",
+      "ying2023tois": "https://dl.acm.org/doi/abs/10.1145/3600226",
+      "youchen2023recsys": "https://dl.acm.org/doi/abs/10.1145/3604915.3608767",
+      "youchen2024kdd": "https://dl.acm.org/doi/abs/10.1145/3637528.3671958",
+      "zhang2020ijcai": "https://www.ijcai.org/proceedings/2020/0491.pdf",
+      "zhang2020ins": "https://www.sciencedirect.com/science/article/abs/pii/S0020025519311144",
+      "zhang2022ijcai": "https://www.ijcai.org/proceedings/2022/0521.pdf",
+      "zhang2022tnnls": "https://ieeexplore.ieee.org/abstract/document/9712472",
+      "zhang2024sigir": "https://dl.acm.org/doi/abs/10.1145/3626772.3657893",
+      "zhang2024tist": "https://dl.acm.org/doi/abs/10.1145/3709004",
+      "zhou2020pakdd": "https://link.springer.com/chapter/10.1007/978-3-030-47426-3_15",
+      "zhu2025tois": "https://dl.acm.org/doi/full/10.1145/3737457",
+    };
+
+
+
+    // 将所有 Cite 按钮改为 PDF 按钮并添加外部链接
+    function updateCiteButtons() {
+      console.log('=== Updating cite buttons to PDF buttons ===');
+
+      // 方法1: 查找所有包含"Cite"文本的链接
+      const allLinks = document.querySelectorAll('a');
+      let count = 0;
+
+      allLinks.forEach(function (link) {
+        const text = link.textContent.trim();
+        const href = link.getAttribute('href') || '';
+        const dataFilename = link.getAttribute('data-filename') || '';
+        const classes = link.className || '';
+
+        // 检查是否是Cite按钮
+        const isCiteButton = text === 'Cite' ||
+          text === 'cite' ||
+          classes.includes('js-cite-modal') ||
+          href.includes('cite.bib') ||
+          dataFilename.includes('cite.bib');
+
+        if (!isCiteButton) return;
+
+        count++;
+        console.log('Processing cite button #' + count + ':', text, href);
+
+        // 从 data-filename 属性或 href 中提取文件夹名称
+        const filename = dataFilename || href;
+
+        // 提取文件夹名称，如 "/publication/wang-2025-aaai/cite.bib" -> "wang-2025-aaai"
+        const match = filename.match(/\/publication\/([^\/]+)\//);
+
+        let targetUrl = null;
+        if (match) {
+          const folderName = match[1];
+          const bibKeyFromFolder = folderName.replace(/-/g, '');
+
+          // 首先尝试从cite.bib文件读取bib key
+          const citeBibUrl = '/publication/' + folderName + '/cite.bib';
+          let bibKey = bibKeyFromFolder;
+
+          // 尝试从cite.bib获取真实的bib key（异步，但先尝试直接匹配）
+          targetUrl = publicationUrls[bibKeyFromFolder];
+
+          if (!targetUrl) {
+            // 尝试模糊匹配（移除key中的连字符和下划线）
+            for (const [key, url] of Object.entries(publicationUrls)) {
+              const normalizedKey = key.replace(/[-_]/g, '');
+              if (normalizedKey.toLowerCase() === bibKeyFromFolder.toLowerCase()) {
+                targetUrl = url;
+                break;
+              }
+            }
+          }
+
+          // 如果还是没找到，尝试包含匹配（匹配年份和会议/期刊）
+          if (!targetUrl) {
+            // 提取年份和会议/期刊部分（如 2016recsys）
+            const yearMatch = bibKeyFromFolder.match(/(\d{4})([a-z]+)/);
+            if (yearMatch) {
+              const yearPart = yearMatch[0]; // 如 "2016recsys"
+              for (const [key, url] of Object.entries(publicationUrls)) {
+                const normalizedKey = key.replace(/[-_]/g, '');
+                if (normalizedKey.toLowerCase().includes(yearPart.toLowerCase()) ||
+                  yearPart.toLowerCase().includes(normalizedKey.toLowerCase())) {
+                  targetUrl = url;
+                  break;
+                }
+              }
+            }
+          }
+
+          // 如果还是没找到，尝试通用包含匹配
+          if (!targetUrl) {
+            for (const [key, url] of Object.entries(publicationUrls)) {
+              const normalizedKey = key.replace(/[-_]/g, '');
+              if (normalizedKey.toLowerCase().includes(bibKeyFromFolder.toLowerCase()) ||
+                bibKeyFromFolder.toLowerCase().includes(normalizedKey.toLowerCase())) {
+                targetUrl = url;
+                break;
+              }
+            }
+          }
+
+          // 最后尝试：通过fetch获取cite.bib并提取bib key
+          if (!targetUrl && !link.hasAttribute('data-bib-key-fetched')) {
+            link.setAttribute('data-bib-key-fetched', 'true');
+            fetch(citeBibUrl)
+              .then(response => response.text())
+              .then(text => {
+                const bibKeyMatch = text.match(/@(?:article|inproceedings)\{([^,]+)/);
+                if (bibKeyMatch) {
+                  const actualBibKey = bibKeyMatch[1].trim();
+                  if (publicationUrls[actualBibKey]) {
+                    link.href = publicationUrls[actualBibKey];
+                    link.target = '_blank';
+                    link.rel = 'noopener noreferrer';
+                    link.title = 'View PDF online';
+                    link.style.opacity = '1';
+                    link.style.cursor = 'pointer';
+                    link.onclick = function (e) {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      window.open(publicationUrls[actualBibKey], '_blank');
+                      return false;
+                    };
+                  }
+                }
+              })
+              .catch(() => {
+                // 如果fetch失败，忽略
+              });
+          }
+        }
+
+        // 修改按钮
+        link.textContent = 'PDF';
+        link.innerHTML = 'PDF';
+
+        if (targetUrl) {
+          link.href = targetUrl;
+          link.target = '_blank';
+          link.rel = 'noopener noreferrer';
+          link.title = 'View PDF online';
+          link.onclick = function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            window.open(targetUrl, '_blank');
+            return false;
+          };
+          console.log('✓ Updated to PDF with URL:', targetUrl);
+        } else {
+          link.href = '#';
+          link.style.opacity = '0.5';
+          link.style.cursor = 'not-allowed';
+          link.onclick = function (e) { e.preventDefault(); return false; };
+          console.log('✗ No URL found, disabled button');
+        }
+
+        // 移除所有cite相关属性
+        link.removeAttribute('data-target');
+        link.removeAttribute('data-filename');
+        link.removeAttribute('data-toggle');
+        link.removeAttribute('data-bs-toggle');
+        link.removeAttribute('data-bs-target');
+        link.classList.remove('js-cite-modal');
+        link.classList.add('btn-pdf-replaced');
+      });
+
+      console.log('=== Total cite buttons processed:', count, '===');
+    }
+
+    // 移除作者链接,只保留纯文本,并阻止所有点击事件
+    function disableAuthorLinks() {
+      const authorContainers = document.querySelectorAll('.li-cite-author, .article-metadata.li-cite-author');
+      authorContainers.forEach(function (container) {
+        const authorLinks = container.querySelectorAll('a[href*="/author/"], a[href*="/authors/"]');
+        authorLinks.forEach(function (link) {
+          const href = link.getAttribute('href');
+          if (href && (href.includes('/author/') || href.includes('/authors/')) && !href.includes('/publication/')) {
+            // 方法1: 完全移除链接,替换为纯文本
+            const textNode = document.createTextNode(link.textContent);
+            const span = document.createElement('span');
+            span.appendChild(textNode);
+            link.parentNode.replaceChild(span, link);
+          }
+        });
+      });
+
+      // 方法2: 为所有作者链接添加点击事件阻止
+      document.querySelectorAll('a[href*="/author/"], a[href*="/authors/"]').forEach(function (link) {
+        const href = link.getAttribute('href');
+        if (href && (href.includes('/author/') || href.includes('/authors/')) && !href.includes('/publication/')) {
+          link.addEventListener('click', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            e.stopImmediatePropagation();
+            return false;
+          }, true);
+          link.style.pointerEvents = 'none';
+          link.style.cursor = 'text';
+        }
+      });
+    }
+
+    // 页面加载完成后执行（多次重试）
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', function () {
+        disableAuthorLinks();
+        updateCiteButtons();
+        setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 50);
+        setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 100);
+        setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 200);
+        setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 500);
+        setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 1000);
+        setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 2000);
+        setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 3000);
+      });
+    } else {
+      disableAuthorLinks();
+      updateCiteButtons();
+      setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 50);
+      setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 100);
+      setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 200);
+      setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 500);
+      setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 1000);
+      setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 2000);
+      setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 3000);
+    }
+
+    // 使用 MutationObserver 监听动态加载的内容
+    const observer = new MutationObserver(function (mutations) {
+      disableAuthorLinks();
+      updateCiteButtons();
+    });
+
+    // 定期执行，确保捕获所有动态加载的内容
+    setInterval(function () {
+      disableAuthorLinks();
+    }, 1000);
+
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true
+    });
+
+    // 也监听点击事件，在用户点击前阻止
+    document.addEventListener('click', function (e) {
+      const target = e.target;
+      if (target.tagName === 'A' &&
+        (target.textContent.trim() === 'Cite' || target.classList.contains('js-cite-modal'))) {
+        e.preventDefault();
+        e.stopPropagation();
+        e.stopImmediatePropagation();
+        console.log('Blocked cite modal click');
+        updateCiteButtons();
+        return false;
+      }
+    }, true);
+
+    // 主动移除所有modal元素
+    function removeModals() {
+      const modals = document.querySelectorAll('.modal[role="dialog"], .modal-backdrop, div[id*="cite"]');
+      modals.forEach(function (modal) {
+        if (modal.id && modal.id.toLowerCase().includes('cite')) {
+          modal.remove();
+          console.log('Removed modal:', modal.id);
+        }
+      });
+    }
+
+    // 监听modal显示事件并阻止
+    document.addEventListener('show.bs.modal', function (e) {
+      console.log('Preventing modal show event');
+      e.preventDefault();
+      e.stopPropagation();
+      return false;
+    }, true);
+
+    // 定期清理modal
+    setInterval(removeModals, 1000);
+
+    // MutationObserver监听新增的modal并立即移除
+    const modalObserver = new MutationObserver(function (mutations) {
+      mutations.forEach(function (mutation) {
+        mutation.addedNodes.forEach(function (node) {
+          if (node.nodeType === 1 && node.classList &&
+            (node.classList.contains('modal') || node.classList.contains('modal-backdrop'))) {
+            node.style.display = 'none';
+            node.remove();
+            console.log('Removed dynamically added modal');
+          }
+        });
+      });
+    });
+
+    modalObserver.observe(document.body, {
+      childList: true,
+      subtree: true
+    });
+  })();
+</script>
+{{- end -}}
