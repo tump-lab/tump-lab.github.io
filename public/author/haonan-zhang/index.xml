@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Haonan Zhang | TUMP Research Group</title>
-    <link>http://localhost:1399/author/haonan-zhang/</link>
-      <atom:link href="http://localhost:1399/author/haonan-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/author/haonan-zhang/</link>
+      <atom:link href="http://localhost:1313/author/haonan-zhang/index.xml" rel="self" type="application/rss+xml" />
     <description>Haonan Zhang</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1313/media/logo.svg</url>
       <title>Haonan Zhang</title>
-      <link>http://localhost:1399/author/haonan-zhang/</link>
+      <link>http://localhost:1313/author/haonan-zhang/</link>
     </image>
     
     <item>
       <title>KG4RecEval: Does Knowledge Graph Really Matter for Recommender Systems?</title>
-      <link>http://localhost:1399/publication/zhang-2025-tois/</link>
+      <link>http://localhost:1313/publication/zhang-2025-tois/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/zhang-2025-tois/</guid>
+      <guid>http://localhost:1313/publication/zhang-2025-tois/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LightKG: Efficient Knowledge-Aware Recommendations with Simplified GNN Architecture</title>
-      <link>http://localhost:1399/publication/li-2025-kdd/</link>
+      <link>http://localhost:1313/publication/li-2025-kdd/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/li-2025-kdd/</guid>
+      <guid>http://localhost:1313/publication/li-2025-kdd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Configurable Fairness for New Item Recommendation Considering Entry Time of Items</title>
-      <link>http://localhost:1399/publication/guo-2024-sigir/</link>
+      <link>http://localhost:1313/publication/guo-2024-sigir/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/guo-2024-sigir/</guid>
+      <guid>http://localhost:1313/publication/guo-2024-sigir/</guid>
       <description></description>
     </item>
     

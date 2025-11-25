@@ -2,53 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Qing Guo | TUMP Research Group</title>
-    <link>http://localhost:1399/author/qing-guo/</link>
-      <atom:link href="http://localhost:1399/author/qing-guo/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/author/qing-guo/</link>
+      <atom:link href="http://localhost:1313/author/qing-guo/index.xml" rel="self" type="application/rss+xml" />
     <description>Qing Guo</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1313/media/logo.svg</url>
       <title>Qing Guo</title>
-      <link>http://localhost:1399/author/qing-guo/</link>
+      <link>http://localhost:1313/author/qing-guo/</link>
     </image>
     
     <item>
       <title>An Attentional Recurrent Neural Network for Personalized Next Location Recommendation</title>
-      <link>http://localhost:1399/publication/guo-2020-aaai/</link>
+      <link>http://localhost:1313/publication/guo-2020-aaai/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/guo-2020-aaai/</guid>
+      <guid>http://localhost:1313/publication/guo-2020-aaai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exploiting Side Information for Recommendation</title>
-      <link>http://localhost:1399/publication/guo-2019-icwe-tutorial/</link>
+      <link>http://localhost:1313/publication/guo-2019-icwe-tutorial/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/guo-2019-icwe-tutorial/</guid>
+      <guid>http://localhost:1313/publication/guo-2019-icwe-tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploiting Side Information for Recommendation</title>
+      <link>http://localhost:1313/publication/guo2019icwe-tutorial/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/guo2019icwe-tutorial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modeling Heterogeneous Influences for Point-of-Interest Recommendation in Location-Based Social Networks</title>
-      <link>http://localhost:1399/publication/guo-2019-icwe-short/</link>
+      <link>http://localhost:1313/publication/guo-2019-icwe-short/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/guo-2019-icwe-short/</guid>
+      <guid>http://localhost:1313/publication/guo-2019-icwe-short/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Heterogeneous Influences for Point-of-Interest Recommendation in Location-Based Social Networks</title>
+      <link>http://localhost:1313/publication/guo2019icwe-short/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/guo2019icwe-short/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Research Commentary on Recommendations with Side Information: A Survey and Research Directions</title>
-      <link>http://localhost:1399/publication/sun-2019-ecra/</link>
+      <link>http://localhost:1313/publication/sun-2019-ecra/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/sun-2019-ecra/</guid>
+      <guid>http://localhost:1313/publication/sun-2019-ecra/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Aspect-Aware Point-of-Interest Recommendation with Geo-Social Influence</title>
-      <link>http://localhost:1399/publication/guo-2017-umap/</link>
+      <link>http://localhost:1313/publication/guo-2017-umap/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/guo-2017-umap/</guid>
+      <guid>http://localhost:1313/publication/guo-2017-umap/</guid>
       <description></description>
     </item>
     

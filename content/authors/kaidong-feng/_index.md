@@ -2,7 +2,7 @@
 # Display name
 title: Kaidong Feng
 
-weight: 9
+weight: 10
 
 # Full Name (for SEO)
 first_name: Kaidong

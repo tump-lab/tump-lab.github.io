@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Robin Burke | TUMP Research Group</title>
-    <link>http://localhost:1399/author/robin-burke/</link>
-      <atom:link href="http://localhost:1399/author/robin-burke/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/author/robin-burke/</link>
+      <atom:link href="http://localhost:1313/author/robin-burke/index.xml" rel="self" type="application/rss+xml" />
     <description>Robin Burke</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1313/media/logo.svg</url>
       <title>Robin Burke</title>
-      <link>http://localhost:1399/author/robin-burke/</link>
+      <link>http://localhost:1313/author/robin-burke/</link>
     </image>
     
     <item>
       <title>Research Commentary on Recommendations with Side Information: A Survey and Research Directions</title>
-      <link>http://localhost:1399/publication/sun-2019-ecra/</link>
+      <link>http://localhost:1313/publication/sun-2019-ecra/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/sun-2019-ecra/</guid>
+      <guid>http://localhost:1313/publication/sun-2019-ecra/</guid>
       <description></description>
     </item>
     

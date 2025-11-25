@@ -2,21 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tianjun Wei | TUMP Research Group</title>
-    <link>http://localhost:1399/author/tianjun-wei/</link>
-      <atom:link href="http://localhost:1399/author/tianjun-wei/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/author/tianjun-wei/</link>
+      <atom:link href="http://localhost:1313/author/tianjun-wei/index.xml" rel="self" type="application/rss+xml" />
     <description>Tianjun Wei</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1313/media/logo.svg</url>
       <title>Tianjun Wei</title>
-      <link>http://localhost:1399/author/tianjun-wei/</link>
+      <link>http://localhost:1313/author/tianjun-wei/</link>
     </image>
     
     <item>
+      <title>Diagnostic-Guided Dynamic Profile Optimization for LLM-based User Simulators in Sequential Recommendation</title>
+      <link>http://localhost:1313/publication/liu-2026-aaai/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/liu-2026-aaai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reinforcement Speculative Decoding for Fast Ranking</title>
+      <link>http://localhost:1313/publication/du-2026-kdd/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/du-2026-kdd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Enhancing New-item Fairness in Dynamic Recommender Systems</title>
-      <link>http://localhost:1399/publication/guo-2025-sigir/</link>
+      <link>http://localhost:1313/publication/guo-2025-sigir/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/guo-2025-sigir/</guid>
+      <guid>http://localhost:1313/publication/guo-2025-sigir/</guid>
       <description></description>
     </item>
     

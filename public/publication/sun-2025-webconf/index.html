@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: November 22, 2025 --><html lang="en-us" >
+<!-- Last Published: November 25, 2025 --><html lang="en-us" >
 
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1399&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -271,12 +271,34 @@
 
   
 
-<meta name="description" content="Social recommendations (SRs) aim to enhance preference modeling by integrating social networks. However, their effectiveness is mainly constrained by two factors: the noisy social connections that may not reflect shared interests, and the limited number of social connections for most users, which hampers the system&#39;s ability to fully leverage social influence. Therefore, it is essential to perform social network refinement by removing noisy connections and adding meaningful ones for robust SRs. Inspired by the denoising capability of generative diffusion models, we propose a Model-Agnostic Social Network Refinement framework with Diffusion Models for Robust Social Recommendation (ARD-SR). Specifically, in the forward process, we corrupt the social network by progressively adding position-specific Gaussian noise calibrated to the user preference similarity, better simulating how the social network responds to noise perturbations. The reverse process learns to denoise, guided by each user&#39;s neighborhood preferences from the SR backbone, generating a tailored social network aligned with each user&#39;s preference for establishing connections. For effective learning, we design a curriculum-based training mechanism that progressively introduces challenging samples characterized by high sparsity or high noise levels. To further enhance the quality of the refined social network, (1) we introduce a preference-guided flip operation during inference to improve the input quality; and (2) we modify social connections based on the exponential weighted moving average of ARD-SR&#39;s predictions across epochs to reduce fluctuations. Experiments on three datasets show that ARD-SR significantly improves SR performance across multiple SR backbones. The code is released at https://github.com/sunyc123r/ARD-SR." />
+<meta name="description" content="&#34;Social recommendations (SRs) aim to enhance preference modeling by integrating
+social networks. However, their effectiveness is mainly constrained by two factors:
+the noisy social connections that may not reflect shared interests, and the limited
+number of social connections for most users, which hampers the system&#39;s ability
+to fully leverage social influence. Therefore, it is essential to perform social
+network refinement by removing noisy connections and adding meaningful ones for
+robust SRs. Inspired by the denoising capability of generative diffusion models,
+we propose a Model-Agnostic Social Network Refinement framework with Diffusion Models
+for Robust Social Recommendation (ARD-SR). Specifically, in the forward process,
+we corrupt the social network by progressively adding position-specific Gaussian
+noise calibrated to the user preference similarity, better simulating how the social
+network responds to noise perturbations. The reverse process learns to denoise,
+guided by each user&#39;s neighborhood preferences from the SR backbone, generating
+a tailored social network aligned with each user&#39;s preference for establishing connections.
+For effective learning, we design a curriculum-based training mechanism that progressively
+introduces challenging samples characterized by high sparsity or high noise levels.
+To further enhance the quality of the refined social network, (1) we introduce a
+preference-guided flip operation during inference to improve the input quality;
+and (2) we modify social connections based on the exponential weighted moving average
+of ARD-SR&#39;s predictions across epochs to reduce fluctuations. Experiments on three
+datasets show that ARD-SR significantly improves SR performance across multiple
+SR backbones. The code is released at https://github.com/sunyc123r/ARD-SR.&#34;
+" />
 
 
 
-<link rel="alternate" hreflang="en-us" href="http://localhost:1399/publication/sun-2025-webconf/" />
-<link rel="canonical" href="http://localhost:1399/publication/sun-2025-webconf/" />
+<link rel="alternate" hreflang="en-us" href="http://localhost:1313/publication/sun-2025-webconf/" />
+<link rel="canonical" href="http://localhost:1313/publication/sun-2025-webconf/" />
 
 
 
@@ -310,7 +332,7 @@
 
   <meta property="twitter:site" content="@GetResearchDev" />
   <meta property="twitter:creator" content="@GetResearchDev" />
-<meta property="twitter:image" content="http://localhost:1399/media/logo_hu_56e6e152940932db.png" />
+<meta property="twitter:image" content="http://localhost:1313/media/logo.svg" />
 
 
 
@@ -318,9 +340,31 @@
 
 <meta property="og:type" content="article" />
 <meta property="og:site_name" content="TUMP Research Group" />
-<meta property="og:url" content="http://localhost:1399/publication/sun-2025-webconf/" />
+<meta property="og:url" content="http://localhost:1313/publication/sun-2025-webconf/" />
 <meta property="og:title" content="Model-Agnostic Social Network Refinement with Diffusion Models for Robust Social Recommendation | TUMP Research Group" />
-<meta property="og:description" content="Social recommendations (SRs) aim to enhance preference modeling by integrating social networks. However, their effectiveness is mainly constrained by two factors: the noisy social connections that may not reflect shared interests, and the limited number of social connections for most users, which hampers the system&#39;s ability to fully leverage social influence. Therefore, it is essential to perform social network refinement by removing noisy connections and adding meaningful ones for robust SRs. Inspired by the denoising capability of generative diffusion models, we propose a Model-Agnostic Social Network Refinement framework with Diffusion Models for Robust Social Recommendation (ARD-SR). Specifically, in the forward process, we corrupt the social network by progressively adding position-specific Gaussian noise calibrated to the user preference similarity, better simulating how the social network responds to noise perturbations. The reverse process learns to denoise, guided by each user&#39;s neighborhood preferences from the SR backbone, generating a tailored social network aligned with each user&#39;s preference for establishing connections. For effective learning, we design a curriculum-based training mechanism that progressively introduces challenging samples characterized by high sparsity or high noise levels. To further enhance the quality of the refined social network, (1) we introduce a preference-guided flip operation during inference to improve the input quality; and (2) we modify social connections based on the exponential weighted moving average of ARD-SR&#39;s predictions across epochs to reduce fluctuations. Experiments on three datasets show that ARD-SR significantly improves SR performance across multiple SR backbones. The code is released at https://github.com/sunyc123r/ARD-SR." /><meta property="og:image" content="http://localhost:1399/media/logo_hu_56e6e152940932db.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:description" content="&#34;Social recommendations (SRs) aim to enhance preference modeling by integrating
+social networks. However, their effectiveness is mainly constrained by two factors:
+the noisy social connections that may not reflect shared interests, and the limited
+number of social connections for most users, which hampers the system&#39;s ability
+to fully leverage social influence. Therefore, it is essential to perform social
+network refinement by removing noisy connections and adding meaningful ones for
+robust SRs. Inspired by the denoising capability of generative diffusion models,
+we propose a Model-Agnostic Social Network Refinement framework with Diffusion Models
+for Robust Social Recommendation (ARD-SR). Specifically, in the forward process,
+we corrupt the social network by progressively adding position-specific Gaussian
+noise calibrated to the user preference similarity, better simulating how the social
+network responds to noise perturbations. The reverse process learns to denoise,
+guided by each user&#39;s neighborhood preferences from the SR backbone, generating
+a tailored social network aligned with each user&#39;s preference for establishing connections.
+For effective learning, we design a curriculum-based training mechanism that progressively
+introduces challenging samples characterized by high sparsity or high noise levels.
+To further enhance the quality of the refined social network, (1) we introduce a
+preference-guided flip operation during inference to improve the input quality;
+and (2) we modify social connections based on the exponential weighted moving average
+of ARD-SR&#39;s predictions across epochs to reduce fluctuations. Experiments on three
+datasets show that ARD-SR significantly improves SR performance across multiple
+SR backbones. The code is released at https://github.com/sunyc123r/ARD-SR.&#34;
+" /><meta property="og:image" content="http://localhost:1313/media/logo.svg" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -353,7 +397,7 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1399/publication/sun-2025-webconf/"
+    "@id": "http://localhost:1313/publication/sun-2025-webconf/"
   },
   "headline": "Model-Agnostic Social Network Refinement with Diffusion Models for Robust Social Recommendation",
   
@@ -370,10 +414,10 @@
     "name": "TUMP Research Group",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://localhost:1399/media/logo_hu_cd965f610ae480cd.png"
+      "url": "http://localhost:1313/media/logo.svg"
     }
   },
-  "description": "Social recommendations (SRs) aim to enhance preference modeling by integrating social networks. However, their effectiveness is mainly constrained by two factors: the noisy social connections that may not reflect shared interests, and the limited number of social connections for most users, which hampers the system's ability to fully leverage social influence. Therefore, it is essential to perform social network refinement by removing noisy connections and adding meaningful ones for robust SRs. Inspired by the denoising capability of generative diffusion models, we propose a Model-Agnostic Social Network Refinement framework with Diffusion Models for Robust Social Recommendation (ARD-SR). Specifically, in the forward process, we corrupt the social network by progressively adding position-specific Gaussian noise calibrated to the user preference similarity, better simulating how the social network responds to noise perturbations. The reverse process learns to denoise, guided by each user's neighborhood preferences from the SR backbone, generating a tailored social network aligned with each user's preference for establishing connections. For effective learning, we design a curriculum-based training mechanism that progressively introduces challenging samples characterized by high sparsity or high noise levels. To further enhance the quality of the refined social network, (1) we introduce a preference-guided flip operation during inference to improve the input quality; and (2) we modify social connections based on the exponential weighted moving average of ARD-SR's predictions across epochs to reduce fluctuations. Experiments on three datasets show that ARD-SR significantly improves SR performance across multiple SR backbones. The code is released at https://github.com/sunyc123r/ARD-SR."
+  "description": "\"Social recommendations (SRs) aim to enhance preference modeling by integrating\nsocial networks. However, their effectiveness is mainly constrained by two factors:\nthe noisy social connections that may not reflect shared interests, and the limited\nnumber of social connections for most users, which hampers the system's ability\nto fully leverage social influence. Therefore, it is essential to perform social\nnetwork refinement by removing noisy connections and adding meaningful ones for\nrobust SRs. Inspired by the denoising capability of generative diffusion models,\nwe propose a Model-Agnostic Social Network Refinement framework with Diffusion Models\nfor Robust Social Recommendation (ARD-SR). Specifically, in the forward process,\nwe corrupt the social network by progressively adding position-specific Gaussian\nnoise calibrated to the user preference similarity, better simulating how the social\nnetwork responds to noise perturbations. The reverse process learns to denoise,\nguided by each user's neighborhood preferences from the SR backbone, generating\na tailored social network aligned with each user's preference for establishing connections.\nFor effective learning, we design a curriculum-based training mechanism that progressively\nintroduces challenging samples characterized by high sparsity or high noise levels.\nTo further enhance the quality of the refined social network, (1) we introduce a\npreference-guided flip operation during inference to improve the input quality;\nand (2) we modify social connections based on the exponential weighted moving average\nof ARD-SR's predictions across epochs to reduce fluctuations. Experiments on three\ndatasets show that ARD-SR significantly improves SR performance across multiple\nSR backbones. The code is released at https://github.com/sunyc123r/ARD-SR.\"\n"
 }
 </script>
 
@@ -496,7 +540,7 @@
 
       
       <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/"><img src="/media/logo_hu_157abd90a03db18d.png" alt="TUMP Research Group"
+        <a class="navbar-brand" href="/"><img src="/media/logo.svg" alt="TUMP Research Group"
             
             ></a>
       </div>
@@ -511,7 +555,7 @@
 
       
       <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="/"><img src="/media/logo_hu_157abd90a03db18d.png" alt="TUMP Research Group"
+        <a class="navbar-brand" href="/"><img src="/media/logo.svg" alt="TUMP Research Group"
           
           ></a>
       </div>
@@ -763,14 +807,7 @@
   
   
   <div>
-    
-
-  <span >
-      <a href="/author/youchen-sun-phd-ntu-singapore/">Youchen Sun (PhD, NTU, Singapore)</a></span>, <span >
-      <a href="/author/zhu-sun/">Zhu Sun</a></span>, <span >
-      <a href="/author/yingpeng-du/">Yingpeng Du</a></span>, <span >
-      <a href="/author/jie-zhang/">Jie Zhang</a></span>, <span >
-      <a href="/author/yew-soon-ong/">Yew-Soon Ong</a></span>
+    <span class="article-metadata li-cite-author"><span>Youchen Sun</span>, <span>Zhu Sun</span>, <span>Yingpeng Du</span>, <span>Jie Zhang</span>, <span>Yew-Soon Ong</span></span>
   </div>
   
   
@@ -852,7 +889,28 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Social recommendations (SRs) aim to enhance preference modeling by integrating social networks. However, their effectiveness is mainly constrained by two factors: the noisy social connections that may not reflect shared interests, and the limited number of social connections for most users, which hampers the system&rsquo;s ability to fully leverage social influence. Therefore, it is essential to perform social network refinement by removing noisy connections and adding meaningful ones for robust SRs. Inspired by the denoising capability of generative diffusion models, we propose a Model-Agnostic Social Network Refinement framework with Diffusion Models for Robust Social Recommendation (ARD-SR). Specifically, in the forward process, we corrupt the social network by progressively adding position-specific Gaussian noise calibrated to the user preference similarity, better simulating how the social network responds to noise perturbations. The reverse process learns to denoise, guided by each user&rsquo;s neighborhood preferences from the SR backbone, generating a tailored social network aligned with each user&rsquo;s preference for establishing connections. For effective learning, we design a curriculum-based training mechanism that progressively introduces challenging samples characterized by high sparsity or high noise levels. To further enhance the quality of the refined social network, (1) we introduce a preference-guided flip operation during inference to improve the input quality; and (2) we modify social connections based on the exponential weighted moving average of ARD-SR&rsquo;s predictions across epochs to reduce fluctuations. Experiments on three datasets show that ARD-SR significantly improves SR performance across multiple SR backbones. The code is released at <a href="https://github.com/sunyc123r/ARD-SR" target="_blank" rel="noopener">https://github.com/sunyc123r/ARD-SR</a>.</p>
+    <p class="pub-abstract">&ldquo;Social recommendations (SRs) aim to enhance preference modeling by integrating
+social networks. However, their effectiveness is mainly constrained by two factors:
+the noisy social connections that may not reflect shared interests, and the limited
+number of social connections for most users, which hampers the system&rsquo;s ability
+to fully leverage social influence. Therefore, it is essential to perform social
+network refinement by removing noisy connections and adding meaningful ones for
+robust SRs. Inspired by the denoising capability of generative diffusion models,
+we propose a Model-Agnostic Social Network Refinement framework with Diffusion Models
+for Robust Social Recommendation (ARD-SR). Specifically, in the forward process,
+we corrupt the social network by progressively adding position-specific Gaussian
+noise calibrated to the user preference similarity, better simulating how the social
+network responds to noise perturbations. The reverse process learns to denoise,
+guided by each user&rsquo;s neighborhood preferences from the SR backbone, generating
+a tailored social network aligned with each user&rsquo;s preference for establishing connections.
+For effective learning, we design a curriculum-based training mechanism that progressively
+introduces challenging samples characterized by high sparsity or high noise levels.
+To further enhance the quality of the refined social network, (1) we introduce a
+preference-guided flip operation during inference to improve the input quality;
+and (2) we modify social connections based on the exponential weighted moving average
+of ARD-SR&rsquo;s predictions across epochs to reduce fluctuations. Experiments on three
+datasets show that ARD-SR significantly improves SR performance across multiple
+SR backbones. The code is released at <a href="https://github.com/sunyc123r/ARD-SR.%22" target="_blank" rel="noopener">https://github.com/sunyc123r/ARD-SR."</a></p>
     
 
     
@@ -915,7 +973,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1399%2Fpublication%2Fsun-2025-webconf%2F&amp;text=Model-Agnostic&#43;Social&#43;Network&#43;Refinement&#43;with&#43;Diffusion&#43;Models&#43;for&#43;Robust&#43;Social&#43;Recommendation" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fsun-2025-webconf%2F&amp;text=Model-Agnostic&#43;Social&#43;Network&#43;Refinement&#43;with&#43;Diffusion&#43;Models&#43;for&#43;Robust&#43;Social&#43;Recommendation" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -932,7 +990,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1399%2Fpublication%2Fsun-2025-webconf%2F&amp;t=Model-Agnostic&#43;Social&#43;Network&#43;Refinement&#43;with&#43;Diffusion&#43;Models&#43;for&#43;Robust&#43;Social&#43;Recommendation" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fsun-2025-webconf%2F&amp;t=Model-Agnostic&#43;Social&#43;Network&#43;Refinement&#43;with&#43;Diffusion&#43;Models&#43;for&#43;Robust&#43;Social&#43;Recommendation" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -951,7 +1009,7 @@
         
       
       <li>
-        <a href="mailto:?subject=Model-Agnostic%20Social%20Network%20Refinement%20with%20Diffusion%20Models%20for%20Robust%20Social%20Recommendation&amp;body=http%3A%2F%2Flocalhost%3A1399%2Fpublication%2Fsun-2025-webconf%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Model-Agnostic%20Social%20Network%20Refinement%20with%20Diffusion%20Models%20for%20Robust%20Social%20Recommendation&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fsun-2025-webconf%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -968,7 +1026,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1399%2Fpublication%2Fsun-2025-webconf%2F&amp;title=Model-Agnostic&#43;Social&#43;Network&#43;Refinement&#43;with&#43;Diffusion&#43;Models&#43;for&#43;Robust&#43;Social&#43;Recommendation" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fsun-2025-webconf%2F&amp;title=Model-Agnostic&#43;Social&#43;Network&#43;Refinement&#43;with&#43;Diffusion&#43;Models&#43;for&#43;Robust&#43;Social&#43;Recommendation" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -985,7 +1043,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Model-Agnostic&#43;Social&#43;Network&#43;Refinement&#43;with&#43;Diffusion&#43;Models&#43;for&#43;Robust&#43;Social&#43;Recommendation%20http%3A%2F%2Flocalhost%3A1399%2Fpublication%2Fsun-2025-webconf%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Model-Agnostic&#43;Social&#43;Network&#43;Refinement&#43;with&#43;Diffusion&#43;Models&#43;for&#43;Robust&#43;Social&#43;Recommendation%20http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fsun-2025-webconf%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1002,7 +1060,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=http%3A%2F%2Flocalhost%3A1399%2Fpublication%2Fsun-2025-webconf%2F&amp;title=Model-Agnostic&#43;Social&#43;Network&#43;Refinement&#43;with&#43;Diffusion&#43;Models&#43;for&#43;Robust&#43;Social&#43;Recommendation" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fsun-2025-webconf%2F&amp;title=Model-Agnostic&#43;Social&#43;Network&#43;Refinement&#43;with&#43;Diffusion&#43;Models&#43;for&#43;Robust&#43;Social&#43;Recommendation" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

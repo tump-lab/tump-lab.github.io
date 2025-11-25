@@ -17,7 +17,7 @@ sections:
         
         - Designing trustworthy recommendation algorithms—robust, diverse, fair, explainable, and privacy-preserving—by applying cutting-edge techniques e.g., deep learning and large language models across various domains including e-commerce, multimedia, location-based social networks, and healthcare.
         - Developing LLM-based user simulators for human-centric evaluation and optimization of recommender systems.
-        - Benchmarking recommender systems through rigorous evaluation and fair comparison by advancing open-source libraries such as DaisyRec and DaisyRec-v2.0.
+        - Benchmarking recommender systems through rigorous evaluation and fair comparison by advancing open-source libraries such as [DaisyRec](https://github.com/yudi-mars/daisyRec) and [DaisyRec-v2.0](https://github.com/recsys-benchmark/DaisyRec-v2.0).
     design:
       background:
         color: 'white'

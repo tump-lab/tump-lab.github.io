@@ -3,7 +3,7 @@
 title: Youchen Sun (PhD, NTU, Singapore)
 
 graduation_year: "2025"
-topic: "everaging Social Networks for Robust Recommendation"
+topic: "Leveraging Social Networks for Robust Recommendation"
 to: "Research Scientist, Tiktok, SG"
 weight: 3
 

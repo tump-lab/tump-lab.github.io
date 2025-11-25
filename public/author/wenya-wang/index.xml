@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wenya Wang | TUMP Research Group</title>
-    <link>http://localhost:1399/author/wenya-wang/</link>
-      <atom:link href="http://localhost:1399/author/wenya-wang/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/author/wenya-wang/</link>
+      <atom:link href="http://localhost:1313/author/wenya-wang/index.xml" rel="self" type="application/rss+xml" />
     <description>Wenya Wang</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1313/media/logo.svg</url>
       <title>Wenya Wang</title>
-      <link>http://localhost:1399/author/wenya-wang/</link>
+      <link>http://localhost:1313/author/wenya-wang/</link>
     </image>
     
     <item>
       <title>Re2LLM: Reflective Reinforcement Large Language Model for Session-based Recommendation</title>
-      <link>http://localhost:1399/publication/wang-2025-aaai/</link>
+      <link>http://localhost:1313/publication/wang-2025-aaai/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/wang-2025-aaai/</guid>
+      <guid>http://localhost:1313/publication/wang-2025-aaai/</guid>
       <description></description>
     </item>
     

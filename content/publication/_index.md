@@ -104,6 +104,7 @@ div.modal[role="dialog"] {
     "zhu2025tois": "https://dl.acm.org/doi/full/10.1145/3737457",
     "liu2026aaai": "https://arxiv.org/abs/2508.12645",
     "li2026aaai": "https://arxiv.org/abs/2511.06388",
+    "du2026kdd": "https://arxiv.org/abs/2505.20316",
     "liu2025tevc": "https://ieeexplore.ieee.org/abstract/document/11159478",
     "ying2023ecra": "https://www.sciencedirect.com/science/article/abs/pii/S1567422322001181",
   };

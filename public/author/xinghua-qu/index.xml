@@ -2,133 +2,173 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xinghua Qu | TUMP Research Group</title>
-    <link>http://localhost:1399/author/xinghua-qu/</link>
-      <atom:link href="http://localhost:1399/author/xinghua-qu/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/author/xinghua-qu/</link>
+      <atom:link href="http://localhost:1313/author/xinghua-qu/index.xml" rel="self" type="application/rss+xml" />
     <description>Xinghua Qu</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1399/media/logo_hu_56e6e152940932db.png</url>
+      <url>http://localhost:1313/media/logo.svg</url>
       <title>Xinghua Qu</title>
-      <link>http://localhost:1399/author/xinghua-qu/</link>
+      <link>http://localhost:1313/author/xinghua-qu/</link>
     </image>
     
     <item>
+      <title>Diagnostic-Guided Dynamic Profile Optimization for LLM-based User Simulators in Sequential Recommendation</title>
+      <link>http://localhost:1313/publication/liu-2026-aaai/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/liu-2026-aaai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>LLM4RSR: Large Language Models as Data Correctors for Robust Sequential Recommendation</title>
-      <link>http://localhost:1399/publication/yatong-2025-aaai/</link>
+      <link>http://localhost:1313/publication/yatong-2025-aaai/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/yatong-2025-aaai/</guid>
+      <guid>http://localhost:1313/publication/yatong-2025-aaai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Adaptive In-Context Learning with Large Language Models for Bundle Generation</title>
-      <link>http://localhost:1399/publication/sun-2024-sigir-bundle/</link>
+      <link>http://localhost:1313/publication/sun-2024-sigir-bundle/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/sun-2024-sigir-bundle/</guid>
+      <guid>http://localhost:1313/publication/sun-2024-sigir-bundle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive In-Context Learning with Large Language Models for Bundle Generation</title>
+      <link>http://localhost:1313/publication/sun2024sigir-bundle/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/sun2024sigir-bundle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Breaking the Silence: Whisper-Driven Emotion Recognition in AI Mental Support Models</title>
-      <link>http://localhost:1399/publication/qu-2024-cai/</link>
+      <link>http://localhost:1313/publication/qu-2024-cai/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/qu-2024-cai/</guid>
+      <guid>http://localhost:1313/publication/qu-2024-cai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Large Language Models for Intent-Driven Session Recommendations</title>
-      <link>http://localhost:1399/publication/sun-2024-sigir-llm/</link>
+      <link>http://localhost:1313/publication/sun-2024-sigir-llm/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/sun-2024-sigir-llm/</guid>
+      <guid>http://localhost:1313/publication/sun-2024-sigir-llm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Large Language Models for Intent-Driven Session Recommendations</title>
+      <link>http://localhost:1313/publication/sun2024sigir-llm/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/sun2024sigir-llm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Revisiting Bundle Recommendation for Intent-aware Product Bundling</title>
-      <link>http://localhost:1399/publication/sun-2024-tors/</link>
+      <link>http://localhost:1313/publication/sun-2024-tors/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/sun-2024-tors/</guid>
+      <guid>http://localhost:1313/publication/sun-2024-tors/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Towards Building Voice-based Conversational Recommender Systems: Datasets, Potential Solutions, and Prospects</title>
-      <link>http://localhost:1399/publication/qu-2023-sigir/</link>
+      <link>http://localhost:1313/publication/qu-2023-sigir/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/qu-2023-sigir/</guid>
+      <guid>http://localhost:1313/publication/qu-2023-sigir/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DaisyRec 2.0: Benchmarking Recommendation for Rigorous Evaluation</title>
-      <link>http://localhost:1399/publication/sun-2022-tpami/</link>
+      <link>http://localhost:1313/publication/sun-2022-tpami/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/sun-2022-tpami/</guid>
+      <guid>http://localhost:1313/publication/sun-2022-tpami/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Importance Prioritized Policy Distillation</title>
-      <link>http://localhost:1399/publication/qu-2022-kdd-policy/</link>
+      <link>http://localhost:1313/publication/qu-2022-kdd-policy/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/qu-2022-kdd-policy/</guid>
+      <guid>http://localhost:1313/publication/qu-2022-kdd-policy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Importance Prioritized Policy Distillation</title>
+      <link>http://localhost:1313/publication/qu2022kdd-policy/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/qu2022kdd-policy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Next Point-of-Interest Recommendation with Inferring Multi-step Future Preference</title>
-      <link>http://localhost:1399/publication/zhang-2022-ijcai/</link>
+      <link>http://localhost:1313/publication/zhang-2022-ijcai/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/zhang-2022-ijcai/</guid>
+      <guid>http://localhost:1313/publication/zhang-2022-ijcai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Revisiting Bundle Recommendation: Datasets, Tasks, Challenges and Opportunities for Intent-aware Product Bundling</title>
-      <link>http://localhost:1399/publication/sun-2022-sigir/</link>
+      <link>http://localhost:1313/publication/sun-2022-sigir/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/sun-2022-sigir/</guid>
+      <guid>http://localhost:1313/publication/sun-2022-sigir/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Synthesizing Audio Adversarial Examples for Automatic Speech Recognition</title>
-      <link>http://localhost:1399/publication/qu-2022-kdd-audio/</link>
+      <link>http://localhost:1313/publication/qu-2022-kdd-audio/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/qu-2022-kdd-audio/</guid>
+      <guid>http://localhost:1313/publication/qu-2022-kdd-audio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synthesizing Audio Adversarial Examples for Automatic Speech Recognition</title>
+      <link>http://localhost:1313/publication/qu2022kdd-audio/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/qu2022kdd-audio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Adversary Agnostic Robust Deep Reinforcement Learning</title>
-      <link>http://localhost:1399/publication/qu-2021-tnnls/</link>
+      <link>http://localhost:1313/publication/qu-2021-tnnls/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/qu-2021-tnnls/</guid>
+      <guid>http://localhost:1313/publication/qu-2021-tnnls/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Top-aware Recommender Distillation with Deep Reinforcement Learning</title>
-      <link>http://localhost:1399/publication/liu-2021-ins/</link>
+      <link>http://localhost:1313/publication/liu-2021-ins/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/liu-2021-ins/</guid>
+      <guid>http://localhost:1313/publication/liu-2021-ins/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Are We Evaluating Rigorously? Benchmarking Recommendation for Reproducible Evaluation and Fair Comparison</title>
-      <link>http://localhost:1399/publication/sun-2020-recsys/</link>
+      <link>http://localhost:1313/publication/sun-2020-recsys/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/sun-2020-recsys/</guid>
+      <guid>http://localhost:1313/publication/sun-2020-recsys/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Minimalistic Attacks: How Little it Takes to Fool a Deep Reinforcement Learning Policy</title>
-      <link>http://localhost:1399/publication/qu-2020-tcds/</link>
+      <link>http://localhost:1313/publication/qu-2020-tcds/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1399/publication/qu-2020-tcds/</guid>
+      <guid>http://localhost:1313/publication/qu-2020-tcds/</guid>
       <description></description>
     </item>
     

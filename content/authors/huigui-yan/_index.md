@@ -2,7 +2,7 @@
 # Display name
 title: Huigui Yan
 
-weight: 4
+weight: 5
 
 # Full Name (for SEO)
 first_name: Huigui

@@ -19,6 +19,14 @@
     display: none !important;
   }
 
+  /* 完全隐藏所有 Cite 按钮 */
+  a.js-cite-modal,
+  a[href*="cite.bib"],
+  a[data-filename*="cite.bib"],
+  .btn.js-cite-modal {
+    display: none !important;
+  }
+
   /* 完全禁用作者链接 */
   .li-cite-author a[href*="/author/"],
   .li-cite-author a[href*="/authors/"],
@@ -163,8 +171,46 @@
 
 
 
+    // 清理重复的 PDF 按钮
+    function removeDuplicatePdfButtons() {
+      // 查找所有出版物条目容器
+      const containers = document.querySelectorAll('.pub-list-item, .article-metadata, p');
+
+      containers.forEach(function (container) {
+        // 在每个容器中查找所有可见的 PDF 按钮
+        const pdfButtons = Array.from(container.querySelectorAll('a')).filter(a => {
+          return a.textContent.trim().toUpperCase() === 'PDF' && a.style.display !== 'none';
+        });
+
+        // 如果有多个 PDF 按钮
+        if (pdfButtons.length > 1) {
+          // 优先保留原生 PDF 按钮（没有 js-cite-modal 类的）
+          const nativeBtn = pdfButtons.find(btn => !btn.classList.contains('js-cite-modal'));
+          // 找出所有非原生的（即转换来的）
+          const citeDerivedBtns = pdfButtons.filter(btn => btn.classList.contains('js-cite-modal'));
+
+          // 如果有原生按钮，隐藏所有转换来的按钮
+          if (nativeBtn && citeDerivedBtns.length > 0) {
+            citeDerivedBtns.forEach(btn => {
+              console.log('Found duplicate PDF buttons, hiding the Cite-derived one.');
+              btn.style.display = 'none';
+            });
+          }
+          // 如果没有原生按钮，但有多个转换来的按钮，保留第一个，隐藏其他的
+          else if (!nativeBtn && citeDerivedBtns.length > 1) {
+            for (let i = 1; i < citeDerivedBtns.length; i++) {
+              citeDerivedBtns[i].style.display = 'none';
+            }
+          }
+        }
+      });
+    }
+
     // 将所有 Cite 按钮改为 PDF 按钮并添加外部链接
     function updateCiteButtons() {
+      // 先清理一遍
+      removeDuplicatePdfButtons();
+
       console.log('=== Updating cite buttons to PDF buttons ===');
 
       // 方法1: 查找所有包含"Cite"文本的链接
@@ -172,6 +218,9 @@
       let count = 0;
 
       allLinks.forEach(function (link) {
+        // 如果已经被隐藏，跳过
+        if (link.style.display === 'none') return;
+
         const text = link.textContent.trim();
         const href = link.getAttribute('href') || '';
         const dataFilename = link.getAttribute('data-filename') || '';
@@ -184,7 +233,31 @@
           href.includes('cite.bib') ||
           dataFilename.includes('cite.bib');
 
-        if (!isCiteButton) return;
+        // 如果不是 Cite 按钮，但它是我们之前转换过的 PDF 按钮（带有 js-cite-modal 类），我们也需要检查它是否多余
+        const isConvertedPdfButton = text === 'PDF' && classes.includes('js-cite-modal');
+
+        if (!isCiteButton && !isConvertedPdfButton) return;
+
+        // 核心检查逻辑：检查同容器中是否已经存在 *其他* PDF 按钮
+        // 我们寻找的是“原生”的 PDF 按钮，即没有 js-cite-modal 类的 PDF 按钮
+        const container = link.closest('p') || link.parentNode;
+        if (container) {
+          const nativePdfBtn = Array.from(container.querySelectorAll('a')).find(a =>
+            a !== link &&
+            a.textContent.trim().toUpperCase() === 'PDF' &&
+            !a.classList.contains('js-cite-modal') &&
+            a.style.display !== 'none'
+          );
+
+          if (nativePdfBtn) {
+            console.log('Found native PDF button, removing redundant button:', link);
+            link.style.display = 'none';
+            return;
+          }
+        }
+
+        // 如果是已经转换过的 PDF 按钮，且没有原生按钮，那它就是合法的，跳过后续处理
+        if (isConvertedPdfButton) return;
 
         count++;
         console.log('Processing cite button #' + count + ':', text, href);
@@ -247,6 +320,18 @@
             }
           }
 
+          // 检查同一个容器中是否已经存在 PDF 按钮
+          const container = link.closest('p') || link.parentNode;
+          const existingPdfBtn = Array.from(container.querySelectorAll('a')).find(a =>
+            a !== link && a.textContent.trim().toUpperCase() === 'PDF'
+          );
+
+          if (existingPdfBtn) {
+            console.log('PDF button already exists, hiding Cite button for:', filename);
+            link.style.display = 'none';
+            return;
+          }
+
           // 最后尝试：通过fetch获取cite.bib并提取bib key
           if (!targetUrl && !link.hasAttribute('data-bib-key-fetched')) {
             link.setAttribute('data-bib-key-fetched', 'true');
@@ -269,6 +354,9 @@
                       window.open(publicationUrls[actualBibKey], '_blank');
                       return false;
                     };
+                    // 更新按钮文本
+                    link.textContent = 'PDF';
+                    link.innerHTML = 'PDF';
                   }
                 }
               })
@@ -352,31 +440,31 @@
     if (document.readyState === 'loading') {
       document.addEventListener('DOMContentLoaded', function () {
         disableAuthorLinks();
-        updateCiteButtons();
-        setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 50);
-        setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 100);
-        setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 200);
-        setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 500);
-        setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 1000);
-        setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 2000);
-        setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 3000);
+        // updateCiteButtons(); // 禁用此函数,避免创建重复的 PDF 按钮
+        setTimeout(function () { disableAuthorLinks(); /* updateCiteButtons(); */ }, 50);
+        setTimeout(function () { disableAuthorLinks(); /* updateCiteButtons(); */ }, 100);
+        setTimeout(function () { disableAuthorLinks(); /* updateCiteButtons(); */ }, 200);
+        setTimeout(function () { disableAuthorLinks(); /* updateCiteButtons(); */ }, 500);
+        setTimeout(function () { disableAuthorLinks(); /* updateCiteButtons(); */ }, 1000);
+        setTimeout(function () { disableAuthorLinks(); /* updateCiteButtons(); */ }, 2000);
+        setTimeout(function () { disableAuthorLinks(); /* updateCiteButtons(); */ }, 3000);
       });
     } else {
       disableAuthorLinks();
-      updateCiteButtons();
-      setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 50);
-      setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 100);
-      setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 200);
-      setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 500);
-      setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 1000);
-      setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 2000);
-      setTimeout(function () { disableAuthorLinks(); updateCiteButtons(); }, 3000);
+      // updateCiteButtons(); // 禁用此函数,避免创建重复的 PDF 按钮
+      setTimeout(function () { disableAuthorLinks(); /* updateCiteButtons(); */ }, 50);
+      setTimeout(function () { disableAuthorLinks(); /* updateCiteButtons(); */ }, 100);
+      setTimeout(function () { disableAuthorLinks(); /* updateCiteButtons(); */ }, 200);
+      setTimeout(function () { disableAuthorLinks(); /* updateCiteButtons(); */ }, 500);
+      setTimeout(function () { disableAuthorLinks(); /* updateCiteButtons(); */ }, 1000);
+      setTimeout(function () { disableAuthorLinks(); /* updateCiteButtons(); */ }, 2000);
+      setTimeout(function () { disableAuthorLinks(); /* updateCiteButtons(); */ }, 3000);
     }
 
     // 使用 MutationObserver 监听动态加载的内容
     const observer = new MutationObserver(function (mutations) {
       disableAuthorLinks();
-      updateCiteButtons();
+      // updateCiteButtons(); // 禁用此函数,避免创建重复的 PDF 按钮
     });
 
     // 定期执行，确保捕获所有动态加载的内容
@@ -398,7 +486,7 @@
         e.stopPropagation();
         e.stopImmediatePropagation();
         console.log('Blocked cite modal click');
-        updateCiteButtons();
+        // updateCiteButtons(); // 禁用此函数,避免创建重复的 PDF 按钮
         return false;
       }
     }, true);

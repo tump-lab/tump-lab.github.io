@@ -3,6 +3,8 @@ title: News
 draft: false
 ---
 
+[Nov 2025] One paper has been accepted by KDD 2026. Congratulations to all co-authors!
+
 [Nov 2025] Welcome Prof. Li Zhou to our team as a Visiting Professor!
 
 [Nov 2025] Welcome Yu Lei to our team as a Visiting PhD student!
