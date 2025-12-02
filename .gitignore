@@ -1,5 +1,7 @@
+# macOS
 .DS_Store
-content/.DS_Store
-content/.DS_Store
-content/.DS_Store
-content/.DS_Store
+
+# Hugo generated files
+public/
+resources/_gen/
+.hugo_build.lock
