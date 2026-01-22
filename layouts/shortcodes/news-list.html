@@ -5,61 +5,61 @@
 {{- /* 使用 Hugo 页面系统读取 */ -}}
 {{- $newsPage := site.GetPage "post/news" -}}
 {{- if $newsPage -}}
-  {{- $newsContent = $newsPage.RawContent -}}
+{{- $newsContent = $newsPage.RawContent -}}
 {{- end -}}
 
 {{- if $newsContent -}}
-  {{- /* 移除 front matter 分隔符 */ -}}
-  {{- $content := $newsContent -}}
-  {{- if hasPrefix $content "---" -}}
-    {{- $parts := split $content "---" -}}
-    {{- if ge (len $parts) 3 -}}
-      {{- $content = index $parts 2 -}}
-    {{- end -}}
-  {{- end -}}
-  {{- $content = trim $content " \n\r" -}}
-  {{- $lines := split $content "\n" -}}
-  {{- $newsItems := slice -}}
-  {{- range $lines -}}
-    {{- $line := trim . " \r\n\t" -}}
-    {{- if and $line (hasPrefix $line "[") -}}
-      {{- /* 使用 findRE 提取日期和标题 */ -}}
-      {{- $matches := findRE `\[([^\]]+)\]\s*(.+)` $line 1 -}}
-      {{- if $matches -}}
-        {{- $match := index $matches 0 -}}
-        {{- /* 分别提取日期和标题部分 */ -}}
-        {{- $dateMatch := findRE `\[([^\]]+)\]` $match 1 -}}
-        {{- $date := "" -}}
-        {{- if $dateMatch -}}
-          {{- $date = replaceRE `\[|\]` "" (index $dateMatch 0) -}}
-        {{- end -}}
-        {{- $title := replaceRE `^\[[^\]]+\]\s*` "" $match -}}
-        {{- if and $date $title -}}
-          {{- $newsItems = $newsItems | append (dict "date" $date "title" $title) -}}
-        {{- end -}}
-      {{- end -}}
-    {{- end -}}
-  {{- end -}}
+{{- /* 移除 front matter 分隔符 */ -}}
+{{- $content := $newsContent -}}
+{{- if hasPrefix $content "---" -}}
+{{- $parts := split $content "---" -}}
+{{- if ge (len $parts) 3 -}}
+{{- $content = index $parts 2 -}}
+{{- end -}}
+{{- end -}}
+{{- $content = trim $content " \n\r" -}}
+{{- $lines := split $content "\n" -}}
+{{- $newsItems := slice -}}
+{{- range $lines -}}
+{{- $line := trim . " \r\n\t" -}}
+{{- if and $line (hasPrefix $line "[") -}}
+{{- /* 使用 findRE 提取日期和标题 */ -}}
+{{- $matches := findRE `\[([^\]]+)\]\s*(.+)` $line 1 -}}
+{{- if $matches -}}
+{{- $match := index $matches 0 -}}
+{{- /* 分别提取日期和标题部分 */ -}}
+{{- $dateMatch := findRE `\[([^\]]+)\]` $match 1 -}}
+{{- $date := "" -}}
+{{- if $dateMatch -}}
+{{- $date = replaceRE `\[|\]` "" (index $dateMatch 0) -}}
+{{- end -}}
+{{- $title := replaceRE `^\[[^\]]+\]\s*` "" $match -}}
+{{- if and $date $title -}}
+{{- $newsItems = $newsItems | append (dict "date" $date "title" $title) -}}
+{{- end -}}
+{{- end -}}
+{{- end -}}
+{{- end -}}
 
-  <div class="news-list-wrapper">
-    <div class="news-list-container">
-      {{- if eq $limit "all" -}}
-        {{- range $newsItems -}}
-        <div class="news-list-item">
-          <span class="news-list-date">[{{ .date }}]</span> <span class="news-list-title">{{ .title }}</span>
-        </div>
-        {{- end -}}
-      {{- else -}}
-        {{- range first (int $limit) $newsItems -}}
-        <div class="news-list-item">
-          <span class="news-list-date">[{{ .date }}]</span> <span class="news-list-title">{{ .title }}</span>
-        </div>
-        {{- end -}}
-      {{- end -}}
+<div class="news-list-wrapper">
+  <div class="news-list-container">
+    {{- if eq $limit "all" -}}
+    {{- range $newsItems -}}
+    <div class="news-list-item">
+      <span class="news-list-date">[{{ .date }}]</span> <span class="news-list-title">{{ .title }}</span>
     </div>
+    {{- end -}}
+    {{- else -}}
+    {{- range first (int $limit) $newsItems -}}
+    <div class="news-list-item">
+      <span class="news-list-date">[{{ .date }}]</span> <span class="news-list-title">{{ .title }}</span>
+    </div>
+    {{- end -}}
+    {{- end -}}
   </div>
+</div>
 
-  <style>
+<style>
   .news-list-wrapper {
     width: 100%;
     box-sizing: border-box;
@@ -67,13 +67,16 @@
     padding: 0;
     margin-top: 2rem;
   }
+
   .news-list-container {
     width: 100%;
     max-width: 100%;
     box-sizing: border-box;
     margin: 0;
+    margin-left: 80px;
     padding: 0;
   }
+
   .news-list-item {
     margin-bottom: 1.2rem;
     padding-bottom: 0.8rem;
@@ -81,23 +84,26 @@
     box-sizing: border-box;
     line-height: 1.6;
   }
+
   .news-list-item:last-child {
     border-bottom: none;
     margin-bottom: 0;
   }
+
   .news-list-date {
     font-size: 0.85rem;
     color: #6c757d;
     box-sizing: border-box;
     font-weight: 500;
   }
+
   .news-list-title {
     font-size: 0.95rem;
     font-weight: normal;
     color: #212529;
     box-sizing: border-box;
   }
-  </style>
+</style>
 {{- else -}}
-  <p>No news available.</p>
+<p>No news available.</p>
 {{- end -}}
