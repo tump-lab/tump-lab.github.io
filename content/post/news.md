@@ -3,6 +3,10 @@ title: News
 draft: false
 ---
 
+[Jan 2026] I will serve as a Session Chair for the DMKM: Recommender Systems 4 session for AAAI 2026.
+
+[Jan 2026] Three papers have been accepted by TheWebConf 2026 (2 research + 1 workshop). Congratulations to all co-authors!
+
 [Nov 2025] I will serve as the Program Chair of Singapore ACM SIGKDD Symposium 2026!
 
 [Nov 2025] One paper has been accepted by KDD 2026. Congratulations to all co-authors!
