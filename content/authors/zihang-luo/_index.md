@@ -2,7 +2,7 @@
 # Display name
 title: Zihang Luo
 
-weight: 2
+weight: 20
 
 # Full Name (for SEO)
 first_name: Zihang

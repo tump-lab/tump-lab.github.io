@@ -2,7 +2,7 @@
 # Display name
 title: Muvil Kothari
 
-weight: 4
+weight: 40
 
 # Full Name (for SEO)
 first_name: Muvil 

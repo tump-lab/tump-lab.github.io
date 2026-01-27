@@ -5,7 +5,7 @@ title: Zongqian Wu (Visiting PhD, UESTC, China)
 graduation_year: "07/2025-09/2025"
 topic: "Improving LLMs through Test Time Scaling "
 to: "-"
-weight: 1 
+weight: 10 
 
 # Full Name (for SEO)
 first_name: Zongqian

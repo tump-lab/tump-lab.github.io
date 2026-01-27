@@ -1,28 +1,28 @@
 ---
 # Display name
-title: Lee Yueh Ern Shannon
+title: Sanat Gupta
 
-weight: 30
+weight: 150
 
 # Full Name (for SEO)
-first_name: Lee Yueh Ern
-last_name: Shannon
+first_name: Sanat
+last_name: Gupta
 
 # Role/position
-role: PhD Student
+role: Intern
 
 # Organizations/Affiliations
 organizations:
   - name: SUTD
-    url: 'https://www.sutd.edu.sg/'
+    url: 'https://www.mq.edu.au/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: PhD student working on trustworthy LLMs for law.
+bio: PhD student working on recommender system environment simulation for effective evaluation.
 
 interests:
-  - Trustworthy AI
-  - Large Language Models
-  - Legal AI
+  - Recommender Systems
+  - Environment Simulation
+  - Evaluation Methods
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -35,7 +35,4 @@ user_groups:
   - Current Students/Researchers
 ---
 
-Lee Yueh Ern Shannon is a PhD student at SUTD (01/2025-Present) working on trustworthy LLMs for law under the supervision of Prof. Sun Zhu.
-
-
-
+Hongyang Liu is a PhD student at Macquarie University (12/2023-Present) working on recommender system environment simulation for effective evaluation under co-supervision.

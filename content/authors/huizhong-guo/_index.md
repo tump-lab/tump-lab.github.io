@@ -2,7 +2,7 @@
 # Display name
 title: Huizhong Guo
 
-weight: 8
+weight: 100
 
 # Full Name (for SEO)
 first_name: Huizhong

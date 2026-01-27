@@ -2,7 +2,7 @@
 # Display name
 title: Yu Lei
 
-weight: 6
+weight: 80
 
 # Full Name (for SEO)
 first_name: Yu

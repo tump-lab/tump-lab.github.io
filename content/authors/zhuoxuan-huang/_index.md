@@ -2,7 +2,7 @@
 # Display name
 title: Zhuoxuan Huang
 
-weight: 9
+weight: 110
 
 # Full Name (for SEO)
 first_name: Zhuoxuan

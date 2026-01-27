@@ -2,7 +2,7 @@
 # Display name
 title: Li Zhou
 
-weight: 5
+weight: 70
 
 # Full Name (for SEO)
 first_name: Li

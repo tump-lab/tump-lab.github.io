@@ -2,7 +2,7 @@
 # Display name
 title: Samal Mukhtar
 
-weight: 12
+weight: 130
 
 # Full Name (for SEO)
 first_name: Samal

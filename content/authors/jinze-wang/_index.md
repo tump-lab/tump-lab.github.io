@@ -5,7 +5,7 @@ title: Jinze Wang (Master, MQ, Australia)
 graduation_year: 2021
 topic: "Meta-learning Enhanced Next POI Recommendation by Leveraging Check-ins from Auxiliary Cities"
 to: "PhD, SUT, AU"
-weight: 7
+weight: 70
 
 # Full Name (for SEO)
 first_name: Jinze

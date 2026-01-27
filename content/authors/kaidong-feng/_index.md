@@ -2,14 +2,14 @@
 # Display name
 title: Kaidong Feng
 
-weight: 10
+weight: 50
 
 # Full Name (for SEO)
 first_name: Kaidong
 last_name: Feng
 
 # Role/position
-role: Visiting PhD Student
+role: Research Assistant
 
 # Organizations/Affiliations
 organizations:
