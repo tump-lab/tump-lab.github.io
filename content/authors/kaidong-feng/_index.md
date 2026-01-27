@@ -13,7 +13,7 @@ role: Research Assistant
 
 # Organizations/Affiliations
 organizations:
-  - name: Yanshan Univ.
+  - name: SUTD
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
