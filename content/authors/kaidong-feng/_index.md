@@ -8,8 +8,13 @@ weight: 50
 first_name: Kaidong
 last_name: Feng
 
+# External link (点击名字时跳转的URL，留空则跳转到作者页面)
+external_link: 'https://scholar.google.com/citations?hl=en&user=QCSiF_sAAAAJ'
+
 # Role/position
 role: Research Assistant
+
+
 
 # Organizations/Affiliations
 organizations:

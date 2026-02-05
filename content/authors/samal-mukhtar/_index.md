@@ -8,6 +8,9 @@ weight: 130
 first_name: Samal
 last_name: Mukhtar
 
+external_link: 'https://personalpages.manchester.ac.uk/advanced.php?dn=cn%3DSamal+Mukhtar%2Bumanroleid%3D1421183%2Cou%3DDepartment+of+Computer+Science%2Cou%3DSchool+of+Engineering%2Cou%3DFaculty+of+Science+and+Engineering%2Cou%3DPeople%2Co%3DUniversity+of+Manchester%2Cc%3DGB&employeeType=STAFF&action=read&form_input=Submit'
+
+
 # Role/position
 role: Co-PhD Student
 

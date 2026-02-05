@@ -8,6 +8,8 @@ weight: 40
 first_name: Muvil 
 last_name: Kothari
 
+external_link: 'https://www.linkedin.com/in/muvil-kothari/'
+
 # Role/position
 role: STEP Masters Student
 

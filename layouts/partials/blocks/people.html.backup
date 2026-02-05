@@ -67,12 +67,15 @@
     {{ $src = $avatar_image.RelPermalink }}
     {{ end }}
     {{ if $src }}
-      {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
-      {{ if .Params.external_link }}
-        <a href="{{$link}}" {{ $target | safeHTMLAttr }}><img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" width="270" height="270" src="{{ $src }}" alt="{{.Title}}"></a>
-      {{ else }}
-        <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" width="270" height="270" src="{{ $src }}" alt="{{.Title}}">
-      {{ end }}
+    {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
+    {{ if .Params.external_link }}
+    <a href="{{$link}}" {{ $target | safeHTMLAttr }}><img class="avatar {{if eq $avatar_shape "
+        square"}}avatar-square{{else}}avatar-circle{{end}}" width="270" height="270" src="{{ $src }}"
+        alt="{{.Title}}"></a>
+    {{ else }}
+    <img class="avatar {{if eq $avatar_shape " square"}}avatar-square{{else}}avatar-circle{{end}}" width="270"
+      height="270" src="{{ $src }}" alt="{{.Title}}">
+    {{ end }}
     {{ end }}
 
     <div class="portrait-title">

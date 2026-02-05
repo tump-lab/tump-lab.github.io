@@ -8,6 +8,9 @@ weight: 140
 first_name: Hongyang
 last_name: Liu
 
+external_link: 'https://researchers.mq.edu.au/en/persons/hongyang-liu/'
+
+
 # Role/position
 role: Co-PhD Student
 

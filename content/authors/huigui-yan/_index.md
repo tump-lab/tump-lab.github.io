@@ -8,6 +8,8 @@ weight: 60
 first_name: Huigui
 last_name: Yan
 
+external_link: 'https://sciprofiles.com/profile/author/SHp0OE1GNGtBTTVaSWg1YU11YjQwM1I5WTRrL0ZJb1hqTDFwcjBhRFdWTT0=?utm_source=mdpi.com&utm_medium=website&utm_campaign=avatar_name'
+
 # Role/position
 role: Visiting PhD Student
 

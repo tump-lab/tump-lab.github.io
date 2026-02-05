@@ -8,6 +8,9 @@ weight: 30
 first_name: Lee Yueh Ern
 last_name: Shannon
 
+# External link (点击名字时跳转的URL，留空则跳转到作者页面)
+external_link: 'https://scholar.google.com/citations?user=i-nrDQcAAAAJ'
+
 # Role/position
 role: PhD Student
 
