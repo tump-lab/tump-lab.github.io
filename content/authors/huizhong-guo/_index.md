@@ -9,7 +9,6 @@ first_name: Huizhong
 last_name: Guo
 
 # External link (点击名字时跳转的URL，留空则跳转到作者页面)
-# 示例: external_link: 'https://example.com/lingfeng-huang'
 external_link: 'https://scholar.google.com/citations?hl=en&user=KLk57IEAAAAJ'
 
 # Role/position

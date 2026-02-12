@@ -14,8 +14,6 @@ external_link: 'https://scholar.google.com/citations?hl=en&user=QCSiF_sAAAAJ'
 # Role/position
 role: Research Assistant
 
-
-
 # Organizations/Affiliations
 organizations:
   - name: SUTD
