@@ -3,6 +3,14 @@ title: News
 draft: false
 ---
 
+[Feb 2026] Welcome Han Zhou to our team as a Visiting PhD student!
+
+[Feb 2026] Our workshop proposal "Trustworthy and Adaptive LLMs for Mental and Physical Wellbeing in Recommendations" has been accepted by ACM UMPA 2026 (Core A)! 
+
+[Jan 2026] Welcome Sanat Gupta to our team as an intern!
+
+[Jan 2026] Hongyang Liu won the Best Poster Presentation Award at Singapore ACM SIGKDD Symposium 2026. Congratulations!
+
 [Jan 2026] Professor Sun will serve as a Session Chair for the DMKM: Recommender Systems 4 session for AAAI 2026.
 
 [Jan 2026] Three papers have been accepted by TheWebConf 2026 (2 research + 1 workshop). Congratulations to all co-authors!

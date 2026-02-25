@@ -107,8 +107,8 @@ div.modal[role="dialog"] {
     "du2026kdd": "https://arxiv.org/abs/2505.20316",
     "liu2025tevc": "https://ieeexplore.ieee.org/abstract/document/11159478",
     "ying2023ecra": "https://www.sciencedirect.com/science/article/abs/pii/S1567422322001181",
-    "du2026www": "https://personal.ntu.edu.sg/zhangj/research.html",
-    "wu2026www": "https://personal.ntu.edu.sg/zhangj/research.html",
+    // "du2026www": "https://personal.ntu.edu.sg/zhangj/research.html",
+    // "wu2026www": "https://personal.ntu.edu.sg/zhangj/research.html",
     "wang2026www": "https://arxiv.org/abs/2502.13180"
   };
 
