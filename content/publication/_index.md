@@ -109,7 +109,9 @@ div.modal[role="dialog"] {
     "ying2023ecra": "https://www.sciencedirect.com/science/article/abs/pii/S1567422322001181",
     // "du2026www": "https://personal.ntu.edu.sg/zhangj/research.html",
     // "wu2026www": "https://personal.ntu.edu.sg/zhangj/research.html",
-    "wang2026www": "https://arxiv.org/abs/2502.13180"
+    "wang2026www": "https://arxiv.org/abs/2502.13180",
+    "guo2026sigir": "https://arxiv.org/abs/2601.18146",
+    "huang2026sigir": "https://arxiv.org/abs/2601.10609"
   };
 
   // 将所有 Cite 按钮改为 PDF 按钮并添加外部链接
