@@ -2,7 +2,7 @@
 title: News
 draft: false
 ---
-[Apr 2026] Four paper have been accepted by SIGIR 2026. Congratulations to all co-authors!
+[Apr 2026] Four papers have been accepted by SIGIR 2026. Congratulations to all co-authors!
 
 [Mar 2026] One paper has been accepted by ACM UMAP (Core A) 2026. Congratulations to all co-authors!
 
