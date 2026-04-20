@@ -107,11 +107,20 @@ div.modal[role="dialog"] {
     "du2026kdd": "https://arxiv.org/abs/2505.20316",
     "liu2025tevc": "https://ieeexplore.ieee.org/abstract/document/11159478",
     "ying2023ecra": "https://www.sciencedirect.com/science/article/abs/pii/S1567422322001181",
-    // "du2026www": "https://personal.ntu.edu.sg/zhangj/research.html",
-    // "wu2026www": "https://personal.ntu.edu.sg/zhangj/research.html",
+    "du2026www": "https://dl.acm.org/doi/abs/10.1145/3774904.3792243",
+    "wu2026www": "https://dl.acm.org/doi/abs/10.1145/3774904.3792593",
     "wang2026www": "https://arxiv.org/abs/2502.13180",
     "guo2026sigir": "https://arxiv.org/abs/2601.18146",
-    "huang2026sigir": "https://arxiv.org/abs/2601.10609"
+    "huang2026sigir": "https://arxiv.org/abs/2601.10609",
+    "wei2026sigir": "https://arxiv.org/abs/2604.03688",
+    "dang2026sigir": "https://arxiv.org/abs/2604.05309",
+    // "wang2026acl": "https://arxiv.org/abs/2604.11127",
+    "wei2026acl": "https://arxiv.org/abs/2508.18142",
+    "wu2026umap": "https://arxiv.org/abs/2412.07796",
+    "feng2026tois": "https://arxiv.org/abs/2504.17220",
+    "li2026nn": "https://www-sciencedirect-com.sutd.idm.oclc.org/science/article/pii/S0893608026002935",
+    "lei2026ecra": "https://arxiv.org/abs/2506.10329",
+
   };
 
   // 将所有 Cite 按钮改为 PDF 按钮并添加外部链接
