@@ -2,6 +2,16 @@
 title: News
 draft: false
 ---
+[Apr 2026] Professor Sun will serve as the General Co-Chair for ACM SIGIR-AP 2026!
+
+[Apr 2026] Professor Sun was invited as the WIE Chair for the 2026 International Conference on Artificial Intelligence and Computational Modeling!
+
+[Apr 2026] Two papers were accepted by ACL 2026 (1 Main + 1 Findings). Congratulations to all co-authors!
+
+[Apr 2026] One paper was accepted by ACM TOIS 2026. Congratulations to all co-authors!
+
+[Apr 2026] One paper was accepted by ECRA 2026. Congratulations to all co-authors!
+
 [Apr 2026] Four papers have been accepted by SIGIR 2026. Congratulations to all co-authors!
 
 [Mar 2026] One paper has been accepted by ACM UMAP (Core A) 2026. Congratulations to all co-authors!
