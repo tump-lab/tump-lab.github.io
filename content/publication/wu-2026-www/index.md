@@ -10,5 +10,5 @@ date: '2026-01-01'
 publishDate: '2026-01-22T17:28:55.000000Z'
 publication_types:
 - paper-conference
-publication: '*The Web Conference 2026*'
+publication: '*The Web Conference (TheWebConf)*'
 ---
