@@ -2,6 +2,10 @@
 title: News
 draft: false
 ---
+[Apr 2026] Professor Sun was invited to give a talk on "User-centric LLM-based Recommender Systems" at Southern University of Science and Technology, China!
+
+[Apr 2026] Professor Sun will serve as the Proceedings Chair for ACM UMAP 2027!
+
 [Apr 2026] Professor Sun will serve as the General Co-Chair for ACM SIGIR-AP 2026!
 
 [Apr 2026] Professor Sun was invited as the WIE Chair for the 2026 International Conference on Artificial Intelligence and Computational Modeling!
