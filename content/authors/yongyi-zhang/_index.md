@@ -2,7 +2,7 @@
 # Display name
 title: Yongyi Zhang
 
-weight: 129
+weight: 39
 
 # Full Name (for SEO)
 first_name: Yongyi

@@ -2,7 +2,7 @@
 # Display name
 title: Hongyang Liu
 
-weight: 140
+weight: 130
 
 # Full Name (for SEO)
 first_name: Hongyang

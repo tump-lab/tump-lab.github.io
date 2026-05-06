@@ -2,7 +2,7 @@
 # Display name
 title: Max Xiao
 
-weight: 120
+weight: 140
 
 # Full Name (for SEO)
 first_name: Max
