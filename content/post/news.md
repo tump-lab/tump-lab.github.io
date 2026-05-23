@@ -2,6 +2,14 @@
 title: News
 draft: false
 ---
+[May 2026] Three papers were accepted by KDD 2026. Congratulations to all co-authors!
+
+[May 2026] Professor Sun was awarded the Gold Tier Reviewer Distinction at IJCAI-ECAI 2026!
+
+[May 2026] Professor Sun was awarded the 2026 TL@SUTD Seed Research Project Grant as the PI!
+
+[May 2026] Our SIGIR paper "Uncovering the Impacts of Sub-Sequence Splitting on Sequential Recommendation" was highlighted  in "Top Information Retrieval Papers of the Week (Vol. 151)" by Sumit!
+
 [Apr 2026] Professor Sun was invited to give a talk on "User-centric LLM-based Recommender Systems" at Southern University of Science and Technology, China!
 
 [Apr 2026] Professor Sun will serve as the Proceedings Chair for ACM UMAP 2027!
