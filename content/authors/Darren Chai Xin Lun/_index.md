@@ -1,12 +1,16 @@
 ---
 # Display name
-title: Zihang Luo
+title: Darren Chai Xin Lun
 
-weight: 20
+weight: 10
 
 # Full Name (for SEO)
-first_name: Zihang
-last_name: Luo
+first_name: Darren Chai Xin
+last_name: Lun
+
+# External link (点击名字时跳转的URL，留空则跳转到作者页面)
+# 示例: external_link: 'https://example.com/lingfeng-huang'
+external_link: 'https://scholar.google.com/citations?hl=en&user=V6jG5SkAAAAJ'
 
 # Role/position
 role: PhD Student
@@ -35,7 +39,6 @@ user_groups:
   - Current Students/Researchers
 ---
 
-Zihang Luo is a PhD student at SUTD (09/2025-Present) working on enhancing generative recommendation via long-term value alignment under the supervision of Prof. Sun Zhu.
 
 
 
