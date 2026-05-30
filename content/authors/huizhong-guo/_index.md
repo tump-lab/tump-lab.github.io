@@ -1,27 +1,22 @@
 ---
 # Display name
-title: Huizhong Guo (Visiting PhD, ZJU, China)
+title: Huizhong Guo
 
-graduation_year: "06/2026"
-topic: "Item Fairness in Dynamic Recommender Systems"
-to: "Research Fellow, NTU, SG"
-
-weight: 10
+weight: 30
 
 # Full Name (for SEO)
 first_name: Huizhong
 last_name: Guo
 
+external_link: 'https://scholar.google.com/citations?hl=en&user=KLk57IEAAAAJ'
+
 # Role/position
-role: Former Students/Researchers
+role: Postdoc
 
 # Organizations/Affiliations
 organizations:
-  - name: Zhejiang Univ.
-    url: 'https://www.sutd.edu.sg/'
-
-# Short bio (displayed in user profile at end of posts)
-bio: PhD student working on enhancing generative recommendation via long-term value alignment.
+  - name: Nanyang Technological Univ.
+    url: 'https://scholar.google.com/citations?hl=en&user=KLk57IEAAAAJ'
 
 interests:
   - Generative Recommendation
@@ -36,7 +31,7 @@ highlight_name: false
 
 # Organizational groups that you belong to (for People widget)
 user_groups:
-  - Former Students/Researchers
+  - Collaborating Researchers
 ---
 
 Lingfeng Huang is a PhD student at SUTD working on enhancing generative recommendation via long-term value alignment under the supervision of Prof. Sun Zhu.

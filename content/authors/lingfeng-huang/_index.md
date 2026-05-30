@@ -2,7 +2,7 @@
 # Display name
 title: Lingfeng Huang
 
-weight: 10
+weight: 11
 
 # Full Name (for SEO)
 first_name: Lingfeng
