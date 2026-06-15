@@ -2,6 +2,12 @@
 title: News
 draft: false
 ---
+[Jun 2026] One paper was accepted by ACM TOIS 2026. Congratulations to all co-authors!
+
+[Jun 2026] One paper was accepted by Neural Networks 2026. Congratulations to all co-authors!
+
+[May 2026] Professor Sun received the Editor of Distinction Awards 2026 from Springer Nature!
+
 [May 2026] Three papers were accepted by KDD 2026. Congratulations to all co-authors!
 
 [May 2026] Professor Sun was awarded the Gold Tier Reviewer Distinction at IJCAI-ECAI 2026!
