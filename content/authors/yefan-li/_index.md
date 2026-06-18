@@ -5,6 +5,7 @@ title: Yefan Li (Undergraduate, MQ, Australia)
 graduation_year: "2021"
 topic: " Personalized Bundle Recommendation Systems"
 to: "Software Engineer, Pharmx, AU"
+former_weight: 12
 weight: 100
 
 # Full Name (for SEO)
@@ -39,6 +40,5 @@ user_groups:
 ---
 
 Yefan Li was an undergraduate student at Macquarie University (2021) who worked on personalized bundle recommendation systems.
-
 
 

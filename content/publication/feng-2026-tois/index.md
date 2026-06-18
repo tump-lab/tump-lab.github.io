@@ -10,6 +10,6 @@ authors:
 date: '2026-01-01'
 publishDate: '2026-01-01'
 publication_types:
-- paper-journal
+- article-journal
 publication: '*ACM Transactions on Information Systems (TOIS)*'
 ---

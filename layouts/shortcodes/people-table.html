@@ -3,7 +3,11 @@
 {{- if $group -}}
   {{- $people = where $people ".Params.user_groups" "intersect" (slice $group) -}}
 {{- end -}}
-{{- $people = sort $people "Params.weight" "asc" -}}
+{{- if eq $group "Former Students/Researchers" -}}
+  {{- $people = sort $people "Params.former_weight" "asc" -}}
+{{- else -}}
+  {{- $people = sort $people "Params.weight" "asc" -}}
+{{- end -}}
 
 <div class="people-table-container">
 <div class="table-responsive">
@@ -73,4 +77,3 @@
   background-color: rgba(0, 0, 0, 0.075);
 }
 </style>
-

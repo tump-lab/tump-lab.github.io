@@ -1,24 +1,23 @@
 ---
 # Display name
-title: Yu Lei (Visiting PhD, YSU, China)
+title: Kunrong Li
 
-graduation_year: "02/2026"
-topic: "LLMs for Next Point-of-Interest Recommendation"
-to: "-"
-former_weight: 2
-
-weight: 11
+weight: 12
 
 # Full Name (for SEO)
-first_name: Yu
-last_name: Lei
+first_name: Kunrong
+last_name: Li
+
+# External link (点击名字时跳转的URL，留空则跳转到作者页面)
+# 示例: external_link: 'https://example.com/lingfeng-huang'
+external_link: 'https://scholar.google.com/citations?user=8BMt0NQAAAAJ&hl=en&oi=ao'
 
 # Role/position
-role: Former Students/Researchers
+role: PhD Student
 
 # Organizations/Affiliations
 organizations:
-  - name: Yanshan Univ.
+  - name: SUTD
     url: 'https://www.sutd.edu.sg/'
 
 # Short bio (displayed in user profile at end of posts)
@@ -37,9 +36,10 @@ highlight_name: false
 
 # Organizational groups that you belong to (for People widget)
 user_groups:
-  - Former Students/Researchers
+  - Current Students/Researchers
 ---
 
-Lingfeng Huang is a PhD student at SUTD working on enhancing generative recommendation via long-term value alignment under the supervision of Prof. Sun Zhu.
+Kunrong Li is a PhD student at SUTD working on enhancing generative recommendation via long-term value alignment under the supervision of Prof. Sun Zhu.
+
 
 

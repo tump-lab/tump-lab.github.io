@@ -5,6 +5,7 @@ title: Meshari Algethami (Undergraduate, MQ, Australia)
 graduation_year: "2021"
 topic: "User Co-consumption Behavior Mining for Explainable Bundle Recommender Systems"
 to: "Associate Technical Support Engineer, Pegasystems, AU"
+former_weight: 10
 weight: 80
 
 # Full Name (for SEO)
@@ -39,6 +40,5 @@ user_groups:
 ---
 
 Meshari Algethami was an undergraduate student at Macquarie University (2021) who worked on user co-consumption behavior mining for explainable bundle recommender systems.
-
 
 

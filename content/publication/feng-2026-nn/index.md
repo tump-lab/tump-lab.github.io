@@ -9,6 +9,6 @@ authors:
 date: '2026-01-01'
 publishDate: '2026-01-01'
 publication_types:
-- paper-journal
+- article-journal
 publication: '*Neural Networks*'
 ---

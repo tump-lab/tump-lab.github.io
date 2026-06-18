@@ -5,6 +5,7 @@ title: Jiajie Zhu (PhD, MQ, Australia)
 graduation_year: 2025
 topic: "Cross Domain Recommender Systems"
 to: "Research Fellow, MQ, AU"
+former_weight: 4
 weight: 20
 
 # Full Name (for SEO)
@@ -39,6 +40,5 @@ user_groups:
 ---
 
 Jiajie Zhu completed a PhD at Macquarie University (2021-2025) working on cross domain recommender systems under co-supervision with Prof. Sun Zhu.
-
 
 

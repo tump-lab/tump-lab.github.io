@@ -5,6 +5,7 @@ title: Zongqian Wu (Visiting PhD, UESTC, China)
 graduation_year: "07/2025-09/2025"
 topic: "Improving LLMs through Test Time Scaling "
 to: "-"
+former_weight: 3
 weight: 19
 
 # Full Name (for SEO)
@@ -39,6 +40,5 @@ user_groups:
 ---
 
 Zihang Luo is a PhD student at SUTD (09/2025-Present) working on enhancing generative recommendation via long-term value alignment under the supervision of Prof. Sun Zhu.
-
 
 

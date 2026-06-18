@@ -5,6 +5,7 @@ title: Zhang Jixiao (Intern, SUSTech, China)
 graduation_year: "03/2023-08/2023"
 topic: "Explainable Next Point-of-Interest Recommendation with Neural-Symbolic Reasoning"
 to: "-"
+former_weight: 8
 weight: 60
 
 # Full Name (for SEO)
@@ -39,6 +40,5 @@ user_groups:
 ---
 
 Zhang Jixiao was a research intern from SUSTech China (03/2023-08/2023) who worked on explainable next point-of-interest recommendation with neural-symbolic reasoning.
-
 
 
