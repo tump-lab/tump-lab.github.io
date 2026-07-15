@@ -122,7 +122,8 @@ div.modal[role="dialog"] {
     "lei2026ecra": "https://arxiv.org/abs/2506.10329",
     "feng2026umap": "https://dl.acm.org/doi/full/10.1145/3774935.3812715",
     "feng2026nn": "https://www-sciencedirect-com.sutd.idm.oclc.org/science/article/pii/S0893608026007100",
-    "zhu2026tois": "https://arxiv.org/abs/2505.16532"
+    "zhu2026tois": "https://arxiv.org/abs/2505.16532",
+    "wang2026acmmm": "https://arxiv.org/abs/2605.15203"
 
   };
 

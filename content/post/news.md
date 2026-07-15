@@ -2,6 +2,20 @@
 title: News
 draft: false
 ---
+[Jul 2026] Professor Sun will serve as the Area Chair for KDD AI4Science Track!
+
+[Jul 2026] One paper was accepted by ACM MM 2026. Congratulations to all co-authors!
+
+[Jul 2026] One paper was accepted by ACM RecSys 2026. Congratulations to all co-authors!
+
+[Jul 2026] Professor Sun will serve as the Associate Chair for ACM IUI 2027!
+
+[Jun 2026] Our paper received the Journal Paper of the Year Award at ACM RecSys 2026!
+
+[Jun 2026] Professor Sun will serve as the Session Chair for Advanced Sequential Recommendation at the ACM Web Conference! 
+
+[Jun 2026] Professor Sun will serve as the Area Chair for IJCNN 2027!
+
 [Jun 2026] One paper was accepted by ACM TOIS 2026. Congratulations to all co-authors!
 
 [Jun 2026] One paper was accepted by Neural Networks 2026. Congratulations to all co-authors!
