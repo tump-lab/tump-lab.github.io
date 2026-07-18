@@ -11,7 +11,7 @@ last_name: Du
 external_link: 'https://scholar.google.com/citations?user=pqpqHHkAAAAJ&hl=en&oi=ao'
 
 # Role/position
-role: Postdoc
+role: Research Scientist
 
 # Organizations/Affiliations
 organizations:
