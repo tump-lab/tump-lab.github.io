@@ -15,7 +15,7 @@ role: Postdoc
 
 # Organizations/Affiliations
 organizations:
-  - name: Nanyang Technological Univ.
+  - name: Tencent, Singapore.
     url: 'https://scholar.google.com/citations?user=pqpqHHkAAAAJ&hl=en&oi=ao'
 
 # Short bio (displayed in user profile at end of posts)
