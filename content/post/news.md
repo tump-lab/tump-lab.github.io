@@ -2,6 +2,10 @@
 title: News
 draft: false
 ---
+[Jul 2026] Professor Sun will serve as the Senior PC for AAAI 2027!
+
+[Jul 2026] Professor Sun will server as the Session Chair for "Reasoning for Recommendation" at SIGIR 2026!
+
 [Jul 2026] Professor Sun will serve as the Area Chair for KDD AI4Science Track!
 
 [Jul 2026] One paper was accepted by ACM MM 2026. Congratulations to all co-authors!
