@@ -9,7 +9,7 @@ first_name: Li
 last_name: Zhou
 
 # External link (点击名字时跳转的URL，留空则跳转到作者页面)
-external_link: 'https://csfzswz.swu.edu.cn/info/1030/1651.htm'
+external_link: 'https://csfzswz.swu.edu.cn/info/1125/2623.htm'
 
 # Role/position
 role: Visiting Professor 

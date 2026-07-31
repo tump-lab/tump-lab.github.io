@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Muvil Kothari
+title: Ee Song Loh
 
-weight: 41
+weight: 40
 
 # Full Name (for SEO)
-first_name: Muvil 
-last_name: Kothari
+first_name: Ee 
+last_name: Song Loh
 
-external_link: 'https://www.linkedin.com/in/muvil-kothari/'
+external_link: 'https://www.linkedin.com/in/ee-song-loh/'
 
 # Role/position
 role: STEP Master Student
@@ -36,8 +36,5 @@ highlight_name: false
 user_groups:
   - Current Students/Researchers
 ---
-
-Meshari Algethami was an undergraduate student at Macquarie University (2021) who worked on user co-consumption behavior mining for explainable bundle recommender systems.
-
 
 
