@@ -2,6 +2,12 @@
 title: News
 draft: false
 ---
+[Aug 2026] Welcome Xiaoshan Yu to our team as a Research Fellow!
+
+[Aug 2026] Professor Sun will serve as the Local Chair for ICDM 2028!
+
+[Aug 2026] Our demo paper "Tasteprint: Cross-Platform Recommendation Agent" has been accepted by ACM RecSys 2026. Congratulations to all co-authors!
+
 [Jul 2026] Professor Sun will serve as the Senior PC for AAAI 2027!
 
 [Jul 2026] Professor Sun will server as the Session Chair for "Reasoning for Recommendation" at SIGIR 2026!
