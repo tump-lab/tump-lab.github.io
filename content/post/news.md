@@ -2,6 +2,12 @@
 title: News
 draft: false
 ---
+[Aug 2026] Welcome Jinghao Zhang to our team as a Research Assistant!
+
+[Aug 2026] Welcome Mengmeng Sun to our team as a Visiting PhD student!
+
+[Aug 2026] Professor Sun was awarded MOE Tier 2 Grant as the PI!
+
 [Aug 2026] Welcome Xiaoshan Yu to our team as a Research Fellow!
 
 [Aug 2026] Professor Sun will serve as the Local Chair for ICDM 2028!
