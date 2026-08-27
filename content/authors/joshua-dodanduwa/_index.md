@@ -5,7 +5,7 @@ title: Joshua Dodanduwa (Undergraduate, MQ, Australia)
 graduation_year: "2021"
 topic: "Incorporating Music Theory in Music Playlist Generation"
 to: "Software Engineer, Commonwealth Bank, AU"
-former_weight: 11
+former_weight: 13
 weight: 90
 
 # Full Name (for SEO)

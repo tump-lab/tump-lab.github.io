@@ -5,7 +5,7 @@ title: Syed M Zaheen (Intern, NTU, Singapore)
 graduation_year: "06/2023-08/2023"
 topic: "DaisyRec: Towards Reliable Recommender Systems"
 to: "Engineer (AI Product), HTX, SG"
-former_weight: 7
+former_weight: 9
 weight: 50
 
 # Full Name (for SEO)

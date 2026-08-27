@@ -1,21 +1,21 @@
 ---
 # Display name
-title: Han Zhou
+title: Mengmeng Sun
 
-weight: 60
+weight: 59
 
 # Full Name (for SEO)
-first_name: Han
-last_name: Zhou
+first_name: Mengmeng
+last_name: Sun
 
-external_link: 'https://www.linkedin.com/in/han-zhou-01129b49/'
+external_link: 'https://www.researchgate.net/scientific-contributions/Mengmeng-Sun-2286667829'
 
 # Role/position
 role: Visiting PhD Student
 
 # Organizations/Affiliations
 organizations:
-  - name:  Shanghai Univ. of Finance and Economics.
+  - name: Yanshan Univ.
     url: 'https://www.mq.edu.au/'
 
 # Short bio (displayed in user profile at end of posts)

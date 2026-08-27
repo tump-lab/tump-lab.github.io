@@ -2,6 +2,11 @@
 # Display name
 title: Huigui Yan
 
+graduation_year: "08/2026"
+topic: "Online Learning for Data Streams in Mental Healthcare Recommendation"
+to: "Lecturer, Xi'an University of Technology, CN"
+former_weight: 1
+
 weight: 60
 
 # Full Name (for SEO)
@@ -34,7 +39,7 @@ highlight_name: false
 
 # Organizational groups that you belong to (for People widget)
 user_groups:
-  - Current Students/Researchers
+  - Former Students/Researchers
 ---
 
 Hongyang Liu is a PhD student at Macquarie University (12/2023-Present) working on recommender system environment simulation for effective evaluation under co-supervision.

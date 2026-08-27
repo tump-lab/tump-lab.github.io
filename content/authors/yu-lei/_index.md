@@ -5,7 +5,7 @@ title: Yu Lei (Visiting PhD, YSU, China)
 graduation_year: "02/2026"
 topic: "LLMs for Next Point-of-Interest Recommendation"
 to: "-"
-former_weight: 2
+former_weight: 3
 
 weight: 11
 

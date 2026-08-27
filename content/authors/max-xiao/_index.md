@@ -2,6 +2,11 @@
 # Display name
 title: Max Xiao
 
+graduation_year: "2025"
+topic: "Prompting Effective Bundle Evaluations with LLMs in Recommendation"
+to: "PHD, UTS, AU"
+former_weight: 4
+
 weight: 140
 
 # Full Name (for SEO)
@@ -32,7 +37,7 @@ highlight_name: false
 
 # Organizational groups that you belong to (for People widget)
 user_groups:
-  - Current Students/Researchers
+  - Former Students/Researchers
 ---
 
 Max Xiao is a Master student at Macquarie University (01/2025-Present) working on prompting LLMs to effectively incorporate user-item interactions in recommender systems under co-supervision.

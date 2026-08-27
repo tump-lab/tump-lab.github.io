@@ -5,7 +5,7 @@ title: Yefan Li (Undergraduate, MQ, Australia)
 graduation_year: "2021"
 topic: " Personalized Bundle Recommendation Systems"
 to: "Software Engineer, Pharmx, AU"
-former_weight: 12
+former_weight: 14
 weight: 100
 
 # Full Name (for SEO)

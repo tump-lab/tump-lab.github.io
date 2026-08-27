@@ -5,7 +5,7 @@ title: Yatong Sun (PhD, MQ, Australia)
 graduation_year: 2024
 topic: "Eliminating Unreliable Data for More Robust Sequential Recommendation"
 to: "Distinguished Associate Research Fellow, NEU, CN"
-former_weight: 6
+former_weight: 8
 weight: 40
 
 # Full Name (for SEO)
