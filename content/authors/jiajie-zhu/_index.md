@@ -2,7 +2,7 @@
 # Display name
 title: Jiajie Zhu (PhD, MQ, Australia)
 
-graduation_year: 2025
+period: "2021 - 2025"
 topic: "Cross Domain Recommender Systems"
 to: "Research Fellow, MQ, AU"
 former_weight: 6

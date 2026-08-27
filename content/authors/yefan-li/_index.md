@@ -2,7 +2,7 @@
 # Display name
 title: Yefan Li (Undergraduate, MQ, Australia)
 
-graduation_year: "2021"
+period: "2021"
 topic: " Personalized Bundle Recommendation Systems"
 to: "Software Engineer, Pharmx, AU"
 former_weight: 14

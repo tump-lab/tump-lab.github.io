@@ -2,7 +2,7 @@
 # Display name
 title: Meshari Algethami (Undergraduate, MQ, Australia)
 
-graduation_year: "2021"
+period: "2021"
 topic: "User Co-consumption Behavior Mining for Explainable Bundle Recommender Systems"
 to: "Associate Technical Support Engineer, Pegasystems, AU"
 former_weight: 12

@@ -2,7 +2,7 @@
 # Display name
 title: Max Xiao
 
-graduation_year: "2025"
+period: "01/2025-10/2025"
 topic: "Prompting Effective Bundle Evaluations with LLMs in Recommendation"
 to: "PHD, UTS, AU"
 former_weight: 4

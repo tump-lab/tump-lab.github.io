@@ -2,7 +2,7 @@
 # Display name
 title: Huizhong Guo
 
-graduation_year: "06/2026"
+period: "10/2025-04/2026"
 topic: "Item Fairness in Dynamic Recommender Systems"
 to: "Research Fellow, NTU, SG"
 former_weight: 2

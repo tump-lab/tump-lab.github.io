@@ -15,7 +15,7 @@
   <thead>
     <tr>
       <th>Name</th>
-      <th>Graduation Year</th>
+      <th>Period</th>
       <th>Topic</th>
       <th>To</th>
     </tr>
@@ -24,7 +24,7 @@
     {{- range $people -}}
     <tr>
       <td>{{ .Title }}</td>
-      <td>{{ .Params.graduation_year | default "" }}</td>
+      <td>{{ .Params.period | default "" }}</td>
       <td>{{ .Params.topic | default "" }}</td>
       <td>{{ .Params.to | default "" }}</td>
     </tr>

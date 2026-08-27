@@ -2,7 +2,7 @@
 # Display name
 title: Zhang Jixiao (Intern, SUSTech, China)
 
-graduation_year: "03/2023-08/2023"
+period: "03/2023-08/2023"
 topic: "Explainable Next Point-of-Interest Recommendation with Neural-Symbolic Reasoning"
 to: "-"
 former_weight: 10

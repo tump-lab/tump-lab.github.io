@@ -2,7 +2,7 @@
 # Display name
 title: Huigui Yan
 
-graduation_year: "08/2026"
+period: "11/2025-08/2026"
 topic: "Online Learning for Data Streams in Mental Healthcare Recommendation"
 to: "Lecturer, Xi'an University of Technology, CN"
 former_weight: 1
