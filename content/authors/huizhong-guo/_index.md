@@ -1,6 +1,7 @@
 ---
 # Display name
-title: Huizhong Guo (Visiting PhD, ZJU, China)
+title: Huizhong Guo
+former_name: Huizhong Guo (Visiting PhD, ZJU, China)
 
 period: "10/2025-04/2026"
 topic: "Item Fairness in Dynamic Recommender Systems"

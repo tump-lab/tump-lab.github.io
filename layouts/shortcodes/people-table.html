@@ -23,7 +23,7 @@
   <tbody>
     {{- range $people -}}
     <tr>
-      <td>{{ .Title }}</td>
+      <td>{{ .Params.former_name | default .Title }}</td>
       <td>{{ .Params.period | default "" }}</td>
       <td>{{ .Params.topic | default "" }}</td>
       <td>{{ .Params.to | default "" }}</td>
