@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Huigui Yan
+title: Huigui Yan (Visiting PhD, YSU, China)
 
 period: "11/2025-08/2026"
 topic: "Online Learning for Data Streams in Mental Healthcare Recommendation"

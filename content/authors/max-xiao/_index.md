@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Max Xiao
+title: Max Xiao (Master, MQ, Australia)
 
 period: "01/2025-10/2025"
 topic: "Prompting Effective Bundle Evaluations with LLMs in Recommendation"

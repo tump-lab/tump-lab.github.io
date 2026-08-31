@@ -2,7 +2,11 @@
 title: News
 draft: false
 ---
-[Aug 2026] Welcome Jinghao Zhang to our team as a Research Assistant!
+[Aug 2026] Welcome Qingyun Gao to our team as a Visiting PhD student!
+
+[Aug 2026] One paper was accepted by BMC Medical Informatics and Decision Making. Congratulations to all co-authors!
+
+[Aug 2026] Welcome Jingmao Zhang to our team as a Research Assistant!
 
 [Aug 2026] Welcome Mengmeng Sun to our team as a Visiting PhD student!
 
