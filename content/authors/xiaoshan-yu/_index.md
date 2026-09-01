@@ -1,11 +1,11 @@
 ---
 # Display name
-title: Xianshan Yu
+title: Xiaoshan Yu
 
 weight: 49
 
 # Full Name (for SEO)
-first_name: Xianshan
+first_name: Xiaoshan
 last_name: Yu
 
 # External link (点击名字时跳转的URL，留空则跳转到作者页面)
