@@ -4,7 +4,7 @@ title: Zongqian Wu (Visiting PhD, UESTC, China)
 
 period: "07/2025-09/2025"
 topic: "Improving LLMs through Test Time Scaling "
-to: "-"
+to: "Research Fellow, NUS, SG"
 former_weight: 5
 weight: 19
 
