@@ -1,11 +1,11 @@
 ---
 # Display name
-title: Qinhyun Gao
+title: Qingyun Gao
 
 weight: 58
 
 # Full Name (for SEO)
-first_name: Qinhyun
+first_name: Qingyun
 last_name: Gao
 
 external_link: 'https://scholar.google.com/citations?user=CRd0Jz8AAAAJ&hl=zh-CN'
