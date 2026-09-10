@@ -1,21 +1,21 @@
 ---
 # Display name
-title: Han Zhou
+title: Zihao Qiang
 
-weight: 108
+weight: 105
 
 # Full Name (for SEO)
-first_name: Han
-last_name: Zhou
+first_name: Zihao
+last_name: Qiang
 
-external_link: 'https://www.linkedin.com/in/han-zhou-01129b49/'
+external_link: 'https://scholar.google.com/citations?user=ec4xZMIAAAAJ'
 
 # Role/position
 role: Visiting PhD Student
 
 # Organizations/Affiliations
 organizations:
-  - name:  Shanghai Univ. of Finance and Economics.
+  - name:  Yangzhou Univ.
     url: 'https://www.mq.edu.au/'
 
 # Short bio (displayed in user profile at end of posts)

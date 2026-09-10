@@ -2,6 +2,14 @@
 title: News
 draft: false
 ---
+[Sep 2026] One paper was accepted by AACL 2026. Congratulations to all co-authors!
+
+[Sep 2026] One paper was accepted by ICDM 2026. Congratulations to all co-authors!
+
+[Sep 2026] Professor Sun hosted a talk delivered by Prof. Amin on "From Intelligence to Artificial Intelligence"!
+
+[Sep 2026] Professor Sun was invited to give a talk on generative recommendation at the 2026 Huawei Search, Recommendation, and Advertising Workshop in Singapore!
+
 [Aug 2026] Welcome Qingyun Gao to our team as a Visiting PhD student!
 
 [Aug 2026] One paper was accepted by BMC Medical Informatics and Decision Making. Congratulations to all co-authors!

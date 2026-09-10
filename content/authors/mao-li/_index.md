@@ -2,7 +2,7 @@
 # Display name
 title: Mao Li
 
-weight: 90
+weight: 109
 
 # Full Name (for SEO)
 first_name: Mao

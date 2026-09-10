@@ -2,7 +2,7 @@
 # Display name
 title: Qingyun Gao
 
-weight: 58
+weight: 106
 
 # Full Name (for SEO)
 first_name: Qingyun
