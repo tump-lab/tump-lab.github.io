@@ -63,6 +63,17 @@ sections:
           position: center  
           size: auto  #cover/contain/auto
           color: '#333'
+      - title:
+        content:
+        align: center
+        background:
+          image:
+            filename: we_01.jpg
+            filters:
+              brightness: 1
+          position: center
+          size: auto  #cover/contain/auto
+          color: '#333'
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
