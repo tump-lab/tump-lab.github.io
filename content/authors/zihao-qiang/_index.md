@@ -2,7 +2,7 @@
 # Display name
 title: Zihao Qiang
 
-weight: 105
+weight: 111
 
 # Full Name (for SEO)
 first_name: Zihao
@@ -11,7 +11,7 @@ last_name: Qiang
 external_link: 'https://scholar.google.com/citations?user=ec4xZMIAAAAJ'
 
 # Role/position
-role: Visiting PhD Student
+role: Visiting Master Student
 
 # Organizations/Affiliations
 organizations:
