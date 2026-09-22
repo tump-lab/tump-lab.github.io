@@ -2,6 +2,10 @@
 title: News
 draft: false
 ---
+[Sep 2026] One paper was accepted by SIGIR-AP 2026. Congratulations to all co-authors!
+
+[Sep 2026] Professor Sun was invited to deliver a talk titled “Personalized Recommendation and User Preference Modeling in FinTech Applications” at Bank of China in Singapore!
+
 [Sep 2026] One paper was accepted by AACL 2026. Congratulations to all co-authors!
 
 [Sep 2026] One paper was accepted by ICDM 2026. Congratulations to all co-authors!

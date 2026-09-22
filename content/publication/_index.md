@@ -124,7 +124,8 @@ div.modal[role="dialog"] {
     "feng2026nn": "https://www-sciencedirect-com.sutd.idm.oclc.org/science/article/pii/S0893608026007100",
     "zhu2026tois": "https://arxiv.org/abs/2505.16532",
     "wang2026acmmm": "https://arxiv.org/abs/2605.15203",
-    "lee2026aacl": "https://arxiv.org/abs/2605.21057"
+    "lee2026aacl": "https://arxiv.org/abs/2605.21057",
+    "feng2026sigirap": "https://arxiv.org/abs/2604.09249"
 
   };
 
