@@ -1,18 +1,18 @@
 ---
 # Display name
-title: Xiaoshan Yu
+title: Jingmao Zhang
 
-weight: 48
+weight: 49
 
 # Full Name (for SEO)
-first_name: Xiaoshan
-last_name: Yu
+first_name: Jingmao
+last_name: Zhang
 
 # External link (点击名字时跳转的URL，留空则跳转到作者页面)
-external_link: 'https://www.researchgate.net/profile/Xiaoshan-Yu-3'
+# external_link: 'https://scholar.google.com/citations?hl=en&user=QCSiF_sAAAAJ'
 
 # Role/position
-role: Research Fellow
+role: Research Assistant
 
 # Organizations/Affiliations
 organizations:
