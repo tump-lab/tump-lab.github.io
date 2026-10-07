@@ -125,7 +125,8 @@ div.modal[role="dialog"] {
     "zhu2026tois": "https://arxiv.org/abs/2505.16532",
     "wang2026acmmm": "https://arxiv.org/abs/2605.15203",
     "lee2026aacl": "https://arxiv.org/abs/2605.21057",
-    "feng2026sigirap": "https://arxiv.org/abs/2604.09249"
+    "feng2026sigirap": "https://arxiv.org/abs/2604.09249",
+    "liu2026neurips": "https://neurips.cc/virtual/2026/loc/sydney/poster/148303"
 
   };
 

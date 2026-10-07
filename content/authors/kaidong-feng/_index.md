@@ -2,7 +2,7 @@
 # Display name
 title: Kaidong Feng
 
-weight: 50
+weight: 48
 
 # Full Name (for SEO)
 first_name: Kaidong
@@ -12,7 +12,7 @@ last_name: Feng
 external_link: 'https://scholar.google.com/citations?hl=en&user=QCSiF_sAAAAJ'
 
 # Role/position
-role: Research Assistant
+role: Research Fellow
 
 # Organizations/Affiliations
 organizations:
