@@ -2,6 +2,10 @@
 title: News
 draft: false
 ---
+[Oct 2026] Professor Sun will serve as the Area Chair for The Web Conference 2027!
+
+[Oct 2026] One paper was accepted by ACM TOIS 2026. Congratulations to all co-authors!
+
 [Oct 2026] Kaidong Feng has been promoted to Research Fellow. Congratulations!
 
 [Sep 2026] One paper was accepted by ACM TOIS 2026. Congratulations to all co-authors!

@@ -1,6 +1,12 @@
 ---
 # Display name
 title: Li Zhou
+former_name: Li Zhou (Visiting Professor, SWU, China)
+
+period: "11/2025-10/2026"
+topic: "Generative Models for Clothing and Fashion Design"
+to: "Professor, Southwest Univ, CN"
+former_weight: 0
 
 weight: 58
 
@@ -12,7 +18,7 @@ last_name: Zhou
 external_link: 'https://csfzswz.swu.edu.cn/info/1125/2623.htm'
 
 # Role/position
-role: Visiting Professor 
+role: Former Students/Researchers
 
 # Organizations/Affiliations
 organizations:
@@ -35,10 +41,7 @@ highlight_name: false
 
 # Organizational groups that you belong to (for People widget)
 user_groups:
-  - Current Students/Researchers
+  - Former Students/Researchers
 ---
 
 Lingfeng Huang is a PhD student at SUTD working on enhancing generative recommendation via long-term value alignment under the supervision of Prof. Sun Zhu.
-
-
-

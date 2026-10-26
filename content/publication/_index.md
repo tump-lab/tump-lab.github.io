@@ -126,7 +126,8 @@ div.modal[role="dialog"] {
     "wang2026acmmm": "https://arxiv.org/abs/2605.15203",
     "lee2026aacl": "https://arxiv.org/abs/2605.21057",
     "feng2026sigirap": "https://arxiv.org/abs/2604.09249",
-    "liu2026neurips": "https://neurips.cc/virtual/2026/loc/sydney/poster/148303"
+    "liu2026neurips": "https://neurips.cc/virtual/2026/loc/sydney/poster/148303",
+    "sun2026tois": "https://doi.org/10.20944/preprints202601.2218.v1"
 
   };
 
