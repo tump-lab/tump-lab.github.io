@@ -2,6 +2,12 @@
 title: News
 draft: false
 ---
+[Nov 2026] One paper was accepted by WSDM 2027. Congratulations to all co-authors!
+
+[Oct 2026] Welcome Minghui Wang to our team as a Visiting PhD student!
+
+[Oct 2026] Professor Sun will serve as the Proceeding Chairs for ACM RecSys 2027!
+
 [Oct 2026] Professor Sun will serve as the Area Chair for The Web Conference 2027!
 
 [Oct 2026] One paper was accepted by ACM TOIS 2026. Congratulations to all co-authors!
