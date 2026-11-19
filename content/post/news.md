@@ -2,6 +2,8 @@
 title: News
 draft: false
 ---
+[Nov 2026] One paper was accepted by KDD AI4Science Track as Oral Presentation (6.1% of all submissions). Congratulations to all co-authors!
+
 [Nov 2026] One paper was accepted by WSDM 2027. Congratulations to all co-authors!
 
 [Oct 2026] Welcome Minghui Wang to our team as a Visiting PhD student!
