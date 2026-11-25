@@ -22,9 +22,10 @@ member's `period` field. A later ending month must appear above an earlier one.
 Update `layouts/shortcodes/people-table.html` only in the
 `Former Students/Researchers` branch. Build sortable records containing the
 author page and one numeric sorting key. For an explicit ending month, calculate
-the key as `999999 - YYYYMM`; later dates therefore have smaller keys. For an
-entry without an explicit ending month, calculate the key as
-`1000000 + former_weight`, which places it after all month-specific entries
+the key as `(999999 - YYYYMM) * 1000 + former_weight`; later dates therefore
+have smaller keys, with `former_weight` breaking same-month ties. For an entry
+without an explicit ending month, calculate the key as
+`1000000000 + former_weight`, which places it after all month-specific entries
 while preserving the existing fallback order. Sort the records once in
 ascending key order.
 
