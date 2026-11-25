@@ -3,10 +3,29 @@
 {{- if $group -}}
   {{- $people = where $people ".Params.user_groups" "intersect" (slice $group) -}}
 {{- end -}}
+{{- $rows := slice -}}
 {{- if eq $group "Former Students/Researchers" -}}
-  {{- $people = sort $people "Params.former_weight" "asc" -}}
+  {{- range $people -}}
+    {{- $person := . -}}
+    {{- $weight := int ($person.Params.former_weight | default 999) -}}
+    {{- $sortKey := add 1000000000 $weight -}}
+    {{- $period := strings.TrimSpace ($person.Params.period | default "") -}}
+    {{- $matches := findRE `[0-9]{2}/[0-9]{4}$` $period -}}
+    {{- if gt (len $matches) 0 -}}
+      {{- $endParts := split (index $matches 0) "/" -}}
+      {{- $month := int (replaceRE `^0` "" (index $endParts 0)) -}}
+      {{- $year := int (index $endParts 1) -}}
+      {{- $yearMonth := add (mul $year 100) $month -}}
+      {{- $sortKey = add (mul (sub 999999 $yearMonth) 1000) $weight -}}
+    {{- end -}}
+    {{- $rows = $rows | append (dict "person" $person "sort_key" $sortKey) -}}
+  {{- end -}}
+  {{- $rows = sort $rows "sort_key" "asc" -}}
 {{- else -}}
   {{- $people = sort $people "Params.weight" "asc" -}}
+  {{- range $people -}}
+    {{- $rows = $rows | append (dict "person" .) -}}
+  {{- end -}}
 {{- end -}}
 
 <div class="people-table-container">
@@ -21,12 +40,13 @@
     </tr>
   </thead>
   <tbody>
-    {{- range $people -}}
+    {{- range $rows -}}
+    {{- $person := .person -}}
     <tr>
-      <td>{{ .Params.former_name | default .Title }}</td>
-      <td>{{ .Params.period | default "" }}</td>
-      <td>{{ .Params.topic | default "" }}</td>
-      <td>{{ .Params.to | default "" }}</td>
+      <td>{{ $person.Params.former_name | default $person.Title }}</td>
+      <td>{{ $person.Params.period | default "" }}</td>
+      <td>{{ $person.Params.topic | default "" }}</td>
+      <td>{{ $person.Params.to | default "" }}</td>
     </tr>
     {{- end -}}
   </tbody>

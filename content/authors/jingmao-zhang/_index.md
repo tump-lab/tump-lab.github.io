@@ -2,7 +2,7 @@
 # Display name
 title: Jingmao Zhang
 
-weight: 50
+weight: 51
 
 # Full Name (for SEO)
 first_name: Jingmao

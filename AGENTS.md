@@ -11,3 +11,9 @@ In short:
 - Update the paper title, author names, publication year, and venue information by matching existing entry formats.
 - Add entries to `content/publication/_index.md` `publicationUrls` only when an original paper URL currently exists.
 - Verify with `hugo --renderToMemory` before reporting completion.
+
+## People Page Updates
+
+- The `Former Students/Researchers` table sorts entries with an ending `MM/YYYY` in `period` from newest to oldest.
+- Use `MM/YYYY-MM/YYYY` for `period` whenever both months are known.
+- Entries without an ending month stay after month-specific entries and use `former_weight` for their relative order.

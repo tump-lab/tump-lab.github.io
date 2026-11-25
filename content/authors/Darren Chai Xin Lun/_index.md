@@ -35,10 +35,8 @@ email: ''
 highlight_name: false
 
 # Organizational groups that you belong to (for People widget)
-user_groups:
-  - Current Students/Researchers
+user_groups: []
 ---
-
 
 
 

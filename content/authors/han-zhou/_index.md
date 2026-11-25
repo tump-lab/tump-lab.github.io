@@ -2,6 +2,11 @@
 # Display name
 title: Han Zhou
 
+period: "02/2026-11/2026"
+topic: "Poisoning Attack in Sequential Recommendation"
+to: "PHD, SUFE, CN"
+former_weight: 0
+
 weight: 108
 
 # Full Name (for SEO)
@@ -11,7 +16,7 @@ last_name: Zhou
 external_link: 'https://www.linkedin.com/in/han-zhou-01129b49/'
 
 # Role/position
-role: Visiting PhD Student
+role: Former Students/Researchers
 
 # Organizations/Affiliations
 organizations:
@@ -34,7 +39,7 @@ highlight_name: false
 
 # Organizational groups that you belong to (for People widget)
 user_groups:
-  - Current Students/Researchers
+  - Former Students/Researchers
 ---
 
 Hongyang Liu is a PhD student at Macquarie University (12/2023-Present) working on recommender system environment simulation for effective evaluation under co-supervision.

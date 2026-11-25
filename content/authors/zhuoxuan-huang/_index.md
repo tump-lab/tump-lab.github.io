@@ -2,7 +2,7 @@
 # Display name
 title: Zhuoxuan Huang
 
-weight: 110
+weight: 50
 
 # Full Name (for SEO)
 first_name: Zhuoxuan
@@ -12,7 +12,7 @@ last_name: Huang
 external_link: 'https://scholar.google.com/citations?hl=en&user=yzI95WIAAAAJ'
 
 # Role/position
-role: Visiting PhD Student
+role: Research Assistant
 
 # Organizations/Affiliations
 organizations:
