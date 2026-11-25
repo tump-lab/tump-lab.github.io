@@ -1,6 +1,7 @@
 ---
 # Display name
 title: Han Zhou
+former_name: Han Zhou (Visiting PhD, SUFE, China)
 
 period: "02/2026-11/2026"
 topic: "Poisoning Attack in Sequential Recommendation"
